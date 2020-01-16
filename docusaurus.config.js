@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'COMIT Developer Hub',
+  tagline: 'C( )MIT is an open protocol facilitating trustless cross-blockchain applications',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'COMIT Developer Hub',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -16,7 +16,7 @@ module.exports = {
       links: [
         {to: 'docs/doc1', label: 'Docs', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/comit-network',
           label: 'GitHub',
           position: 'right',
         },
@@ -40,33 +40,15 @@ module.exports = {
         },
         {
           title: 'Community',
-          items: [
+          "items": [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              "label": "Slack",
+              "href": "https://coblox-comit.slack.com"
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Coblox`,
     },
   },
   presets: [
