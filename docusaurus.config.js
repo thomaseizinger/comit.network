@@ -1,7 +1,7 @@
 module.exports = {
   title: 'COMIT Developer Hub',
   tagline: 'C( )MIT is an open protocol facilitating trustless cross-blockchain applications',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://comit-network.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
