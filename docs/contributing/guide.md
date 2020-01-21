@@ -7,7 +7,7 @@ title: How to Contribute
 
 ## Installation and Setup
 
-First, fork [the website](https://github.com/coblox/comit.network) on Github. Then, clone it on your machine:
+First, fork [this website](https://github.com/coblox/comit.network) on Github. Then, clone it on your machine:
 
 ```
 git clone git@github.com:<your-username>/comit.network.git
