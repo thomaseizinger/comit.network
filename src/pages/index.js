@@ -8,32 +8,31 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Why COMIT?</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        C( )MIT removes the need for trusted third parties when exchanging cryptocurrencies.
+        C( )MIT enables atomic swaps using Hash Time-Locked Contracts (HTLCs).
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Atomic Swap</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Use the C( )MIT software to trade cryptocurrencies on the internet peer-to-peer. Because it uses atomic swaps you do not need to use an exchange or trust the other party - your funds are safe at all time.
+        Your keys, your assets.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>For Developers</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        C( )MIT is built with developers in mind. You can integrate C( )MIT in your own software or use its powerful API to create new cross-chain applications.
       </>
     ),
   },
@@ -71,7 +70,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/getting-started/doc1')}>
               Get Started
             </Link>
           </div>
