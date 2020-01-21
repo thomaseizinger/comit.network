@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://comit-network.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'coblox', // Usually your GitHub org/user name.
+  projectName: 'comit-network', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'COMIT Developer Hub',
@@ -30,11 +30,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'docs/getting-started/doc1',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Contributing',
+              to: 'docs/contributing/guide',
             },
           ],
         },
