@@ -1,0 +1,86 @@
+//Pixel to REM 
+$browser-context: 16; // Default.resource-categories 
+@function rem($pixels, $context: $browser-context) {
+    @return #{$pixels/$context}rem;
+}
+
+//Gradient 
+/* Gradient - left to right */
+
+@mixin gradient-x($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
+    background-image: linear-gradient(to right, $start-color $start-percent, $end-color $end-percent);
+    background-repeat: repeat-x;
+}
+
+/* Gradient - top to bottom */
+
+@mixin gradient-y($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
+    background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+    background-repeat: repeat-x;
+}
+
+// Text truncate
+@mixin text-truncate() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// Visibility
+@mixin invisible {
+    visibility: hidden !important;
+}
+
+
+//Box Shadow
+@mixin box-shadow($element) {
+    -moz-box-shadow: $element;
+    -webkit-box-shadow: $element;
+    box-shadow: $element;
+}
+
+//Border radius
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+//transition
+@mixin transition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+//Mediaquery
+@mixin extra-small {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin tablet-landscape {
+    @media ((min-width: 768px) and (max-width: 979px)) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin extra-large {
+    @media (min-width: 1800px) {
+        @content;
+    }
+}

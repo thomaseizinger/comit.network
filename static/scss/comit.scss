@@ -1,0 +1,432 @@
+@import 'normalize';
+@import 'mixins';
+@import 'animate';
+@import 'fonts';
+
+//common styles start
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    /* Fallback for old Browsers */
+    font-size: 1.2vw;
+    scroll-behavior: smooth;
+    @include mobile {
+        font-size: 25px;
+        font-size: 2.8vw;
+    }
+    @media (min-width: 1500px) {
+        font-size: 0.9vw;
+    }
+}
+
+.container-fluid {
+    padding-right: 45px;
+    padding-left: 45px;
+    @include mobile {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    @include extra-large {
+        max-width: 1800px;
+        margin: auto;
+    }
+}
+
+.comit-container {
+    padding: 3rem;
+}
+
+.arrow-to-right {
+    width: 1rem;
+}
+
+.small-title {
+    font-family: 'poppinsregular';
+    font-size: rem(16);
+}
+
+.light-bg {
+    background: rgba(65, 116, 131, 0.1);
+}
+
+.blue-bg {
+    background: #0029B2;
+}
+
+h2 {
+    font-family: 'poppinsbold';
+    font-size: rem(32);
+    line-height: 1.3;
+}
+
+p {
+    font-size: rem(14);
+    line-height: 1.5;
+}
+
+.text-white {
+    color: #fff;
+}
+
+//common button style - start
+.comit-button {
+    color: #fff;
+    outline: none;
+    @include border-radius(3px);
+    position: relative;
+    background: #052AA3;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    display: inline-block;
+    span {
+        text-align: center;
+        font-family: 'montserratmedium';
+        font-size: rem(14);
+        position: relative;
+        margin: 0;
+        color: #fff;
+        z-index: 1;
+        transition: all 0.5s ease;
+    }
+    &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #00FF9D;
+        position: absolute;
+        transition: all 1s ease;
+    }
+    &:hover {
+        span {
+            color: #fff;
+        }
+    }
+}
+
+/* Left Slider */
+
+.btn-2:before {
+    top: 0;
+    left: -210px;
+}
+
+.btn-2:hover:before {
+    left: 0;
+}
+
+//common button style - end
+//common styles end
+// Header and Banner section starts
+.home-block {
+    background: url(../images/hero-background.svg);
+    height: 100vh;
+    color: #fff;
+}
+
+.header-block {
+    &__logo {
+        @include mobile {
+            padding: 3rem;
+            padding-bottom: 1rem;
+        }
+    }
+    &__nav {
+        font-family: 'montserratmedium';
+        font-size: rem(14);
+        @include mobile {
+            display: none;
+        }
+        ul {
+            li {
+                list-style: none;
+                float: left;
+                opacity: 0.7;
+                padding: 0rem 1.5rem;
+                a {
+                    color: #fff;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    &.fixed-header {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        background: #fff;
+        z-index: 20;
+        color: #000;
+        padding: 2.5rem;
+        @include box-shadow(0px 10px 16px -16px rgba(0, 0, 0, 0.75));
+        h1 {
+            margin: 0.4em 0;
+        }
+        a {
+            color: #000;
+        }
+        @include mobile {
+            position: static;
+        }
+    }
+}
+
+.banner-block {
+    &__text {
+        h2 {
+            font-family: 'poppinsbold';
+            font-size: 2.2rem;
+            line-height: 1.3;
+        }
+    }
+    &__graph {
+        img {
+            width: 26rem;
+            @include mobile {
+                width: 100%;
+            }
+        }
+    }
+    .comit-button span {
+        font-size: rem(16);
+    }
+}
+
+// Header and Banner section end
+//about section start
+.about-block {
+    .intro-block {
+        &__atomic {
+            background: #fff;
+            margin-top: -2rem;
+            @include mobile {
+                margin-top: 0px;
+            }
+            &__img {
+                img {
+                    width: 4.5rem;
+                }
+                @include mobile {
+                    display: none;
+                }
+            }
+        }
+        &__developers {
+            background: #F8F8F8;
+            margin-top: -2rem;
+            @include mobile {
+                margin-top: 0px;
+            }
+            &__img {
+                img {
+                    width: 10rem;
+                }
+                @include mobile {
+                    display: none;
+                }
+            }
+        }
+        &__title {
+            font-size: 1.5rem;
+        }
+    }
+    p {
+        font-family: 'poppinsregular';
+        min-height: 7rem;
+        padding-right: 4rem;
+    }
+    .carousel-indicators li {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background-color: #dddddd;
+        &.active {
+            height: 9px;
+            width: 9px;
+            background-color: #b7b7b7;
+        }
+    }
+}
+
+.about-details-block {
+    &__atomic-swap {
+        img {
+            width: 100%;
+        }
+    }
+    p {
+        padding-right: 8rem;
+        padding-bottom: 1rem;
+        line-height: 1.8;
+        @include mobile {
+            padding-right: 0;
+        }
+    }
+}
+
+//about section end
+//feature-block section start
+.feature-block {
+    &__icon {
+        margin-bottom: 2rem;
+        display: block;
+        img {
+            width: 2rem;
+        }
+    }
+    h5 {
+        font-family: 'poppinsbold';
+        font-size: rem(20);
+        margin-bottom: 1rem;
+    }
+    p {
+        font-family: 'montserratmedium';
+        padding-right: 3rem;
+    }
+}
+
+//feature-block section end
+//why-comit section start
+.why-comit {
+    &__image-block {
+        position: relative;
+        min-height: 24rem;
+        &__bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: -1;
+            clip: rect(0, auto, auto, 0);
+            img {
+                position: fixed;
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+                top: .9375rem;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                filter: brightness(80%);
+            }
+        }
+        &__content {
+            position: relative;
+            z-index: 1;
+        }
+    }
+    &__content-block {
+        p {
+            font-family: 'poppinsregular';
+            font-size: rem(14);
+            padding: 1rem 3rem;
+        }
+    }
+    &__icon {
+        height: 3.5rem;
+        display: block;
+        img {
+            width: 3rem;
+        }
+    }
+}
+
+//why-comit section end
+//whats-new  section start
+.whats-new {
+    &__blog {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+//whats-new  section end
+//build-future  section start
+.build-future {
+    &__image-block {
+        position: relative;
+        min-height: 24rem;
+        &__bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            bottom: 0;
+            overflow: hidden;
+            z-index: -1;
+            clip: rect(0, auto, auto, 0);
+            img {
+                position: fixed;
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+                top: .9375rem;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                filter: brightness(80%);
+            }
+        }
+        &__content {
+            position: relative;
+            z-index: 1;
+        }
+    }
+    p {
+        font-family: 'montserratmedium';
+        line-height: 1.8;
+    }
+}
+
+//build-future  section end
+//comit-footer  section start
+.comit-footer {
+    background: #000;
+    color: #fff;
+    position: relative;
+    font-family: 'poppinsregular';
+    font-size: rem(14);
+    padding: 3rem 0;
+    @include mobile {
+        padding: 3rem;
+    }
+    ul {
+        li {
+            list-style: none;
+            padding: 0.5rem 0rem;
+        }
+    }
+    &__copyright {
+        font-size: rem(10);
+        color: #fff;
+        position: absolute;
+        bottom: 20px;
+        opacity: 0.3;
+        font-family: 'poppinsregular';
+        @include mobile {
+            position: static;
+        }
+    }
+}
+
+//comit-footer  section end
+@media (min-width: 1400px) {
+    .container-fluid {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .comit-container {
+        padding: 3rem 5rem;
+    }
+}
