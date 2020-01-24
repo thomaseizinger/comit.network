@@ -2,13 +2,13 @@ module.exports = {
   title: 'COMIT Developer Hub',
   tagline: 'COMIT is an open protocol facilitating trustless cross-blockchain applications',
   url: 'https://comit-network.netlify.com',
-  baseUrl: '/',
+  baseUrl: 'https://comit-network.netlify.com',
   favicon: 'img/favicon.ico',
   organizationName: 'coblox', // Usually your GitHub org/user name.
   projectName: 'comit-network', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'COMIT Developer Hub',
+      title: 'Developer Hub',
       logo: {
         alt: 'COMIT',
         src: 'img/logo.svg',
