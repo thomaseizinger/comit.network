@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="64" viewBox="0 0 51 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ffd8"/>
+      <stop offset="1" stop-color="#1000ce"/>
+    </linearGradient>
+  </defs>
+  <g id="padlock" transform="translate(-52)">
+    <g id="Group_127" data-name="Group 127" transform="translate(52)">
+      <g id="Group_126" data-name="Group 126" transform="translate(0)">
+        <path id="Path_241" data-name="Path 241" d="M95.5,23.5H91V13.221a13.5,13.5,0,0,0-27,0V23.5H59.5A7.509,7.509,0,0,0,52,31V56.5A7.509,7.509,0,0,0,59.5,64h36a7.509,7.509,0,0,0,7.5-7.5V31A7.509,7.509,0,0,0,95.5,23.5ZM69,13.221a8.5,8.5,0,0,1,17,0V23.5H69ZM98,56.5A2.5,2.5,0,0,1,95.5,59h-36A2.5,2.5,0,0,1,57,56.5V31a2.5,2.5,0,0,1,2.5-2.5h36A2.5,2.5,0,0,1,98,31Z" transform="translate(-52)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_129" data-name="Group 129" transform="translate(72.875 35.75)">
+      <g id="Group_128" data-name="Group 128" transform="translate(0)">
+        <path id="Path_242" data-name="Path 242" d="M223.625,286a4.624,4.624,0,0,0-2.5,8.512V300a2.5,2.5,0,0,0,5,0v-5.482a4.624,4.624,0,0,0-2.5-8.518Z" transform="translate(-219 -286)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

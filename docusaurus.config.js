@@ -1,6 +1,6 @@
 module.exports = {
   title: 'COMIT Developer Hub',
-  tagline: 'C( )MIT is an open protocol facilitating trustless cross-blockchain applications',
+  tagline: 'COMIT is an open protocol facilitating trustless cross-blockchain applications',
   url: 'https://comit-network.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -10,11 +10,11 @@ module.exports = {
     navbar: {
       title: 'COMIT Developer Hub',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'COMIT',
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/getting-started/doc1', label: 'Docs', position: 'left'},
+        {to: 'docs/getting-started/create-comit-app', label: 'Docs', position: 'left'},
         {
           href: 'https://github.com/comit-network',
           label: 'GitHub',
@@ -29,12 +29,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/getting-started/doc1',
-            },
-            {
-              label: 'Contributing',
-              to: 'docs/contributing/guide',
+              label: 'Getting Started',
+              to: 'docs/getting-started',
             },
           ],
         },
@@ -42,13 +38,13 @@ module.exports = {
           title: 'Community',
           "items": [
             {
-              "label": "Slack",
-              "href": "https://coblox-comit.slack.com"
+              "label": "Gitter",
+              "href": "https://gitter.im/comit-network/community"
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Coblox`,
+      copyright: `Copyright © ${new Date().getFullYear()} CoBloX`,
     },
   },
   presets: [
