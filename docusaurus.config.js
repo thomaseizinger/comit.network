@@ -14,7 +14,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/getting-started/doc1', label: 'Docs', position: 'left'},
+        {to: 'docs/getting-started/create-comit-app', label: 'Docs', position: 'left'},
         {
           href: 'https://github.com/comit-network',
           label: 'GitHub',
@@ -29,12 +29,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/getting-started/doc1',
-            },
-            {
-              label: 'Contributing',
-              to: 'docs/contributing/guide',
+              label: 'Getting Started',
+              to: 'docs/getting-started',
             },
           ],
         },
