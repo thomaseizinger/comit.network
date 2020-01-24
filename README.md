@@ -1,10 +1,14 @@
 # COMIT Website & Developer Hub
 
+This is the source code repository for the https://comit.network website.
+
+If you find any of the content unclear please do a PR, contributions are very welcome.
+
+## Installation and Setup
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 > This guide outlines how you can contribute by adding pages and updating the COMIT developer hub.
-
-## Installation and Setup
 
 First, fork [the website](https://github.com/comit-network/comit.network) on Github. Then, clone it on your machine:
 
