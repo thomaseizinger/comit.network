@@ -1,6 +1,6 @@
 module.exports = {
   title: 'COMIT Developer Hub',
-  tagline: 'C( )MIT is an open protocol facilitating trustless cross-blockchain applications',
+  tagline: 'COMIT is an open protocol facilitating trustless cross-blockchain applications',
   url: 'https://comit-network.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: 'COMIT Developer Hub',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'COMIT',
         src: 'img/logo.svg',
       },
       links: [
@@ -42,13 +42,13 @@ module.exports = {
           title: 'Community',
           "items": [
             {
-              "label": "Slack",
-              "href": "https://coblox-comit.slack.com"
+              "label": "Gitter",
+              "href": "https://gitter.im/comit-network/community"
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Coblox`,
+      copyright: `Copyright © ${new Date().getFullYear()} CoBloX`,
     },
   },
   presets: [
