@@ -16,7 +16,7 @@ allowing you to also build in TypeScript.
 To use either packages, you need to have [`yarn`](https://yarnpkg.com/) or [`npm`](https://www.npmjs.com/get-npm) installed.
 In this tutorial we will use `yarn` but it can be replaced by `npm` in any command below. 
 
-## TL;DR
+## TL;DR - Quick Start
 
 ```
 yarn create comit-app my-app
@@ -34,7 +34,7 @@ yarn run swap
 
 Congratulations, you did an atomic swap!
 
-## The long way
+## Long version
 
 ## create-comit-app
 
