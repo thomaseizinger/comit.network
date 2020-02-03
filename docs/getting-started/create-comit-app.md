@@ -10,7 +10,7 @@ While mainly written in Rust, it is actually shipped on [npmjs.com](https://npmj
 - [`create-comit-app`](https://www.npmjs.com/package/create-comit-app)
 - [`comit-scripts`](https://www.npmjs.com/package/comit-scripts)
 
-While you can build your app in JavaScript, examples and the [SDK](TODO) are written in TypeScript,
+While you can build your app in JavaScript, examples and the [SDK](https://github.com/comit-network/comit-js-sdk/) are written in TypeScript,
 allowing you to also build in TypeScript.
 
 To use either packages, you need to have [`yarn`](https://yarnpkg.com/) or [`npm`](https://www.npmjs.com/get-npm) installed.
