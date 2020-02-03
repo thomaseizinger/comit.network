@@ -25,7 +25,7 @@ yarn install
 yarn run start-env
 ```
 
-Now, open a new terminal (keep `start-env` running):
+Once it says the `Environment is ready`, open a new terminal (keep the current terminal running):
 
 ```
 cd my-app/demos/btc_eth
@@ -36,7 +36,7 @@ Congratulations, you did an atomic swap!
 
 ## Long version
 
-## create-comit-app
+### create-comit-app
 
 The `create-comit-app` allows you to create a template COMIT App which includes working examples.
 To create your template app in the `my-app` directory, just do:
@@ -111,7 +111,7 @@ tree # You can alternatively use `ls -R`
  
  Let's have a look at [comit-scripts](#comit-scripts) before [running an example](TODO) together.
 
-## comit-scripts
+### comit-scripts
 
 The `comit-scripts` package helps you run a development environment to build a COMIT App.
 
@@ -255,7 +255,7 @@ Writing configuration in env file...✓
 ✓
 ```
 
-## Run a demo
+### Run a demo
 
 Let's run one of the demo to see how an atomic swap run looks like:
 
