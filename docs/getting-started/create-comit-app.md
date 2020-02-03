@@ -5,6 +5,10 @@ sidebar_label: Create-comit-app
 ---
 
 [`create-comit-app`](https://github.com/comit-network/create-comit-app/) is a project to help COMIT App developers setup an environment.
+In this documentation we'll run you through:
+- How to use `create-comit-app`,
+- What does `create-comit-app` do and how can it be useful to you, a COMIT App dev,
+- How to run one the provided example, i.e., run an atomic swap with local blockchain nodes.
 
 While mainly written in Rust, it is actually shipped on [npmjs.com](https://npmjs.com) as two packages:
 - [`create-comit-app`](https://www.npmjs.com/package/create-comit-app)
