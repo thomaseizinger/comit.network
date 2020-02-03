@@ -32,7 +32,7 @@ cd my-app/demos/btc_eth
 yarn run swap
 ```
 
-Congratulations, you ran an atomic swap!
+Congratulations, you did an atomic swap!
 
 ## The long way
 
@@ -195,6 +195,13 @@ So, what does it do?
 
 `Writing configuration in env file...✓`: Write useful information to `~/.create-comit-app/env`
 
+You may have noticed that you are getting 2 Bitcoin wallet, 2 Ethereum accounts and 2 cnd instances out of `start-env`.
+This is simply due to the fact that one cannot do an atomic swap by themselves!
+
+Atomic swap are inherently peer-to-peer.
+One can only sell Bitcoin for Ether if someone else buys Bitcoin For Ether.
+As you need two parties to do a swap, `start-env` gives you an environment for both parties. 
+
 Let's check out the result:
 
 ```
@@ -305,4 +312,4 @@ Taker Bitcoin balance: 9.9. Ether balance: 1005
 ✨  Done in 19.63s.
 ```
 
-Congratulations, you ran a swap!
+Congratulations, you did an atomic swap!
