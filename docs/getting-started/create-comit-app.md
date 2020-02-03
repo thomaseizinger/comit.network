@@ -208,11 +208,11 @@ Let's check out the result:
 docker ps
 ```
 ```
-CONTAINER ID        IMAGE                             COMMAND                  CREATED             STATUS              PORTS                                                                                                  NAMES
-207bdd00d103        comitnetwork/cnd:0.4.0            "tini -- cnd --confi…"   26 minutes ago      Up 26 minutes       8000/tcp, 9939/tcp, 0.0.0.0:58249->8080/tcp                                                            cnd_1
-e72b5910e530        comitnetwork/cnd:0.4.0            "tini -- cnd --confi…"   26 minutes ago      Up 26 minutes       8000/tcp, 9939/tcp, 0.0.0.0:58248->8080/tcp                                                            cnd_0
-7c9855e6f3c0        coblox/bitcoin-core:0.17.0        "/usr/bin/bitcoind -…"   26 minutes ago      Up 26 minutes       8332-8333/tcp, 18332-18333/tcp, 0.0.0.0:58234->18443/tcp, 0.0.0.0:58233->18444/tcp                     bitcoin
-66a52568666d        coblox/parity-poa:v2.5.9-stable   "/bin/parity"            26 minutes ago      Up 26 minutes       5001/tcp, 8080/tcp, 8082-8083/tcp, 8180/tcp, 8546/tcp, 30303/tcp, 30303/udp, 0.0.0.0:58176->8545/tcp   ethereum
+CONTAINER ID        IMAGE                             ... NAMES
+207bdd00d103        comitnetwork/cnd:0.4.0            ... cnd_1
+e72b5910e530        comitnetwork/cnd:0.4.0            ... cnd_0
+7c9855e6f3c0        coblox/bitcoin-core:0.17.0        ... bitcoin
+66a52568666d        coblox/parity-poa:v2.5.9-stable   ... ethereum
 ```
 Indeed we have bitcoind, parity and cnds running.
 
