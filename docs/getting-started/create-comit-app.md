@@ -32,7 +32,7 @@ cd my-app/demos/btc_eth
 yarn run swap
 ```
 
-Congratulations, you did an atomic swap!
+Congratulations, you did a Bitcoin to Ether atomic swap!
 
 ## Long version
 
@@ -312,4 +312,4 @@ Taker Bitcoin balance: 9.9. Ether balance: 1005
 ✨  Done in 19.63s.
 ```
 
-Congratulations, you did an atomic swap!
+Congratulations, you did a Bitcoin to Ether atomic swap!
