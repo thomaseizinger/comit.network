@@ -189,7 +189,7 @@ So, what does it do?
 - Starts a bitcoind node in a docker container,
 - Creates two HD wallet,
 - Funds each wallet with 10 Bitcoin,
-- Runs `generate` every second to mine a new block.
+- Mines a new block every second.
 
 `Starting two cnds...✓`: Starts 2 cnd (COMIT Network Daemon) in docker containers.
 
