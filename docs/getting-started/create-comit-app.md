@@ -16,6 +16,25 @@ allowing you to also build in TypeScript.
 To use either packages, you need to have [`yarn`](https://yarnpkg.com/) or [`npm`](https://www.npmjs.com/get-npm) installed.
 In this tutorial we will use `yarn` but it can be replaced by `npm` in any command below. 
 
+## TL;DR
+
+```
+yarn create comit-app my-app
+cd my-app/demos/btc_eth
+yarn install
+yarn run start-env
+```
+Now, open a new terminal (keep `start-env` running):
+
+```
+cd my-app/demos/btc_eth
+yarn run swap
+```
+
+Congratulations, you ran an atomic swap!
+
+## The long way
+
 Line starting with `▶` indicates the command to type in your terminal.
 Other lines are the output that you should expect.
 
@@ -149,7 +168,7 @@ Writing configuration in env file...✓
 
 So, what does it do?
 
-`Creating Docker network (create-comit-app)...✓`: creates a docker network to allow several docker containers to communicate with each others. The network is named `create-comit-app`. TODO: Should we rename it?
+`Creating Docker network (create-comit-app)...✓`: creates a docker network to allow several docker containers to communicate with each others. The network is named `create-comit-app`.
 
 
 `Starting Ethereum node...✓`:
@@ -267,4 +286,4 @@ Taker Bitcoin balance: 9.9. Ether balance: 1005
 ✨  Done in 19.63s.
 ```
 
-Congratulations, you have ran a swap!
+Congratulations, you ran a swap!
