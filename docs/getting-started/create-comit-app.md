@@ -187,9 +187,9 @@ So, what does it do?
 
 `Starting Bitcoin node...✓`"
 - Starts a bitcoind node in a docker container,
-- Create two HD wallet,
+- Creates two HD wallet,
 - Funds each wallet with 10 Bitcoin,
-- Run `generate` every second to mine a new block.
+- Runs `generate` every second to mine a new block.
 
 `Starting two cnds...✓`: Starts 2 cnd (COMIT Network Daemon) in docker containers.
 
