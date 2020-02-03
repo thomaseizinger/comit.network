@@ -102,12 +102,12 @@ tree # You can alternatively use `ls -R`
 9 directories, 24 files
 ```
 
-- `.` is where you can start writing your app, see [write your app tuto](TODO) 
+- `.` is where you can start writing your app, see [write your app tuto](../tutorials/write-a-comit-app.md) 
 - `./package.json` contains some useful dependencies for your app
 - `./examples` contains projects that are made to inspire developers such as yourself to build their app
 - `./demos` contains projects which are catered for workshops demonstration. They do not have a conventional structure but have verbose output.
  
- Let's have a look at [comit-scripts](#comit-scripts) before [running an example](TODO) together.
+ Let's have a look at [comit-scripts](#comit-scripts) before [running an demo](#run-a-demo) together.
 
 ### comit-scripts
 
