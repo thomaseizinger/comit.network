@@ -176,35 +176,33 @@ Writing configuration in env file...✓
 ✓
 ```
 
-So, what does it do?
+Let's review in more details what `start-env` did:
 
-`Creating Docker network (create-comit-app)...✓`: creates a docker network to allow several docker containers to communicate with each others. The network is named `create-comit-app`.
+#### `Creating Docker network (create-comit-app)...✓`
 
+Creates a docker network to allow several docker containers to communicate with each others. The network is named `create-comit-app`.
 
-`Starting Ethereum node...✓`:
+#### `Starting Ethereum node...✓`
+
 - Starts a parity node in a docker container,
 - Deploys an ERC20 token contract
 - Creates two accounts,
 - Funds each account with 1000 Ethers and 100 ERC20 tokens.
 
-`Starting Bitcoin node...✓`"
+#### `Starting Bitcoin node...✓`
+
 - Starts a bitcoind node in a docker container,
 - Creates two HD wallet,
 - Funds each wallet with 10 Bitcoin,
 - Mines a new block every second.
 
-`Starting two cnds...✓`: Starts 2 cnd (COMIT Network Daemon) in docker containers.
+#### `Starting two cnds...✓`
 
-`Writing configuration in env file...✓`: Write useful information to `~/.create-comit-app/env`
+Starts 2 cnd (COMIT Network Daemon) in docker containers.
 
-You may have noticed that you are getting 2 Bitcoin wallet, 2 Ethereum accounts and 2 cnd instances out of `start-env`.
-This is simply due to the fact that one cannot do an atomic swap by themselves!
+---
 
-Atomic swap are inherently peer-to-peer.
-One can only sell Bitcoin for Ether if someone else buys Bitcoin For Ether.
-As you need two parties to do a swap, `start-env` gives you an environment for both parties. 
-
-Let's check out the result:
+Let's take a break and check out what containers are now running:
 
 ```
 docker ps
@@ -216,9 +214,13 @@ e72b5910e530        comitnetwork/cnd:0.4.0            ... cnd_0
 7c9855e6f3c0        coblox/bitcoin-core:0.17.0        ... bitcoin
 66a52568666d        coblox/parity-poa:v2.5.9-stable   ... ethereum
 ```
-Indeed we have bitcoind, parity and cnds running.
+Indeed we have bitcoind, parity and 2 cnds running.
 
-Let's have a look at this `env` file:
+#### `Writing configuration in env file...✓`
+
+Writes useful information to `~/.create-comit-app/env`.
+
+Let's have a look at this `env` file in more details:
 
 ```
 cat ~/.create-comit-app/env
@@ -237,6 +239,17 @@ HTTP_URL_CND_1=http://127.0.0.1:58249
 
 We have here the private keys of the funded accounts on Ethereum and Bitcoin and the endpoint to the various services.
 This can be used to be imported in my-app so that you can test it with funded accounts.
+
+### Two cnds?
+
+You may have noticed that you are getting 2 Bitcoin wallet, 2 Ethereum accounts and 2 cnd instances out of `start-env`.
+This is simply due to the fact that one cannot do an atomic swap by themselves!
+
+Atomic swap are inherently peer-to-peer.
+One can only sell Bitcoin for Ether if someone else buys Bitcoin For Ether.
+As you need two parties to do a swap, `start-env` gives you an environment for both parties.
+
+### Shutdown
 
 To stop the environment, just hit `CTRL+C` and wait few seconds:
 
