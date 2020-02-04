@@ -15,10 +15,10 @@ First, fork [the website](https://github.com/comit-network/comit.network) on Git
 ```
 git clone git@github.com:<your-username>/comit.network.git
 cd comit.network
-npm install
+yarn install
 ```
 
-Run the website locally by running `npm run start`. It should open the site on your browser.
+Run the website locally by running `yarn run start`. It should open the site on your browser.
 
 ## Project Structure
 
