@@ -259,7 +259,9 @@ Writing configuration in env file...✓
 
 ### Run a demo
 
-Let's run one of the demo to see how an atomic swap run looks like:
+The template COMIT App comes with a number of examples and demo projects that allows you to get inspired and run atomic swap between the various supported assets.
+
+Let's run one of those demos to see how an atomic swap execution looks like:
 
 ```
 cd demos/btc_eth
