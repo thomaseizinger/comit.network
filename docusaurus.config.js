@@ -11,7 +11,7 @@ module.exports = {
       title: 'Developer Hub',
       logo: {
         alt: 'COMIT',
-        src: 'img/logo.svg',
+        src: 'img/logo_white-rect.svg',
       },
       links: [
         {to: 'docs/getting-started/create-comit-app', label: 'Docs', position: 'left'},
