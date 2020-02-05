@@ -13,6 +13,7 @@
                         gradientTransform="translate(490.13 -435.74) rotate(45)" xlink:href="#linear-gradient"/>
     </defs>
     <title>COMITspellout_screen</title>
+    <rect x="0" width="100%" height="100%" rx="200" fill="white"/>
     <path class="cls-1"
           d="M598.3,629.82c-163.65-142.49-163.65-369.62,0-512.11l35.34,25c-71.29,71.25-107.25,148-107.25,231.4s36,160.15,107.25,231.4Z"/>
     <path class="cls-1"
