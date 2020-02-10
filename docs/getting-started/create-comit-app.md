@@ -22,19 +22,10 @@ In this tutorial we will use `yarn` but it can be replaced by `npm` in any comma
 
 ## TL;DR - Quick Start
 
-```
-yarn create comit-app my-app
-cd my-app/demos/btc_eth
-yarn install
-yarn run start-env
-```
 
-Once it says the `Environment is ready`, open a new terminal (keep the current terminal running):
-
-```
-cd my-app/demos/btc_eth
-yarn run swap
-```
+<p>
+<script src="https://asciinema.org/a/298948.js" id="asciicast-298948" async></script>
+</p>
 
 Congratulations, you did a Bitcoin to Ether atomic swap!
 
