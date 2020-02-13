@@ -1,4 +1,10 @@
-[comit-sdk - v0.10.1](README.md) › [Globals](globals.md)
+---
+id: README
+title: SDK Overview
+sidebar_label: Overview
+---
+
+<!-- [comit-sdk - v0.10.1](README.md) › [Globals](globals.md)
 
 # comit-sdk - v0.10.1
 
@@ -6,7 +12,7 @@
 <img src="logo.svg" height="120px" />
 </a>
 
----
+--- -->
 
 [COMIT](https://comit.network) is an open protocol facilitating cross-blockchain applications.
 For example, with [COMIT](https://comit.network) you can exchange Bitcoin for Ether or any ERC20 token directly with another person.

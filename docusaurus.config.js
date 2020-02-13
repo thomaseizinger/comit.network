@@ -15,7 +15,6 @@ module.exports = {
       },
       links: [
         {to: 'docs/getting-started/create-comit-app', label: 'Docs', position: 'left'},
-        {href: 'localhost:3000/docs/comit-sdk', label: 'SDK', position: 'left'},
         { 
           href: 'https://github.com/comit-network',
           label: 'GitHub',

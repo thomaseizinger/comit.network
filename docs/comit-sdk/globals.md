@@ -1,4 +1,10 @@
-[comit-sdk - v0.10.1](README.md) › [Globals](globals.md)
+---
+id: globals
+title: API Reference
+sidebar_label: API Reference
+---
+
+<!-- [comit-sdk - v0.10.1](README.md) › [Globals](globals.md) -->
 
 # comit-sdk - v0.10.1
 
