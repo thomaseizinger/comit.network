@@ -1,14 +1,14 @@
 ---
 id: "index"
 title: "comit-sdk - v0.10.1"
-sidebar_label: "README"
+sidebar_label: "Overview"
 ---
 
-<!-- <a href="https://comit.network">
-<img src="logo.svg" height="120px">
+<a href="https://comit.network">
+ <img src="/img/logo_white-rect.svg" height="120px" />
 </a>
 
---- -->
+---
 
 [COMIT](https://comit.network) is an open protocol facilitating cross-blockchain applications.
 For example, with [COMIT](https://comit.network) you can exchange Bitcoin for Ether or any ERC20 token directly with another person.

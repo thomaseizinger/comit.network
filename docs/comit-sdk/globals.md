@@ -1,7 +1,7 @@
 ---
 id: "globals"
 title: "comit-sdk - v0.10.1"
-sidebar_label: "Globals"
+sidebar_label: "API Reference"
 ---
 
 ## Index
