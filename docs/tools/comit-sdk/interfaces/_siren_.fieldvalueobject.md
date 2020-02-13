@@ -1,0 +1,53 @@
+[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [FieldValueObject](_siren_.fieldvalueobject.md)
+
+# Interface: FieldValueObject
+
+Value objects represent multiple selectable field values. Use in conjunction with field `"type" = "radio"` and `"type" = "checkbox"` to express that zero, one or many out of several possible values may be sent back to the server.
+
+## Hierarchy
+
+* **FieldValueObject**
+
+## Indexable
+
+* \[ **k**: *string*\]: any
+
+Value objects represent multiple selectable field values. Use in conjunction with field `"type" = "radio"` and `"type" = "checkbox"` to express that zero, one or many out of several possible values may be sent back to the server.
+
+## Index
+
+### Properties
+
+* [selected](_siren_.fieldvalueobject.md#optional-selected)
+* [title](_siren_.fieldvalueobject.md#optional-title)
+* [value](_siren_.fieldvalueobject.md#value)
+
+## Properties
+
+### `Optional` selected
+
+• **selected**? : *undefined | false | true*
+
+*Defined in [siren.ts:240](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L240)*
+
+A value object with a `"selected" = true` attribute indicates that this value should be considered preselected by the client. When missing, the default value is `false`.
+
+___
+
+### `Optional` title
+
+• **title**? : *undefined | string*
+
+*Defined in [siren.ts:232](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L232)*
+
+Textual description of a field value.
+
+___
+
+###  value
+
+• **value**: *string | number*
+
+*Defined in [siren.ts:236](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L236)*
+
+Possible value for the field.
