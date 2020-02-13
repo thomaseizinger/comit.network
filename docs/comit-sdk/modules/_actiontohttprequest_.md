@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["actionToHttpRequest"](_actiontohttprequest_.md)
-
-# External module: "actionToHttpRequest"
+---
+id: "_actiontohttprequest_"
+title: "actionToHttpRequest"
+sidebar_label: "actionToHttpRequest"
+---
 
 ## Index
 

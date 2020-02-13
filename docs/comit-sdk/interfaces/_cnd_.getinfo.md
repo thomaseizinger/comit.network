@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [GetInfo](_cnd_.getinfo.md)
-
-# Interface: GetInfo
+---
+id: "_cnd_.getinfo"
+title: "GetInfo"
+sidebar_label: "GetInfo"
+---
 
 ## Hierarchy
 

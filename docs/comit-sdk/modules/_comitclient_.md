@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["comitClient"](_comitclient_.md)
-
-# External module: "comitClient"
+---
+id: "_comitclient_"
+title: "comitClient"
+sidebar_label: "comitClient"
+---
 
 ## Index
 

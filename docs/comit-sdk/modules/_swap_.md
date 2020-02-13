@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["swap"](_swap_.md)
-
-# External module: "swap"
+---
+id: "_swap_"
+title: "swap"
+sidebar_label: "swap"
+---
 
 ## Index
 

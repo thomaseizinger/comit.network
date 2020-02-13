@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/execution_params"](_negotiation_execution_params_.md)
-
-# External module: "negotiation/execution_params"
+---
+id: "_negotiation_execution_params_"
+title: "negotiation/execution_params"
+sidebar_label: "negotiation/execution_params"
+---
 
 ## Index
 

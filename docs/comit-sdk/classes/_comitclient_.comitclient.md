@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["comitClient"](../modules/_comitclient_.md) › [ComitClient](_comitclient_.comitclient.md)
-
-# Class: ComitClient
+---
+id: "_comitclient_.comitclient"
+title: "ComitClient"
+sidebar_label: "ComitClient"
+---
 
 ## Hierarchy
 

@@ -1,12 +1,8 @@
 ---
-id: globals
-title: API Reference
-sidebar_label: API Reference
+id: "globals"
+title: "comit-sdk - v0.10.1"
+sidebar_label: "Globals"
 ---
-
-<!-- [comit-sdk - v0.10.1](README.md) › [Globals](globals.md) -->
-
-# comit-sdk - v0.10.1
 
 ## Index
 

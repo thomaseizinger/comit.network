@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [Cnd](_cnd_.cnd.md)
-
-# Class: Cnd
+---
+id: "_cnd_.cnd"
+title: "Cnd"
+sidebar_label: "Cnd"
+---
 
 Facilitates access to the cnd REST API
 

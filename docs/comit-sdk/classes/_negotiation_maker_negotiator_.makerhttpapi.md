@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/maker_negotiator"](../modules/_negotiation_maker_negotiator_.md) › [MakerHttpApi](_negotiation_maker_negotiator_.makerhttpapi.md)
-
-# Class: MakerHttpApi
+---
+id: "_negotiation_maker_negotiator_.makerhttpapi"
+title: "MakerHttpApi"
+sidebar_label: "MakerHttpApi"
+---
 
 ## Hierarchy
 

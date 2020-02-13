@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["ethereumWallet"](_ethereumwallet_.md)
-
-# External module: "ethereumWallet"
+---
+id: "_ethereumwallet_"
+title: "ethereumWallet"
+sidebar_label: "ethereumWallet"
+---
 
 ## Index
 

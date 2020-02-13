@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [SwapDetails](_cnd_.swapdetails.md)
-
-# Interface: SwapDetails
+---
+id: "_cnd_.swapdetails"
+title: "SwapDetails"
+sidebar_label: "SwapDetails"
+---
 
 ## Hierarchy
 

@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/order"](_negotiation_order_.md)
-
-# External module: "negotiation/order"
+---
+id: "_negotiation_order_"
+title: "negotiation/order"
+sidebar_label: "negotiation/order"
+---
 
 ## Index
 

@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](_siren_.md)
-
-# External module: "siren"
+---
+id: "_siren_"
+title: "siren"
+sidebar_label: "siren"
+---
 
 ## Index
 

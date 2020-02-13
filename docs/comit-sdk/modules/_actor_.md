@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["actor"](_actor_.md)
-
-# External module: "actor"
+---
+id: "_actor_"
+title: "actor"
+sidebar_label: "actor"
+---
 
 ## Index
 

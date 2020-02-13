@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/taker_negotiator"](../modules/_negotiation_taker_negotiator_.md) › [TakerNegotiator](_negotiation_taker_negotiator_.takernegotiator.md)
-
-# Class: TakerNegotiator
+---
+id: "_negotiation_taker_negotiator_.takernegotiator"
+title: "TakerNegotiator"
+sidebar_label: "TakerNegotiator"
+---
 
 ## Hierarchy
 

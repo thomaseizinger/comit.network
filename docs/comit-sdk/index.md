@@ -1,15 +1,11 @@
 ---
-id: README
-title: SDK Overview
-sidebar_label: Overview
+id: "index"
+title: "comit-sdk - v0.10.1"
+sidebar_label: "README"
 ---
 
-<!-- [comit-sdk - v0.10.1](README.md) › [Globals](globals.md)
-
-# comit-sdk - v0.10.1
-
-<a href="https://comit.network">
-<img src="logo.svg" height="120px" />
+<!-- <a href="https://comit.network">
+<img src="logo.svg" height="120px">
 </a>
 
 --- -->

@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["tokens/tokens"](../modules/_tokens_tokens_.md) › [Token](_tokens_tokens_.token.md)
-
-# Interface: Token
+---
+id: "_tokens_tokens_.token"
+title: "Token"
+sidebar_label: "Token"
+---
 
 ## Hierarchy
 

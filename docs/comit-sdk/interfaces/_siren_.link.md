@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [Link](_siren_.link.md)
-
-# Interface: Link
+---
+id: "_siren_.link"
+title: "Link"
+sidebar_label: "Link"
+---
 
 Links represent navigational transitions.
 

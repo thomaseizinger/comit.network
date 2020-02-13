@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/execution_params"](../modules/_negotiation_execution_params_.md) › [NetworkType](_negotiation_execution_params_.networktype.md)
-
-# Enumeration: NetworkType
+---
+id: "_negotiation_execution_params_.networktype"
+title: "NetworkType"
+sidebar_label: "NetworkType"
+---
 
 ## Index
 

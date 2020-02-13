@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["bitcoinWallet"](../modules/_bitcoinwallet_.md) › [InMemoryBitcoinWallet](_bitcoinwallet_.inmemorybitcoinwallet.md)
-
-# Class: InMemoryBitcoinWallet
+---
+id: "_bitcoinwallet_.inmemorybitcoinwallet"
+title: "InMemoryBitcoinWallet"
+sidebar_label: "InMemoryBitcoinWallet"
+---
 
 ## Hierarchy
 

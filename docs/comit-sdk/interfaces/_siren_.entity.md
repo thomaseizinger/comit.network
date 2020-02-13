@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [Entity](_siren_.entity.md)
-
-# Interface: Entity
+---
+id: "_siren_.entity"
+title: "Entity"
+sidebar_label: "Entity"
+---
 
 An Entity is a URI-addressable resource that has properties and actions associated with it. It may contain sub-entities and navigational links.
 

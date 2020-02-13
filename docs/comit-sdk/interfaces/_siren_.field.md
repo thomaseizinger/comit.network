@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [Field](_siren_.field.md)
-
-# Interface: Field
+---
+id: "_siren_.field"
+title: "Field"
+sidebar_label: "Field"
+---
 
 Fields represent controls inside of actions.
 

@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/taker_negotiator"](../modules/_negotiation_taker_negotiator_.md) › [MakerClient](_negotiation_taker_negotiator_.makerclient.md)
-
-# Class: MakerClient
+---
+id: "_negotiation_taker_negotiator_.makerclient"
+title: "MakerClient"
+sidebar_label: "MakerClient"
+---
 
 ## Hierarchy
 

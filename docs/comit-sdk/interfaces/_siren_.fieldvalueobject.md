@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [FieldValueObject](_siren_.fieldvalueobject.md)
-
-# Interface: FieldValueObject
+---
+id: "_siren_.fieldvalueobject"
+title: "FieldValueObject"
+sidebar_label: "FieldValueObject"
+---
 
 Value objects represent multiple selectable field values. Use in conjunction with field `"type" = "radio"` and `"type" = "checkbox"` to express that zero, one or many out of several possible values may be sent back to the server.
 

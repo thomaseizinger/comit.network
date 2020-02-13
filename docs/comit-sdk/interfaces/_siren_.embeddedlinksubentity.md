@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [EmbeddedLinkSubEntity](_siren_.embeddedlinksubentity.md)
-
-# Interface: EmbeddedLinkSubEntity
+---
+id: "_siren_.embeddedlinksubentity"
+title: "EmbeddedLinkSubEntity"
+sidebar_label: "EmbeddedLinkSubEntity"
+---
 
 ## Hierarchy
 

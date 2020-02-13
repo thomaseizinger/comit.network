@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["bitcoinWallet"](_bitcoinwallet_.md)
-
-# External module: "bitcoinWallet"
+---
+id: "_bitcoinwallet_"
+title: "bitcoinWallet"
+sidebar_label: "bitcoinWallet"
+---
 
 ## Index
 

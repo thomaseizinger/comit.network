@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [SwapProperties](_cnd_.swapproperties.md)
-
-# Interface: SwapProperties
+---
+id: "_cnd_.swapproperties"
+title: "SwapProperties"
+sidebar_label: "SwapProperties"
+---
 
 ## Hierarchy
 

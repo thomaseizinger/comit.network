@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [EthereumDeployContractPayload](_cnd_.ethereumdeploycontractpayload.md)
-
-# Interface: EthereumDeployContractPayload
+---
+id: "_cnd_.ethereumdeploycontractpayload"
+title: "EthereumDeployContractPayload"
+sidebar_label: "EthereumDeployContractPayload"
+---
 
 ## Hierarchy
 

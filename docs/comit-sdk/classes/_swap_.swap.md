@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["swap"](../modules/_swap_.md) › [Swap](_swap_.swap.md)
-
-# Class: Swap
+---
+id: "_swap_.swap"
+title: "Swap"
+sidebar_label: "Swap"
+---
 
 ## Hierarchy
 

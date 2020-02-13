@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](_cnd_.md)
-
-# External module: "cnd"
+---
+id: "_cnd_"
+title: "cnd"
+sidebar_label: "cnd"
+---
 
 ## Index
 

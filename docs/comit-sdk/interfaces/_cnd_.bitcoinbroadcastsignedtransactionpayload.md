@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [BitcoinBroadcastSignedTransactionPayload](_cnd_.bitcoinbroadcastsignedtransactionpayload.md)
-
-# Interface: BitcoinBroadcastSignedTransactionPayload
+---
+id: "_cnd_.bitcoinbroadcastsignedtransactionpayload"
+title: "BitcoinBroadcastSignedTransactionPayload"
+sidebar_label: "BitcoinBroadcastSignedTransactionPayload"
+---
 
 ## Hierarchy
 

@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["timeout_promise"](../modules/_timeout_promise_.md) › [TryParams](_timeout_promise_.tryparams.md)
-
-# Interface: TryParams
+---
+id: "_timeout_promise_.tryparams"
+title: "TryParams"
+sidebar_label: "TryParams"
+---
 
 ## Hierarchy
 

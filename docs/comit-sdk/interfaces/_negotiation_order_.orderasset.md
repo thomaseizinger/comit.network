@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/order"](../modules/_negotiation_order_.md) › [OrderAsset](_negotiation_order_.orderasset.md)
-
-# Interface: OrderAsset
+---
+id: "_negotiation_order_.orderasset"
+title: "OrderAsset"
+sidebar_label: "OrderAsset"
+---
 
 ## Hierarchy
 

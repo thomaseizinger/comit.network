@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["actor"](../modules/_actor_.md) › [Actor](_actor_.actor.md)
-
-# Interface: Actor
+---
+id: "_actor_.actor"
+title: "Actor"
+sidebar_label: "Actor"
+---
 
 ## Hierarchy
 

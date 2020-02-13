@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["timeout_promise"](_timeout_promise_.md)
-
-# External module: "timeout_promise"
+---
+id: "_timeout_promise_"
+title: "timeout_promise"
+sidebar_label: "timeout_promise"
+---
 
 ## Index
 

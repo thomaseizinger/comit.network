@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [Peer](_cnd_.peer.md)
-
-# Interface: Peer
+---
+id: "_cnd_.peer"
+title: "Peer"
+sidebar_label: "Peer"
+---
 
 ## Hierarchy
 

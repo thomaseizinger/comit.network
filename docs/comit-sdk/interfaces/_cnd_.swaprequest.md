@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [SwapRequest](_cnd_.swaprequest.md)
-
-# Interface: SwapRequest
+---
+id: "_cnd_.swaprequest"
+title: "SwapRequest"
+sidebar_label: "SwapRequest"
+---
 
 ## Hierarchy
 

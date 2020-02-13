@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [Action](_siren_.action.md)
-
-# Interface: Action
+---
+id: "_siren_.action"
+title: "Action"
+sidebar_label: "Action"
+---
 
 Actions show available behaviors an entity exposes.
 

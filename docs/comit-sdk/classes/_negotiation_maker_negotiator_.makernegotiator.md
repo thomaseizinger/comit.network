@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/maker_negotiator"](../modules/_negotiation_maker_negotiator_.md) › [MakerNegotiator](_negotiation_maker_negotiator_.makernegotiator.md)
-
-# Class: MakerNegotiator
+---
+id: "_negotiation_maker_negotiator_.makernegotiator"
+title: "MakerNegotiator"
+sidebar_label: "MakerNegotiator"
+---
 
 ## Hierarchy
 

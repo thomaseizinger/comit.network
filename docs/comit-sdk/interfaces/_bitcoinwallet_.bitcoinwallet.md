@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["bitcoinWallet"](../modules/_bitcoinwallet_.md) › [BitcoinWallet](_bitcoinwallet_.bitcoinwallet.md)
-
-# Interface: BitcoinWallet
+---
+id: "_bitcoinwallet_.bitcoinwallet"
+title: "BitcoinWallet"
+sidebar_label: "BitcoinWallet"
+---
 
 ## Hierarchy
 

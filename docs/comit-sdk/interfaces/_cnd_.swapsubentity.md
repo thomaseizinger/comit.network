@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [SwapSubEntity](_cnd_.swapsubentity.md)
-
-# Interface: SwapSubEntity
+---
+id: "_cnd_.swapsubentity"
+title: "SwapSubEntity"
+sidebar_label: "SwapSubEntity"
+---
 
 ## Hierarchy
 

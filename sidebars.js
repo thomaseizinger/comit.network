@@ -8,7 +8,7 @@ module.exports = {
     'Core Concepts': [],
     'Tutorials': [],
     'SDK': [
-      'comit-sdk/README',
+      'comit-sdk/index',
       'comit-sdk/globals'
     ],
   },

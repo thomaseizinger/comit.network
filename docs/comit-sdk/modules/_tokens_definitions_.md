@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["tokens/definitions"](_tokens_definitions_.md)
-
-# External module: "tokens/definitions"
+---
+id: "_tokens_definitions_"
+title: "tokens/definitions"
+sidebar_label: "tokens/definitions"
+---
 
 ## Index
 

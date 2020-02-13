@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/taker_negotiator"](_negotiation_taker_negotiator_.md)
-
-# External module: "negotiation/taker_negotiator"
+---
+id: "_negotiation_taker_negotiator_"
+title: "negotiation/taker_negotiator"
+sidebar_label: "negotiation/taker_negotiator"
+---
 
 ## Index
 

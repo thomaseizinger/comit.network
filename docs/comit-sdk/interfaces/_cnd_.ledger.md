@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [Ledger](_cnd_.ledger.md)
-
-# Interface: Ledger
+---
+id: "_cnd_.ledger"
+title: "Ledger"
+sidebar_label: "Ledger"
+---
 
 ## Hierarchy
 

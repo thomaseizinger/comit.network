@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["negotiation/execution_params"](../modules/_negotiation_execution_params_.md) › [ExecutionParams](_negotiation_execution_params_.executionparams.md)
-
-# Interface: ExecutionParams
+---
+id: "_negotiation_execution_params_.executionparams"
+title: "ExecutionParams"
+sidebar_label: "ExecutionParams"
+---
 
 ## Hierarchy
 

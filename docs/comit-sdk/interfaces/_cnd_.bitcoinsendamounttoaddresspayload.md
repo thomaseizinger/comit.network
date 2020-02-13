@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [BitcoinSendAmountToAddressPayload](_cnd_.bitcoinsendamounttoaddresspayload.md)
-
-# Interface: BitcoinSendAmountToAddressPayload
+---
+id: "_cnd_.bitcoinsendamounttoaddresspayload"
+title: "BitcoinSendAmountToAddressPayload"
+sidebar_label: "BitcoinSendAmountToAddressPayload"
+---
 
 ## Hierarchy
 

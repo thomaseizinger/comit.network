@@ -1,6 +1,8 @@
-[comit-sdk - v0.10.1](../README.md) › [Globals](../globals.md) › ["tokens/tokens"](_tokens_tokens_.md)
-
-# External module: "tokens/tokens"
+---
+id: "_tokens_tokens_"
+title: "tokens/tokens"
+sidebar_label: "tokens/tokens"
+---
 
 ## Index
 
