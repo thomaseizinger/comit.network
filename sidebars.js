@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  someSidebar: {
+  main: {
     'Getting Started': ['getting-started/create-comit-app'],
     'Core Concepts': [],
     'Tutorials': [],
@@ -12,7 +12,11 @@ module.exports = {
       'comit-sdk/globals'
     ],
   },
-  "comit-sdk": {
+  sdk: {
+    'SDK': [
+      'comit-sdk/index',
+      'comit-sdk/globals'
+    ],
     "Modules": [
       "comit-sdk/modules/_actiontohttprequest_",
       "comit-sdk/modules/_actor_",
