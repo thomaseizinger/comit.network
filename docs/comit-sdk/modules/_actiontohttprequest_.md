@@ -4,6 +4,8 @@ title: "actionToHttpRequest"
 sidebar_label: "actionToHttpRequest"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["actionToHttpRequest"](_actiontohttprequest_.md)
+
 ## Index
 
 ### Type aliases
@@ -23,7 +25,7 @@ sidebar_label: "actionToHttpRequest"
 
 Ƭ **FieldValueResolverFn**: *function*
 
-*Defined in [actionToHttpRequest.ts:6](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/actionToHttpRequest.ts#L6)*
+*Defined in [actionToHttpRequest.ts:6](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/actionToHttpRequest.ts#L6)*
 
 #### Type declaration:
 
@@ -41,7 +43,7 @@ Name | Type |
 
 ▸ **actionToHttpRequest**(`action`: [Action](../interfaces/_siren_.action.md), `resolver?`: [FieldValueResolverFn](_actiontohttprequest_.md#fieldvalueresolverfn)): *Promise‹AxiosRequestConfig›*
 
-*Defined in [actionToHttpRequest.ts:10](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/actionToHttpRequest.ts#L10)*
+*Defined in [actionToHttpRequest.ts:10](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/actionToHttpRequest.ts#L10)*
 
 **Parameters:**
 
@@ -58,7 +60,7 @@ ___
 
 ▸ **failIfNotBuffer**(`data`: any, `headers`: any): *any*
 
-*Defined in [actionToHttpRequest.ts:58](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/actionToHttpRequest.ts#L58)*
+*Defined in [actionToHttpRequest.ts:58](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/actionToHttpRequest.ts#L58)*
 
 **Parameters:**
 
@@ -75,7 +77,7 @@ ___
 
 ▸ **jsonRequestTransformer**(`data`: any, `headers`: any): *any*
 
-*Defined in [actionToHttpRequest.ts:42](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/actionToHttpRequest.ts#L42)*
+*Defined in [actionToHttpRequest.ts:42](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/actionToHttpRequest.ts#L42)*
 
 **Parameters:**
 
@@ -92,7 +94,7 @@ ___
 
 ▸ **resolveAllFieldValues**(`fields`: [Field](../interfaces/_siren_.field.md)[], `resolver?`: [FieldValueResolverFn](_actiontohttprequest_.md#fieldvalueresolverfn)): *Promise‹any›*
 
-*Defined in [actionToHttpRequest.ts:68](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/actionToHttpRequest.ts#L68)*
+*Defined in [actionToHttpRequest.ts:68](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/actionToHttpRequest.ts#L68)*
 
 **Parameters:**
 

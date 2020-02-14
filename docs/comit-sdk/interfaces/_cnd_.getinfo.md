@@ -4,6 +4,8 @@ title: "GetInfo"
 sidebar_label: "GetInfo"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [GetInfo](_cnd_.getinfo.md)
+
 ## Hierarchy
 
 * **GetInfo**
@@ -21,7 +23,7 @@ sidebar_label: "GetInfo"
 
 • **id**: *string*
 
-*Defined in [cnd.ts:9](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L9)*
+*Defined in [cnd.ts:9](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L9)*
 
 ___
 
@@ -29,4 +31,4 @@ ___
 
 • **listen_addresses**: *string[]*
 
-*Defined in [cnd.ts:10](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L10)*
+*Defined in [cnd.ts:10](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L10)*

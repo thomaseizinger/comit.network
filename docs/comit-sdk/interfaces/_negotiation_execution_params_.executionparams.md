@@ -4,6 +4,8 @@ title: "ExecutionParams"
 sidebar_label: "ExecutionParams"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/execution_params"](../modules/_negotiation_execution_params_.md) › [ExecutionParams](_negotiation_execution_params_.executionparams.md)
+
 ## Hierarchy
 
 * **ExecutionParams**
@@ -23,7 +25,7 @@ sidebar_label: "ExecutionParams"
 
 • **alpha_expiry**: *number*
 
-*Defined in [negotiation/execution_params.ts:11](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/execution_params.ts#L11)*
+*Defined in [negotiation/execution_params.ts:11](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L11)*
 
 ___
 
@@ -31,7 +33,7 @@ ___
 
 • **beta_expiry**: *number*
 
-*Defined in [negotiation/execution_params.ts:12](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/execution_params.ts#L12)*
+*Defined in [negotiation/execution_params.ts:12](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L12)*
 
 ___
 
@@ -39,7 +41,7 @@ ___
 
 • **ledgers**? : *[LedgerParams](_negotiation_execution_params_.ledgerparams.md)*
 
-*Defined in [negotiation/execution_params.ts:13](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/execution_params.ts#L13)*
+*Defined in [negotiation/execution_params.ts:13](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L13)*
 
 ___
 
@@ -47,7 +49,7 @@ ___
 
 • **peer**: *object*
 
-*Defined in [negotiation/execution_params.ts:7](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/execution_params.ts#L7)*
+*Defined in [negotiation/execution_params.ts:7](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L7)*
 
 #### Type declaration:
 

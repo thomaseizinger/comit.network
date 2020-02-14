@@ -4,6 +4,8 @@ title: "Token"
 sidebar_label: "Token"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["tokens/tokens"](../modules/_tokens_tokens_.md) › [Token](_tokens_tokens_.token.md)
+
 ## Hierarchy
 
 * **Token**
@@ -23,7 +25,7 @@ sidebar_label: "Token"
 
 • **address**: *string*
 
-*Defined in [tokens/tokens.ts:8](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/tokens/tokens.ts#L8)*
+*Defined in [tokens/tokens.ts:8](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/tokens/tokens.ts#L8)*
 
 ___
 
@@ -31,7 +33,7 @@ ___
 
 • **decimals**: *number*
 
-*Defined in [tokens/tokens.ts:9](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/tokens/tokens.ts#L9)*
+*Defined in [tokens/tokens.ts:9](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/tokens/tokens.ts#L9)*
 
 ___
 
@@ -39,7 +41,7 @@ ___
 
 • **symbol**: *string*
 
-*Defined in [tokens/tokens.ts:6](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/tokens/tokens.ts#L6)*
+*Defined in [tokens/tokens.ts:6](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/tokens/tokens.ts#L6)*
 
 ___
 
@@ -47,4 +49,4 @@ ___
 
 • **type**: *[Type](../modules/_tokens_tokens_.md#type)*
 
-*Defined in [tokens/tokens.ts:7](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/tokens/tokens.ts#L7)*
+*Defined in [tokens/tokens.ts:7](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/tokens/tokens.ts#L7)*

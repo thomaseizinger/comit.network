@@ -4,6 +4,8 @@ title: "Swap"
 sidebar_label: "Swap"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["swap"](../modules/_swap_.md) › [Swap](_swap_.swap.md)
+
 ## Hierarchy
 
 * **Swap**
@@ -36,7 +38,7 @@ sidebar_label: "Swap"
 
 \+ **new Swap**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoinwallet_.bitcoinwallet.md), `ethereumWallet`: [EthereumWallet](_ethereumwallet_.ethereumwallet.md), `cnd`: [Cnd](_cnd_.cnd.md), `self`: string): *[Swap](_swap_.swap.md)*
 
-*Defined in [swap.ts:8](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L8)*
+*Defined in [swap.ts:8](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L8)*
 
 **Parameters:**
 
@@ -55,7 +57,7 @@ Name | Type |
 
 • **self**: *string*
 
-*Defined in [swap.ts:13](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L13)*
+*Defined in [swap.ts:13](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L13)*
 
 ## Methods
 
@@ -63,7 +65,7 @@ Name | Type |
 
 ▸ **accept**(`params`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *Promise‹AxiosResponse‹any››*
 
-*Defined in [swap.ts:16](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L16)*
+*Defined in [swap.ts:16](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L16)*
 
 **Parameters:**
 
@@ -79,7 +81,7 @@ ___
 
 ▸ **decline**(`params`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *Promise‹AxiosResponse‹any››*
 
-*Defined in [swap.ts:20](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L20)*
+*Defined in [swap.ts:20](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L20)*
 
 **Parameters:**
 
@@ -95,7 +97,7 @@ ___
 
 ▸ **deploy**(`params`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *Promise‹undefined | string›*
 
-*Defined in [swap.ts:24](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L24)*
+*Defined in [swap.ts:24](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L24)*
 
 **Parameters:**
 
@@ -111,7 +113,7 @@ ___
 
 ▸ **doLedgerAction**(`action`: [LedgerAction](../modules/_cnd_.md#ledgeraction)): *Promise‹undefined | string›*
 
-*Defined in [swap.ts:59](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L59)*
+*Defined in [swap.ts:59](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L59)*
 
 **Parameters:**
 
@@ -127,7 +129,7 @@ ___
 
 ▸ **fetchDetails**(): *Promise‹[SwapDetails](../interfaces/_cnd_.swapdetails.md)›*
 
-*Defined in [swap.ts:44](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L44)*
+*Defined in [swap.ts:44](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L44)*
 
 **Returns:** *Promise‹[SwapDetails](../interfaces/_cnd_.swapdetails.md)›*
 
@@ -137,7 +139,7 @@ ___
 
 ▸ **fund**(`params`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *Promise‹undefined | string›*
 
-*Defined in [swap.ts:29](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L29)*
+*Defined in [swap.ts:29](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L29)*
 
 **Parameters:**
 
@@ -153,7 +155,7 @@ ___
 
 ▸ **redeem**(`params`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *Promise‹undefined | string›*
 
-*Defined in [swap.ts:34](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L34)*
+*Defined in [swap.ts:34](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L34)*
 
 **Parameters:**
 
@@ -169,7 +171,7 @@ ___
 
 ▸ **refund**(`params`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *Promise‹undefined | string›*
 
-*Defined in [swap.ts:39](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L39)*
+*Defined in [swap.ts:39](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L39)*
 
 **Parameters:**
 
@@ -185,7 +187,7 @@ ___
 
 ▸ **tryExecuteAction**(`actionName`: string, `__namedParameters`: object): *Promise‹AxiosResponse‹any››*
 
-*Defined in [swap.ts:49](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/swap.ts#L49)*
+*Defined in [swap.ts:49](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/swap.ts#L49)*
 
 **Parameters:**
 

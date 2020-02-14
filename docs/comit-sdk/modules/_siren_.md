@@ -4,6 +4,8 @@ title: "siren"
 sidebar_label: "siren"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["siren"](_siren_.md)
+
 ## Index
 
 ### Interfaces
@@ -28,7 +30,7 @@ sidebar_label: "siren"
 
 Ƭ **EmbeddedRepresentationSubEntity**: *[Entity](../interfaces/_siren_.entity.md) & object*
 
-*Defined in [siren.ts:90](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L90)*
+*Defined in [siren.ts:90](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L90)*
 
 ___
 
@@ -36,7 +38,7 @@ ___
 
 Ƭ **MediaType**: *string*
 
-*Defined in [siren.ts:89](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L89)*
+*Defined in [siren.ts:89](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L89)*
 
 Defines media type of the linked resource, per Web Linking (RFC5988). For the syntax, see RFC2045 (section 5.1), RFC4288 (section 4.2), RFC6838 (section 4.2)
 
@@ -46,7 +48,7 @@ ___
 
 Ƭ **RelValue**: *string | "about" | "alternate" | "appendix" | "archives" | "author" | "blocked-by" | "bookmark" | "canonical" | "chapter" | "collection" | "contents" | "convertedFrom" | "copyright" | "create-form" | "current" | "derivedfrom" | "describedby" | "describes" | "disclosure" | "dns-prefetch" | "duplicate" | "edit" | "edit-form" | "edit-media" | "enclosure" | "first" | "glossary" | "help" | "hosts" | "hub" | "icon" | "index" | "item" | "last" | "latest-version" | "license" | "lrdd" | "memento" | "monitor" | "monitor-group" | "next" | "next-archive" | "nofollow" | "noreferrer" | "original" | "payment" | "pingback" | "preconnect" | "predecessor-version" | "prefetch" | "preload" | "prerender" | "prev" | "preview" | "previous" | "prev-archive" | "privacy-policy" | "profile" | "related" | "restconf" | "replies" | "search" | "section" | "self" | "service" | "start" | "stylesheet" | "subsection" | "successor-version" | "tag" | "terms-of-service" | "timegate" | "timemap" | "type" | "up" | "version-history" | "via" | "webmention" | "working-copy" | "working-copy-of"*
 
-*Defined in [siren.ts:2](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L2)*
+*Defined in [siren.ts:2](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L2)*
 
 ___
 
@@ -54,4 +56,4 @@ ___
 
 Ƭ **SubEntity**: *[EmbeddedLinkSubEntity](../interfaces/_siren_.embeddedlinksubentity.md) | [EmbeddedRepresentationSubEntity](_siren_.md#embeddedrepresentationsubentity)*
 
-*Defined in [siren.ts:1](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L1)*
+*Defined in [siren.ts:1](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L1)*

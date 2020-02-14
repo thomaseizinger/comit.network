@@ -4,6 +4,8 @@ title: "BitcoinSendAmountToAddressPayload"
 sidebar_label: "BitcoinSendAmountToAddressPayload"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [BitcoinSendAmountToAddressPayload](_cnd_.bitcoinsendamounttoaddresspayload.md)
+
 ## Hierarchy
 
 * **BitcoinSendAmountToAddressPayload**
@@ -22,7 +24,7 @@ sidebar_label: "BitcoinSendAmountToAddressPayload"
 
 • **amount**: *string*
 
-*Defined in [cnd.ts:44](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L44)*
+*Defined in [cnd.ts:44](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L44)*
 
 ___
 
@@ -30,7 +32,7 @@ ___
 
 • **network**: *string*
 
-*Defined in [cnd.ts:45](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L45)*
+*Defined in [cnd.ts:45](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L45)*
 
 ___
 
@@ -38,4 +40,4 @@ ___
 
 • **to**: *string*
 
-*Defined in [cnd.ts:43](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L43)*
+*Defined in [cnd.ts:43](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L43)*

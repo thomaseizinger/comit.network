@@ -4,6 +4,8 @@ title: "comitClient"
 sidebar_label: "comitClient"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["comitClient"](_comitclient_.md)
+
 ## Index
 
 ### Classes
@@ -20,7 +22,7 @@ sidebar_label: "comitClient"
 
 ▸ **isOngoing**(`swap`: [SwapSubEntity](../interfaces/_cnd_.swapsubentity.md)): *boolean*
 
-*Defined in [comitClient.ts:112](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L112)*
+*Defined in [comitClient.ts:112](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L112)*
 
 **Parameters:**
 

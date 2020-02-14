@@ -1,11 +1,13 @@
 ---
 id: "index"
 title: "comit-sdk - v0.10.1"
-sidebar_label: "Overview"
+sidebar_label: "README"
 ---
 
+[comit-sdk - v0.10.1](index.md) › [Globals](globals.md)
+
 <a href="https://comit.network">
- <img src="/img/logo_white-rect.svg" height="120px" />
+  <img src="logo.svg" height="120px" />
 </a>
 
 ---

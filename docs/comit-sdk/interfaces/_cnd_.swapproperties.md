@@ -4,6 +4,8 @@ title: "SwapProperties"
 sidebar_label: "SwapProperties"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [SwapProperties](_cnd_.swapproperties.md)
+
 ## Hierarchy
 
 * **SwapProperties**
@@ -30,7 +32,7 @@ sidebar_label: "SwapProperties"
 
 • **counterparty**: *string*
 
-*Defined in [cnd.ts:101](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L101)*
+*Defined in [cnd.ts:101](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L101)*
 
 The peer-id of the counterparty of this swap.
 
@@ -40,7 +42,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [cnd.ts:97](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L97)*
+*Defined in [cnd.ts:97](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L97)*
 
 The id of the swap.
 
@@ -50,7 +52,7 @@ ___
 
 • **parameters**: *object*
 
-*Defined in [cnd.ts:117](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L117)*
+*Defined in [cnd.ts:117](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L117)*
 
 The parameters of this swap.
 
@@ -72,7 +74,7 @@ ___
 
 • **protocol**: *string*
 
-*Defined in [cnd.ts:109](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L109)*
+*Defined in [cnd.ts:109](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L109)*
 
 The cryptographic protocol that is employed in this swap.
 
@@ -82,7 +84,7 @@ ___
 
 • **role**: *"Alice" | "Bob"*
 
-*Defined in [cnd.ts:105](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L105)*
+*Defined in [cnd.ts:105](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L105)*
 
 The role in which you are participating in this swap.
 
@@ -92,7 +94,7 @@ ___
 
 • **state**? : *undefined | object*
 
-*Defined in [cnd.ts:127](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L127)*
+*Defined in [cnd.ts:127](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L127)*
 
 The detailed state of the swap.
 
@@ -102,6 +104,6 @@ ___
 
 • **status**: *"IN_PROGRESS" | "SWAPPED" | "NOT_SWAPPED" | "INTERNAL_FAILURE"*
 
-*Defined in [cnd.ts:113](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/cnd.ts#L113)*
+*Defined in [cnd.ts:113](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L113)*
 
 The status this swap is currently in.

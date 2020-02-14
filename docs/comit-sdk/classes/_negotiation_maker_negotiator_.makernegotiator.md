@@ -4,6 +4,8 @@ title: "MakerNegotiator"
 sidebar_label: "MakerNegotiator"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/maker_negotiator"](../modules/_negotiation_maker_negotiator_.md) › [MakerNegotiator](_negotiation_maker_negotiator_.makernegotiator.md)
+
 ## Hierarchy
 
 * **MakerNegotiator**
@@ -30,7 +32,7 @@ sidebar_label: "MakerNegotiator"
 
 \+ **new MakerNegotiator**(`comitClient`: [ComitClient](_comitclient_.comitclient.md), `executionParams`: [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md), `tryParams`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *[MakerNegotiator](_negotiation_maker_negotiator_.makernegotiator.md)*
 
-*Defined in [negotiation/maker_negotiator.ts:14](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L14)*
+*Defined in [negotiation/maker_negotiator.ts:14](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L14)*
 
 **Parameters:**
 
@@ -48,7 +50,7 @@ Name | Type |
 
 ▸ **addOrder**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *void*
 
-*Defined in [negotiation/maker_negotiator.ts:32](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L32)*
+*Defined in [negotiation/maker_negotiator.ts:32](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L32)*
 
 **Parameters:**
 
@@ -64,7 +66,7 @@ ___
 
 ▸ **getExecutionParams**(): *[ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)*
 
-*Defined in [negotiation/maker_negotiator.ts:46](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L46)*
+*Defined in [negotiation/maker_negotiator.ts:46](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L46)*
 
 **Returns:** *[ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)*
 
@@ -74,7 +76,7 @@ ___
 
 ▸ **getOrderById**(`orderId`: string): *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
 
-*Defined in [negotiation/maker_negotiator.ts:42](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L42)*
+*Defined in [negotiation/maker_negotiator.ts:42](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L42)*
 
 **Parameters:**
 
@@ -90,7 +92,7 @@ ___
 
 ▸ **getOrderByTradingPair**(`tradingPair`: string): *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
 
-*Defined in [negotiation/maker_negotiator.ts:38](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L38)*
+*Defined in [negotiation/maker_negotiator.ts:38](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L38)*
 
 **Parameters:**
 
@@ -106,7 +108,7 @@ ___
 
 ▸ **getUrl**(): *string | undefined*
 
-*Defined in [negotiation/maker_negotiator.ts:62](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L62)*
+*Defined in [negotiation/maker_negotiator.ts:62](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L62)*
 
 **Returns:** *string | undefined*
 
@@ -116,7 +118,7 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [negotiation/maker_negotiator.ts:66](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L66)*
+*Defined in [negotiation/maker_negotiator.ts:66](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L66)*
 
 **Parameters:**
 
@@ -133,7 +135,7 @@ ___
 
 ▸ **takeOrder**(`swapId`: string, `order`: [Order](../interfaces/_negotiation_order_.order.md)): *void*
 
-*Defined in [negotiation/maker_negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L50)*
+*Defined in [negotiation/maker_negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L50)*
 
 **Parameters:**
 

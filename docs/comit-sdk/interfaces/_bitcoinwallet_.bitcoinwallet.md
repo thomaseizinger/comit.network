@@ -4,6 +4,8 @@ title: "BitcoinWallet"
 sidebar_label: "BitcoinWallet"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["bitcoinWallet"](../modules/_bitcoinwallet_.md) › [BitcoinWallet](_bitcoinwallet_.bitcoinwallet.md)
+
 ## Hierarchy
 
 * **BitcoinWallet**
@@ -28,7 +30,7 @@ sidebar_label: "BitcoinWallet"
 
 ▸ **broadcastTransaction**(`transactionHex`: string, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoinWallet.ts:15](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/bitcoinWallet.ts#L15)*
+*Defined in [bitcoinWallet.ts:15](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/bitcoinWallet.ts#L15)*
 
 **Parameters:**
 
@@ -45,7 +47,7 @@ ___
 
 ▸ **getAddress**(): *Promise‹string›*
 
-*Defined in [bitcoinWallet.ts:5](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/bitcoinWallet.ts#L5)*
+*Defined in [bitcoinWallet.ts:5](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/bitcoinWallet.ts#L5)*
 
 **Returns:** *Promise‹string›*
 
@@ -55,7 +57,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹number›*
 
-*Defined in [bitcoinWallet.ts:7](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/bitcoinWallet.ts#L7)*
+*Defined in [bitcoinWallet.ts:7](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/bitcoinWallet.ts#L7)*
 
 **Returns:** *Promise‹number›*
 
@@ -65,7 +67,7 @@ ___
 
 ▸ **getFee**(): *string*
 
-*Defined in [bitcoinWallet.ts:20](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/bitcoinWallet.ts#L20)*
+*Defined in [bitcoinWallet.ts:20](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/bitcoinWallet.ts#L20)*
 
 **Returns:** *string*
 
@@ -75,7 +77,7 @@ ___
 
 ▸ **sendToAddress**(`address`: string, `satoshis`: number, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoinWallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/bitcoinWallet.ts#L9)*
+*Defined in [bitcoinWallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/bitcoinWallet.ts#L9)*
 
 **Parameters:**
 

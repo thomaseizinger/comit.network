@@ -1,8 +1,10 @@
 ---
 id: "globals"
 title: "comit-sdk - v0.10.1"
-sidebar_label: "API Reference"
+sidebar_label: "Globals"
 ---
+
+[comit-sdk - v0.10.1](index.md) › [Globals](globals.md)
 
 ## Index
 

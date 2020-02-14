@@ -4,6 +4,8 @@ title: "Action"
 sidebar_label: "Action"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [Action](_siren_.action.md)
+
 Actions show available behaviors an entity exposes.
 
 ## Hierarchy
@@ -34,7 +36,7 @@ Actions show available behaviors an entity exposes.
 
 • **class**? : *string[]*
 
-*Defined in [siren.ts:157](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L157)*
+*Defined in [siren.ts:157](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L157)*
 
 Describes the nature of an action based on the current representation. Possible values are implementation-dependent and should be documented.
 
@@ -44,7 +46,7 @@ ___
 
 • **fields**? : *[Field](_siren_.field.md)[]*
 
-*Defined in [siren.ts:181](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L181)*
+*Defined in [siren.ts:181](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L181)*
 
 A collection of fields.
 
@@ -54,7 +56,7 @@ ___
 
 • **href**: *string*
 
-*Defined in [siren.ts:169](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L169)*
+*Defined in [siren.ts:169](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L169)*
 
 The URI of the action.
 
@@ -64,7 +66,7 @@ ___
 
 • **method**? : *"DELETE" | "GET" | "PATCH" | "POST" | "PUT"*
 
-*Defined in [siren.ts:165](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L165)*
+*Defined in [siren.ts:165](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L165)*
 
 An enumerated attribute mapping to a protocol method. For HTTP, these values may be GET, PUT, POST, DELETE, or PATCH. As new methods are introduced, this list can be extended. If this attribute is omitted, GET should be assumed.
 
@@ -74,7 +76,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [siren.ts:161](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L161)*
+*Defined in [siren.ts:161](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L161)*
 
 A string that identifies the action to be performed. Action names MUST be unique within the set of actions for an entity. The behaviour of clients when parsing a Siren document that violates this constraint is undefined.
 
@@ -84,7 +86,7 @@ ___
 
 • **title**? : *undefined | string*
 
-*Defined in [siren.ts:173](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L173)*
+*Defined in [siren.ts:173](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L173)*
 
 Descriptive text about the action.
 
@@ -94,6 +96,6 @@ ___
 
 • **type**? : *undefined | string*
 
-*Defined in [siren.ts:177](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/siren.ts#L177)*
+*Defined in [siren.ts:177](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L177)*
 
 The encoding type for the request. When omitted and the fields attribute exists, the default value is `application/x-www-form-urlencoded`.

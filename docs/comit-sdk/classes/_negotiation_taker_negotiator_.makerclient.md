@@ -4,6 +4,8 @@ title: "MakerClient"
 sidebar_label: "MakerClient"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/taker_negotiator"](../modules/_negotiation_taker_negotiator_.md) › [MakerClient](_negotiation_taker_negotiator_.makerclient.md)
+
 ## Hierarchy
 
 * **MakerClient**
@@ -26,7 +28,7 @@ sidebar_label: "MakerClient"
 
 \+ **new MakerClient**(`makerUrl`: string): *[MakerClient](_negotiation_taker_negotiator_.makerclient.md)*
 
-*Defined in [negotiation/taker_negotiator.ts:88](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/taker_negotiator.ts#L88)*
+*Defined in [negotiation/taker_negotiator.ts:88](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L88)*
 
 **Parameters:**
 
@@ -42,7 +44,7 @@ Name | Type |
 
 ▸ **getExecutionParams**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *Promise‹any›*
 
-*Defined in [negotiation/taker_negotiator.ts:99](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/taker_negotiator.ts#L99)*
+*Defined in [negotiation/taker_negotiator.ts:99](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L99)*
 
 **Parameters:**
 
@@ -58,7 +60,7 @@ ___
 
 ▸ **getOrderByTradingPair**(`tradingPair`: string): *Promise‹any›*
 
-*Defined in [negotiation/taker_negotiator.ts:94](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/taker_negotiator.ts#L94)*
+*Defined in [negotiation/taker_negotiator.ts:94](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L94)*
 
 **Parameters:**
 
@@ -74,7 +76,7 @@ ___
 
 ▸ **takeOrder**(`order`: [Order](../interfaces/_negotiation_order_.order.md), `swapId`: string): *Promise‹any›*
 
-*Defined in [negotiation/taker_negotiator.ts:106](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/taker_negotiator.ts#L106)*
+*Defined in [negotiation/taker_negotiator.ts:106](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L106)*
 
 **Parameters:**
 

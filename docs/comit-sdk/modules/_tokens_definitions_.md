@@ -4,6 +4,8 @@ title: "tokens/definitions"
 sidebar_label: "tokens/definitions"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["tokens/definitions"](_tokens_definitions_.md)
+
 ## Index
 
 ### Variables
@@ -29,4 +31,4 @@ sidebar_label: "tokens/definitions"
   }
 ]
 
-*Defined in [tokens/definitions.ts:11](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/tokens/definitions.ts#L11)*
+*Defined in [tokens/definitions.ts:11](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/tokens/definitions.ts#L11)*

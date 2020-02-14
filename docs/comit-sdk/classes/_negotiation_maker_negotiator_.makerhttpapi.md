@@ -4,6 +4,8 @@ title: "MakerHttpApi"
 sidebar_label: "MakerHttpApi"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/maker_negotiator"](../modules/_negotiation_maker_negotiator_.md) › [MakerHttpApi](_negotiation_maker_negotiator_.makerhttpapi.md)
+
 ## Hierarchy
 
 * **MakerHttpApi**
@@ -25,7 +27,7 @@ sidebar_label: "MakerHttpApi"
 
 \+ **new MakerHttpApi**(`getOrderById`: function, `getExecutionParams`: function, `takeOrder`: function, `getOrderByTradingPair`: function): *[MakerHttpApi](_negotiation_maker_negotiator_.makerhttpapi.md)*
 
-*Defined in [negotiation/maker_negotiator.ts:120](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L120)*
+*Defined in [negotiation/maker_negotiator.ts:120](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L120)*
 
 **Parameters:**
 
@@ -72,7 +74,7 @@ Name | Type |
 
 ▸ **getUrl**(): *undefined | string*
 
-*Defined in [negotiation/maker_negotiator.ts:195](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L195)*
+*Defined in [negotiation/maker_negotiator.ts:195](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L195)*
 
 **Returns:** *undefined | string*
 
@@ -82,7 +84,7 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [negotiation/maker_negotiator.ts:135](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/negotiation/maker_negotiator.ts#L135)*
+*Defined in [negotiation/maker_negotiator.ts:135](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/maker_negotiator.ts#L135)*
 
 **Parameters:**
 

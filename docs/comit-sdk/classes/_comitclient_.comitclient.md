@@ -4,6 +4,8 @@ title: "ComitClient"
 sidebar_label: "ComitClient"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["comitClient"](../modules/_comitclient_.md) › [ComitClient](_comitclient_.comitclient.md)
+
 ## Hierarchy
 
 * **ComitClient**
@@ -30,7 +32,7 @@ sidebar_label: "ComitClient"
 
 \+ **new ComitClient**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoinwallet_.bitcoinwallet.md), `ethereumWallet`: [EthereumWallet](_ethereumwallet_.ethereumwallet.md), `cnd`: [Cnd](_cnd_.cnd.md)): *[ComitClient](_comitclient_.comitclient.md)*
 
-*Defined in [comitClient.ts:7](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L7)*
+*Defined in [comitClient.ts:7](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L7)*
 
 **Parameters:**
 
@@ -48,7 +50,7 @@ Name | Type |
 
 ▸ **getDoneSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comitClient.ts:64](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L64)*
+*Defined in [comitClient.ts:64](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L64)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -58,7 +60,7 @@ ___
 
 ▸ **getNewSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comitClient.ts:41](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L41)*
+*Defined in [comitClient.ts:41](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L41)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -68,7 +70,7 @@ ___
 
 ▸ **getOngoingSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comitClient.ts:55](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L55)*
+*Defined in [comitClient.ts:55](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L55)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -78,7 +80,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [comitClient.ts:78](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L78)*
+*Defined in [comitClient.ts:78](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L78)*
 
 **Returns:** *Promise‹string›*
 
@@ -88,7 +90,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [comitClient.ts:82](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L82)*
+*Defined in [comitClient.ts:82](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L82)*
 
 **Returns:** *Promise‹string[]›*
 
@@ -98,7 +100,7 @@ ___
 
 ▸ **retrieveSwapById**(`swapId`: string): *Promise‹[Swap](_swap_.swap.md) | undefined›*
 
-*Defined in [comitClient.ts:86](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L86)*
+*Defined in [comitClient.ts:86](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L86)*
 
 **Parameters:**
 
@@ -114,7 +116,7 @@ ___
 
 ▸ **sendSwap**(`swapRequest`: [SwapRequest](../interfaces/_cnd_.swaprequest.md)): *Promise‹[Swap](_swap_.swap.md)›*
 
-*Defined in [comitClient.ts:14](https://github.com/comit-network/comit-js-sdk/blob/68ef370/src/comitClient.ts#L14)*
+*Defined in [comitClient.ts:14](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/comitClient.ts#L14)*
 
 **Parameters:**
 

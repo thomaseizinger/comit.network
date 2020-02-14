@@ -4,6 +4,8 @@ title: "bitcoinWallet"
 sidebar_label: "bitcoinWallet"
 ---
 
+[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["bitcoinWallet"](_bitcoinwallet_.md)
+
 ## Index
 
 ### Classes
