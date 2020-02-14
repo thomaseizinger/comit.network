@@ -4,8 +4,6 @@ title: "EthereumCallContractPayload"
 sidebar_label: "EthereumCallContractPayload"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [EthereumCallContractPayload](_cnd_.ethereumcallcontractpayload.md)
-
 ## Hierarchy
 
 * **EthereumCallContractPayload**
@@ -25,7 +23,7 @@ sidebar_label: "EthereumCallContractPayload"
 
 • **contract_address**: *string*
 
-*Defined in [cnd.ts:61](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L61)*
+*Defined in [cnd.ts:61](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L61)*
 
 ___
 
@@ -33,7 +31,7 @@ ___
 
 • **data**: *string*
 
-*Defined in [cnd.ts:62](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L62)*
+*Defined in [cnd.ts:62](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L62)*
 
 ___
 
@@ -41,7 +39,7 @@ ___
 
 • **gas_limit**: *string*
 
-*Defined in [cnd.ts:63](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L63)*
+*Defined in [cnd.ts:63](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L63)*
 
 ___
 
@@ -49,4 +47,4 @@ ___
 
 • **network**: *string*
 
-*Defined in [cnd.ts:64](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L64)*
+*Defined in [cnd.ts:64](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L64)*

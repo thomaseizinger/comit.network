@@ -4,8 +4,6 @@ title: "Link"
 sidebar_label: "Link"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["siren"](../modules/_siren_.md) › [Link](_siren_.link.md)
-
 Links represent navigational transitions.
 
 ## Hierarchy
@@ -34,7 +32,7 @@ Links represent navigational transitions.
 
 • **class**? : *string[]*
 
-*Defined in [siren.ts:250](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L250)*
+*Defined in [siren.ts:250](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L250)*
 
 Describes aspects of the link based on the current representation. Possible values are implementation-dependent and should be documented.
 
@@ -44,7 +42,7 @@ ___
 
 • **href**: *string*
 
-*Defined in [siren.ts:262](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L262)*
+*Defined in [siren.ts:262](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L262)*
 
 The URI of the linked resource.
 
@@ -54,7 +52,7 @@ ___
 
 • **rel**: *[RelValue](../modules/_siren_.md#relvalue)[]*
 
-*Defined in [siren.ts:258](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L258)*
+*Defined in [siren.ts:258](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L258)*
 
 Defines the relationship of the link to its entity, per Web Linking (RFC5988).
 
@@ -64,7 +62,7 @@ ___
 
 • **title**? : *undefined | string*
 
-*Defined in [siren.ts:254](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L254)*
+*Defined in [siren.ts:254](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L254)*
 
 Text describing the nature of a link.
 
@@ -74,4 +72,4 @@ ___
 
 • **type**? : *[MediaType](../modules/_siren_.md#mediatype)*
 
-*Defined in [siren.ts:263](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/siren.ts#L263)*
+*Defined in [siren.ts:263](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L263)*

@@ -4,8 +4,6 @@ title: "negotiation/order"
 sidebar_label: "negotiation/order"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/order"](_negotiation_order_.md)
-
 ## Index
 
 ### Interfaces
@@ -33,7 +31,7 @@ sidebar_label: "negotiation/order"
 
 • **BITCOIN_DECIMALS**: *8* = 8
 
-*Defined in [negotiation/order.ts:127](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L127)*
+*Defined in [negotiation/order.ts:127](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L127)*
 
 ___
 
@@ -41,7 +39,7 @@ ___
 
 • **ETHER_DECIMALS**: *18* = 18
 
-*Defined in [negotiation/order.ts:128](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L128)*
+*Defined in [negotiation/order.ts:128](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L128)*
 
 ## Functions
 
@@ -49,7 +47,7 @@ ___
 
 ▸ **areAmountsEqual**(`asset`: string, `unitAmount`: string, `nominalAmount`: string, `token?`: [Token](../interfaces/_tokens_tokens_.token.md)): *boolean*
 
-*Defined in [negotiation/order.ts:112](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L112)*
+*Defined in [negotiation/order.ts:112](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L112)*
 
 **Parameters:**
 
@@ -68,7 +66,7 @@ ___
 
 ▸ **assetOrderToSwap**(`orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md)): *[Asset](../interfaces/_cnd_.asset.md) | undefined*
 
-*Defined in [negotiation/order.ts:81](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L81)*
+*Defined in [negotiation/order.ts:81](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L81)*
 
 **Parameters:**
 
@@ -84,7 +82,7 @@ ___
 
 ▸ **fromNominal**(`asset`: string, `nominalAmount`: string, `token?`: [Token](../interfaces/_tokens_tokens_.token.md)): *BigNumber | undefined*
 
-*Defined in [negotiation/order.ts:130](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L130)*
+*Defined in [negotiation/order.ts:130](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L130)*
 
 **Parameters:**
 
@@ -102,7 +100,7 @@ ___
 
 ▸ **isNative**(`__namedParameters`: object): *boolean*
 
-*Defined in [negotiation/order.ts:39](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L39)*
+*Defined in [negotiation/order.ts:39](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L39)*
 
 **Parameters:**
 
@@ -121,7 +119,7 @@ ___
 
 ▸ **orderSwapAssetMatchesForMaker**(`orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md), `swapAsset`: [Asset](../interfaces/_cnd_.asset.md), `swapLedger`: [Ledger](../interfaces/_cnd_.ledger.md)): *boolean*
 
-*Defined in [negotiation/order.ts:46](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L46)*
+*Defined in [negotiation/order.ts:46](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L46)*
 
 **Parameters:**
 
@@ -139,7 +137,7 @@ ___
 
 ▸ **orderSwapMatchesForMaker**(`order`: [Order](../interfaces/_negotiation_order_.order.md), `props`: [SwapProperties](../interfaces/_cnd_.swapproperties.md)): *boolean*
 
-*Defined in [negotiation/order.ts:19](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L19)*
+*Defined in [negotiation/order.ts:19](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L19)*
 
 **Parameters:**
 

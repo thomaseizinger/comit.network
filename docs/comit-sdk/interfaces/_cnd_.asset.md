@@ -4,8 +4,6 @@ title: "Asset"
 sidebar_label: "Asset"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [Asset](_cnd_.asset.md)
-
 ## Hierarchy
 
 * **Asset**
@@ -24,7 +22,7 @@ sidebar_label: "Asset"
 
 • **name**: *string*
 
-*Defined in [cnd.ts:20](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L20)*
+*Defined in [cnd.ts:20](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L20)*
 
 ___
 
@@ -32,7 +30,7 @@ ___
 
 • **quantity**: *string*
 
-*Defined in [cnd.ts:21](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L21)*
+*Defined in [cnd.ts:21](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L21)*
 
 ___
 
@@ -40,4 +38,4 @@ ___
 
 • **token_contract**? : *undefined | string*
 
-*Defined in [cnd.ts:22](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L22)*
+*Defined in [cnd.ts:22](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L22)*

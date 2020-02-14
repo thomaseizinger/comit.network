@@ -4,8 +4,6 @@ title: "comit-sdk - v0.10.1"
 sidebar_label: "README"
 ---
 
-[comit-sdk - v0.10.1](index.md) › [Globals](globals.md)
-
 <a href="https://comit.network">
   <img src="logo.svg" height="120px" />
 </a>

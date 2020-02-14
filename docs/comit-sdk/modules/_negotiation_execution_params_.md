@@ -4,8 +4,6 @@ title: "negotiation/execution_params"
 sidebar_label: "negotiation/execution_params"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/execution_params"](_negotiation_execution_params_.md)
-
 ## Index
 
 ### Enumerations
@@ -33,7 +31,7 @@ sidebar_label: "negotiation/execution_params"
 
 • **moment**: *[moment](_negotiation_execution_params_.md#moment)*
 
-*Defined in [negotiation/execution_params.ts:1](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L1)*
+*Defined in [negotiation/execution_params.ts:1](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L1)*
 
 ## Functions
 
@@ -41,7 +39,7 @@ sidebar_label: "negotiation/execution_params"
 
 ▸ **defaultLedgerParams**(): *[LedgerParams](../interfaces/_negotiation_execution_params_.ledgerparams.md)*
 
-*Defined in [negotiation/execution_params.ts:16](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L16)*
+*Defined in [negotiation/execution_params.ts:16](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L16)*
 
 **Returns:** *[LedgerParams](../interfaces/_negotiation_execution_params_.ledgerparams.md)*
 
@@ -51,7 +49,7 @@ ___
 
 ▸ **getNetworkType**(`ledgerParams`: [LedgerParams](../interfaces/_negotiation_execution_params_.ledgerparams.md)): *[NetworkType](../enums/_negotiation_execution_params_.networktype.md)*
 
-*Defined in [negotiation/execution_params.ts:63](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L63)*
+*Defined in [negotiation/execution_params.ts:63](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L63)*
 
 **Parameters:**
 
@@ -67,7 +65,7 @@ ___
 
 ▸ **isValidExecutionParams**(`executionParams`: [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)): *boolean*
 
-*Defined in [negotiation/execution_params.ts:27](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L27)*
+*Defined in [negotiation/execution_params.ts:27](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L27)*
 
 **Parameters:**
 

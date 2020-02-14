@@ -4,8 +4,6 @@ title: "Order"
 sidebar_label: "Order"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/order"](../modules/_negotiation_order_.md) › [Order](_negotiation_order_.order.md)
-
 ## Hierarchy
 
 * **Order**
@@ -26,7 +24,7 @@ sidebar_label: "Order"
 
 • **ask**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [negotiation/order.ts:10](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L10)*
+*Defined in [negotiation/order.ts:10](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L10)*
 
 ___
 
@@ -34,7 +32,7 @@ ___
 
 • **bid**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [negotiation/order.ts:9](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L9)*
+*Defined in [negotiation/order.ts:9](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L9)*
 
 ___
 
@@ -42,7 +40,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [negotiation/order.ts:7](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L7)*
+*Defined in [negotiation/order.ts:7](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L7)*
 
 ___
 
@@ -50,7 +48,7 @@ ___
 
 • **tradingPair**: *string*
 
-*Defined in [negotiation/order.ts:6](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L6)*
+*Defined in [negotiation/order.ts:6](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L6)*
 
 ___
 
@@ -58,4 +56,4 @@ ___
 
 • **validUntil**: *number*
 
-*Defined in [negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/order.ts#L8)*
+*Defined in [negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L8)*

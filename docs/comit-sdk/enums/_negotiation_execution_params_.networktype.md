@@ -4,8 +4,6 @@ title: "NetworkType"
 sidebar_label: "NetworkType"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/execution_params"](../modules/_negotiation_execution_params_.md) › [NetworkType](_negotiation_execution_params_.networktype.md)
-
 ## Index
 
 ### Enumeration members
@@ -20,7 +18,7 @@ sidebar_label: "NetworkType"
 
 • **AllMainnet**: = "main"
 
-*Defined in [negotiation/execution_params.ts:58](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L58)*
+*Defined in [negotiation/execution_params.ts:58](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L58)*
 
 ___
 
@@ -28,7 +26,7 @@ ___
 
 • **AllTest**: = "test"
 
-*Defined in [negotiation/execution_params.ts:59](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L59)*
+*Defined in [negotiation/execution_params.ts:59](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L59)*
 
 ___
 
@@ -36,4 +34,4 @@ ___
 
 • **Invalid**: = "invalid"
 
-*Defined in [negotiation/execution_params.ts:60](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/execution_params.ts#L60)*
+*Defined in [negotiation/execution_params.ts:60](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/execution_params.ts#L60)*

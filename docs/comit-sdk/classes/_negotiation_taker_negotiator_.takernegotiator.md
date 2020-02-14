@@ -4,8 +4,6 @@ title: "TakerNegotiator"
 sidebar_label: "TakerNegotiator"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["negotiation/taker_negotiator"](../modules/_negotiation_taker_negotiator_.md) › [TakerNegotiator](_negotiation_taker_negotiator_.takernegotiator.md)
-
 ## Hierarchy
 
 * **TakerNegotiator**
@@ -25,15 +23,15 @@ sidebar_label: "TakerNegotiator"
 
 ###  constructor
 
-\+ **new TakerNegotiator**(`comitClient`: [ComitClient](_comitclient_.comitclient.md), `makerUrl`: string): *[TakerNegotiator](_negotiation_taker_negotiator_.takernegotiator.md)*
+\+ **new TakerNegotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `makerUrl`: string): *[TakerNegotiator](_negotiation_taker_negotiator_.takernegotiator.md)*
 
-*Defined in [negotiation/taker_negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L50)*
+*Defined in [negotiation/taker_negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/taker_negotiator.ts#L50)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`comitClient` | [ComitClient](_comitclient_.comitclient.md) |
+`comitClient` | [ComitClient](_comit_client_.comitclient.md) |
 `makerUrl` | string |
 
 **Returns:** *[TakerNegotiator](_negotiation_taker_negotiator_.takernegotiator.md)*
@@ -44,7 +42,7 @@ Name | Type |
 
 ▸ **getOrderByTradingPair**(`tradingPair`: string): *Promise‹[Order](../interfaces/_negotiation_order_.order.md)›*
 
-*Defined in [negotiation/taker_negotiator.ts:57](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L57)*
+*Defined in [negotiation/taker_negotiator.ts:57](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/taker_negotiator.ts#L57)*
 
 **Parameters:**
 
@@ -60,7 +58,7 @@ ___
 
 ▸ **takeOrder**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *Promise‹[Swap](_swap_.swap.md) | undefined›*
 
-*Defined in [negotiation/taker_negotiator.ts:61](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/negotiation/taker_negotiator.ts#L61)*
+*Defined in [negotiation/taker_negotiator.ts:61](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/taker_negotiator.ts#L61)*
 
 **Parameters:**
 

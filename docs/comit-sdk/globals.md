@@ -4,18 +4,16 @@ title: "comit-sdk - v0.10.1"
 sidebar_label: "Globals"
 ---
 
-[comit-sdk - v0.10.1](index.md) › [Globals](globals.md)
-
 ## Index
 
 ### External modules
 
-* ["actionToHttpRequest"](modules/_actiontohttprequest_.md)
+* ["action_to_http_request"](modules/_action_to_http_request_.md)
 * ["actor"](modules/_actor_.md)
-* ["bitcoinWallet"](modules/_bitcoinwallet_.md)
+* ["bitcoin_wallet"](modules/_bitcoin_wallet_.md)
 * ["cnd"](modules/_cnd_.md)
-* ["comitClient"](modules/_comitclient_.md)
-* ["ethereumWallet"](modules/_ethereumwallet_.md)
+* ["comit_client"](modules/_comit_client_.md)
+* ["ethereum_wallet"](modules/_ethereum_wallet_.md)
 * ["negotiation/execution_params"](modules/_negotiation_execution_params_.md)
 * ["negotiation/maker_negotiator"](modules/_negotiation_maker_negotiator_.md)
 * ["negotiation/order"](modules/_negotiation_order_.md)

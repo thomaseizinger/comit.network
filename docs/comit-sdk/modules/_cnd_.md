@@ -4,8 +4,6 @@ title: "cnd"
 sidebar_label: "cnd"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](_cnd_.md)
-
 ## Index
 
 ### Classes
@@ -37,4 +35,4 @@ sidebar_label: "cnd"
 
 Ƭ **LedgerAction**: *object | object | object | object*
 
-*Defined in [cnd.ts:67](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L67)*
+*Defined in [cnd.ts:67](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L67)*

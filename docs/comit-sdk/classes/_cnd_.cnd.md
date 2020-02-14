@@ -4,8 +4,6 @@ title: "Cnd"
 sidebar_label: "Cnd"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [Cnd](_cnd_.cnd.md)
-
 Facilitates access to the cnd REST API
 
 ## Hierarchy
@@ -33,7 +31,7 @@ Facilitates access to the cnd REST API
 
 \+ **new Cnd**(`cndUrl`: string): *[Cnd](_cnd_.cnd.md)*
 
-*Defined in [cnd.ts:202](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L202)*
+*Defined in [cnd.ts:202](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L202)*
 
 **Parameters:**
 
@@ -47,16 +45,16 @@ Name | Type |
 
 ###  executeAction
 
-▸ **executeAction**(`action`: [Action](../interfaces/_siren_.action.md), `resolver?`: [FieldValueResolverFn](../modules/_actiontohttprequest_.md#fieldvalueresolverfn)): *Promise‹AxiosResponse›*
+▸ **executeAction**(`action`: [Action](../interfaces/_siren_.action.md), `resolver?`: [FieldValueResolverFn](../modules/_action_to_http_request_.md#fieldvalueresolverfn)): *Promise‹AxiosResponse›*
 
-*Defined in [cnd.ts:251](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L251)*
+*Defined in [cnd.ts:251](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L251)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `action` | [Action](../interfaces/_siren_.action.md) |
-`resolver?` | [FieldValueResolverFn](../modules/_actiontohttprequest_.md#fieldvalueresolverfn) |
+`resolver?` | [FieldValueResolverFn](../modules/_action_to_http_request_.md#fieldvalueresolverfn) |
 
 **Returns:** *Promise‹AxiosResponse›*
 
@@ -66,7 +64,7 @@ ___
 
 ▸ **fetch**<**T**>(`path`: string): *AxiosPromise‹T›*
 
-*Defined in [cnd.ts:243](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L243)*
+*Defined in [cnd.ts:243](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L243)*
 
 **Type parameters:**
 
@@ -86,7 +84,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [cnd.ts:208](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L208)*
+*Defined in [cnd.ts:208](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L208)*
 
 **Returns:** *Promise‹string›*
 
@@ -96,7 +94,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [cnd.ts:216](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L216)*
+*Defined in [cnd.ts:216](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L216)*
 
 **Returns:** *Promise‹string[]›*
 
@@ -106,7 +104,7 @@ ___
 
 ▸ **getSwaps**(): *Promise‹[SwapSubEntity](../interfaces/_cnd_.swapsubentity.md)[]›*
 
-*Defined in [cnd.ts:237](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L237)*
+*Defined in [cnd.ts:237](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L237)*
 
 **Returns:** *Promise‹[SwapSubEntity](../interfaces/_cnd_.swapsubentity.md)[]›*
 
@@ -116,7 +114,7 @@ ___
 
 ▸ **postSwap**(`swap`: [SwapRequest](../interfaces/_cnd_.swaprequest.md)): *Promise‹string›*
 
-*Defined in [cnd.ts:224](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L224)*
+*Defined in [cnd.ts:224](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L224)*
 
 **Parameters:**
 

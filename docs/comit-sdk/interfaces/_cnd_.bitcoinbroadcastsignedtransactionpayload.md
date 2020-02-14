@@ -4,8 +4,6 @@ title: "BitcoinBroadcastSignedTransactionPayload"
 sidebar_label: "BitcoinBroadcastSignedTransactionPayload"
 ---
 
-[comit-sdk - v0.10.1](../index.md) › [Globals](../globals.md) › ["cnd"](../modules/_cnd_.md) › [BitcoinBroadcastSignedTransactionPayload](_cnd_.bitcoinbroadcastsignedtransactionpayload.md)
-
 ## Hierarchy
 
 * **BitcoinBroadcastSignedTransactionPayload**
@@ -23,7 +21,7 @@ sidebar_label: "BitcoinBroadcastSignedTransactionPayload"
 
 • **hex**: *string*
 
-*Defined in [cnd.ts:49](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L49)*
+*Defined in [cnd.ts:49](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L49)*
 
 ___
 
@@ -31,4 +29,4 @@ ___
 
 • **network**: *string*
 
-*Defined in [cnd.ts:50](https://github.com/comit-network/comit-js-sdk/blob/9af15bb/src/cnd.ts#L50)*
+*Defined in [cnd.ts:50](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L50)*
