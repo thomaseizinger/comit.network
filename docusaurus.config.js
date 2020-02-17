@@ -32,6 +32,14 @@ module.exports = {
               label: 'Getting Started',
               to: 'docs/getting-started',
             },
+            {
+              label: 'COMIT Protocol',
+              to: 'docs/comit-protocol',
+            },
+            {
+              label: 'Core Concepts',
+              to: 'docs/core-concepts',
+            },
           ],
         },
         {
