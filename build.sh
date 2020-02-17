@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 SDK_DIR="../comit-js-sdk"
+DEST_DIR="docs/comit-sdk/"
 
 function sdk_exists() {
   if [ -d $SDK_DIR ]; then
@@ -29,18 +30,26 @@ function generate_docs() {
   cd ..
 }
 
+function import_sidebar() {
+  echo "TODO"
+  # node ./utils/importSidebar.js
+  # TODO: should be implemented in SDK rather than here?
+}
+
 import_docs() {
   echo "☺ Importing SDK docs."
   rm $SDK_DIR/docs/globals.md
-  rm -rfv docs/comit-sdk/ && mkdir docs/comit-sdk/
-  cp -R $SDK_DIR/docs/. docs/comit-sdk/
+  rm -rfv $DEST_DIR && mkdir $DEST_DIR
+  cp -R $SDK_DIR/docs/. $DEST_DIR
 }
 
 # Main script
-# if sdk_exists; then
-#   generate_docs
-# fi
+if sdk_exists; then
+  generate_docs
+fi
 
 if docs_exists; then
   import_docs
+  import_sidebar
 fi
+
