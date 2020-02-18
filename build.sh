@@ -30,10 +30,10 @@ function generate_docs() {
   cd ..
 }
 
-function import_sidebar() {
+function generate_sidebar() {
   echo "☺ Generating updated sidebar."
   cp $SDK_DIR/website/sidebars.js $PWD/sidebars.temp.js
-  # node ./utils/importSidebar.js
+  node ./utils/generateSidebar.js
   # TODO: should be implemented in SDK rather than here?
 }
 
@@ -51,6 +51,6 @@ import_docs() {
 
 if docs_exists; then
   import_docs
-  import_sidebar
+  generate_sidebar
 fi
 
