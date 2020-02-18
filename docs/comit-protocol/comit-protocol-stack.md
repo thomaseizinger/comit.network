@@ -23,24 +23,61 @@ This slide shows the motivation of the COMIT protocol that is to create a truly 
 
 ## Comit Network Daemon (cnd)
 
-The [COMIT network daemon (cnd)](https://github.com/comit-network/comit-rs/) the reference implementation of the COMIT protocol written in Rust.
+The [COMIT network daemon (cnd)](https://github.com/comit-network/comit-rs/) is the reference implementation of the COMIT protocol written in Rust.
 
-## COMIT Atomic Swap Protocols
+## Protocols in COMIT
 
-### HAN
+A protocol can be roughly defined as the order and semantics of actions.
 
-**H**TLCs for **A**ssets that are **N**ative to the ledger
+Within COMIT, we have two kinds of protocols:
 
-### HErc20
+1. Cryptographic protocols
+1. Communication protocols
+
+A cryptographic protocol within COMIT defines the order and semantics of interactions with ledgers.
+At the moment, COMIT specializes in cryptographic protocols that facilitate atomic swaps.
+
+A communication protocol within COMIT defines how two COMIT nodes interact with each other.
+Those (libp2p-based) protocols facilitate the exchange of information for the purpose of then following a cryptographic protocol.
+
+### COMIT Cryptographic Protocols
+
+The COMIT protocol distinguishes between ledgers and assets.
+When referring to a ledger we use a an uppercase first letter (e.g. Bitcoin, Ethereum), when referring to an asset we use a lowercase first letter (e.g. bitcoin, ether).
+
+COMIT currently defines the following atomic swap protocols:
+
+* HAN - **H**TLCs for **A**ssets that are **N**ative to the ledger
+* HErc20 - **H**TLCs for the **Erc20** asset
+* HALight - **H**TLCs for **A**ssets on the **Light**ning ledger
+
+Besides these protocols there is a protocol for [privacy preserving swaps](../core-concepts/privacy-preserving-swap.md) in [development](https://github.com/comit-network/grin-btc-poc). 
+
+#### HAN
+
+HAN stands for **H**TLCs for **A**ssets that are **N**ative to the ledger.
+
+The HAN protocol currently supports the following assets:
+
+* HAN for bitcoin on Bitcoin
+* HAN for ether on Ethereum
+
+#### HErc20
 
 **H**TLCs for the **Erc20** asset
 
-### HALight
+The HErc20 protocol supports the following asset:
+
+* [Erc20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) tokens on Ethereum
+
+#### HALight
 
 **H**TLCs for **A**ssets on the **Light**ning ledger
 
-## COMIT Messaging Protocols
+The HALight protocol is currently still in development, the first supported asset will be bitcoin on the Lightning network.
 
-The messaging protocol of COMIT is used to exchange information between parties prior to the execution of a [swap](../core-concepts/atomic-swap-htlc.md).
+## COMIT Communication Protocols
 
-Messaging in [cnd](#comit-network-daemon-cnd) is based on [libp2p](https://libp2p.io/).
+The communication protocols of COMIT are used to exchange information between parties prior to the execution of a [swap](../core-concepts/atomic-swap-htlc.md).
+
+The communication protocols in [cnd](#comit-network-daemon-cnd) are based on [libp2p](https://libp2p.io/).
