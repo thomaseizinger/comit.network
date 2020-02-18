@@ -27,30 +27,31 @@ function generate_docs() {
   echo "☺ Generating SDK docs."
   cd $SDK_DIR
   npm run docs:md
-  cd ..
+  cd -
 }
 
 function generate_sidebar() {
   echo "☺ Generating updated sidebar."
   cp $SDK_DIR/website/sidebars.js $PWD/sidebars.temp.js
-  node ./utils/generateSidebar.js
-  # TODO: should be implemented in SDK rather than here?
+  node ./generateSidebar.js
+  rm $PWD/sidebars.temp.js
 }
 
 import_docs() {
   echo "☺ Importing SDK docs."
   rm $SDK_DIR/docs/globals.md
+  mv $SDK_DIR/docs/index.md $SDK_DIR/docs/about.md
   rm -rfv $DEST_DIR && mkdir $DEST_DIR
   cp -R $SDK_DIR/docs/. $DEST_DIR
 }
 
 # Main script
-# if sdk_exists; then
-#   generate_docs
-# fi
+if sdk_exists; then
+  generate_docs
+fi
 
 if docs_exists; then
   import_docs
   generate_sidebar
+  echo "Finished."
 fi
-
