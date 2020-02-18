@@ -1,5 +1,5 @@
 [
-  "comit-sdk/about",
+  "comit-sdk/index",
   {
     "type": "category",
     "label": "Modules",

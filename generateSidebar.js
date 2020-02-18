@@ -12,7 +12,7 @@ const formatCategory = (category) => {
 }
 
 let sidebar = _.map(_.keys(toc), formatCategory);
-sidebar.unshift("comit-sdk/about");
+sidebar.unshift("comit-sdk/index");
 
 const jsonContent = JSON.stringify(sidebar, null, 2);
 fs.writeFile("sdkSidebar.json", jsonContent, 'utf8', function (err) {

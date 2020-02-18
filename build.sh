@@ -40,7 +40,6 @@ function generate_sidebar() {
 import_docs() {
   echo "☺ Importing SDK docs."
   rm $SDK_DIR/docs/globals.md
-  mv $SDK_DIR/docs/index.md $SDK_DIR/docs/about.md
   rm -rfv $DEST_DIR && mkdir $DEST_DIR
   cp -R $SDK_DIR/docs/. $DEST_DIR
 }
