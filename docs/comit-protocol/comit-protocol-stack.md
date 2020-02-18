@@ -47,7 +47,7 @@ When referring to a ledger we use a an uppercase first letter (e.g. Bitcoin, Eth
 
 COMIT currently defines the following atomic swap protocols:
 
-* HAN - **H**TLCs for **A**ssets that are **N**ative to the ledger.
+* HAN - **H**TLCs for **A**ssets that are **N**ative to the ledger
 * HErc20 - **H**TLCs for the **Erc20** asset
 * HALight - **H**TLCs for **A**ssets on the **Light**ning ledger
 
@@ -68,7 +68,7 @@ The HAN protocol currently supports the following assets:
 
 The HErc20 protocol supports the following asset:
 
-* Erc20 tokens on Ethereum
+* [Erc20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) tokens on Ethereum
 
 #### HALight
 
@@ -78,6 +78,6 @@ The HALight protocol is currently still in development, the first supported asse
 
 ## COMIT Communication Protocols
 
-The communication protocols of COMIT is are used to exchange information between parties prior to the execution of a [swap](../core-concepts/atomic-swap-htlc.md).
+The communication protocols of COMIT are used to exchange information between parties prior to the execution of a [swap](../core-concepts/atomic-swap-htlc.md).
 
 The communication protocols in [cnd](#comit-network-daemon-cnd) are based on [libp2p](https://libp2p.io/).
