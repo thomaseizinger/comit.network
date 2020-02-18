@@ -7,7 +7,8 @@ const sdkSidebar = require('./sdkSidebar.json')
 module.exports = {
   main: {
     'Getting Started': ['getting-started/create-comit-app'],
-    'Core Concepts': [],
+    'COMIT Protocol': ['comit-protocol/comit-protocol-stack'],
+    'Core Concepts': ['core-concepts/atomic-swap-htlc', 'core-concepts/instant-swap', 'core-concepts/privacy-preserving-swap', 'core-concepts/negotiation'],
     'Tutorials': [],
     'SDK': sdkSidebar,
   },
