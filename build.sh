@@ -31,7 +31,8 @@ function generate_docs() {
 }
 
 function import_sidebar() {
-  echo "TODO"
+  echo "☺ Generating updated sidebar."
+  cp $SDK_DIR/website/sidebars.js $PWD/sidebars.temp.js
   # node ./utils/importSidebar.js
   # TODO: should be implemented in SDK rather than here?
 }
@@ -44,9 +45,9 @@ import_docs() {
 }
 
 # Main script
-if sdk_exists; then
-  generate_docs
-fi
+# if sdk_exists; then
+#   generate_docs
+# fi
 
 if docs_exists; then
   import_docs

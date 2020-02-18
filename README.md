@@ -57,7 +57,7 @@ New markdown files within docs will show up as pages on the website. Links to th
 
 Many times, you will want to [add a document to a sidebar](https://docusaurus.io/docs/en/navigation#adding-documents-to-a-sidebar) that will be associated with one of the headers in the top navigation bar of the website.
 
-Within sidebars.json, add the id you used in the document header to existing sidebar/category. In the below case, docs is the name of the sidebar and Getting Started is a category within the sidebar.
+Within `sidebars.js`, add the id you used in the document header to existing sidebar/category. In the below case, docs is the name of the sidebar and Getting Started is a category within the sidebar.
 
 ```
 {
