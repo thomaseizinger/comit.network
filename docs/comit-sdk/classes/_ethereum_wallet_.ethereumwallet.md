@@ -28,7 +28,7 @@ sidebar_label: "EthereumWallet"
 
 \+ **new EthereumWallet**(`jsonRpcUrl`: string, `key?`: SigningKey | HDNode | Arrayish): *[EthereumWallet](_ethereum_wallet_.ethereumwallet.md)*
 
-*Defined in [ethereum_wallet.ts:14](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/ethereum_wallet.ts#L14)*
+*Defined in [ethereum_wallet.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L14)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ Name | Type |
 
 ▸ **callContract**(`data`: string, `contractAddress`: string, `gasLimit`: string): *Promise‹undefined | string›*
 
-*Defined in [ethereum_wallet.ts:71](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/ethereum_wallet.ts#L71)*
+*Defined in [ethereum_wallet.ts:71](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L71)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **deployContract**(`data`: string, `amount`: BigNumber, `gasLimit`: string): *Promise‹undefined | string›*
 
-*Defined in [ethereum_wallet.ts:55](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/ethereum_wallet.ts#L55)*
+*Defined in [ethereum_wallet.ts:55](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L55)*
 
 **Parameters:**
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **getAccount**(): *string*
 
-*Defined in [ethereum_wallet.ts:23](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/ethereum_wallet.ts#L23)*
+*Defined in [ethereum_wallet.ts:23](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L23)*
 
 **Returns:** *string*
 
@@ -91,7 +91,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹BigNumber‹››*
 
-*Defined in [ethereum_wallet.ts:27](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/ethereum_wallet.ts#L27)*
+*Defined in [ethereum_wallet.ts:27](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L27)*
 
 **Returns:** *Promise‹BigNumber‹››*
 
@@ -101,7 +101,7 @@ ___
 
 ▸ **getErc20Balance**(`contractAddress`: string, `decimals?`: undefined | number): *Promise‹BigNumber›*
 
-*Defined in [ethereum_wallet.ts:31](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/ethereum_wallet.ts#L31)*
+*Defined in [ethereum_wallet.ts:31](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L31)*
 
 **Parameters:**
 

@@ -1,11 +1,11 @@
 ---
 id: "index"
-title: "comit-sdk - v0.10.1"
+title: "comit-sdk - v0.11.1"
 sidebar_label: "README"
 ---
 
 <a href="https://comit.network">
-  <img src="logo.svg" height="120px" />
+  <img src="https://github.com/comit-network/comit-js-sdk/blob/master/logo.svg" height="120px" />
 </a>
 
 ---

@@ -23,7 +23,7 @@ sidebar_label: "action_to_http_request"
 
 Ƭ **FieldValueResolverFn**: *function*
 
-*Defined in [action_to_http_request.ts:6](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/action_to_http_request.ts#L6)*
+*Defined in [action_to_http_request.ts:6](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/action_to_http_request.ts#L6)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ Name | Type |
 
 ▸ **actionToHttpRequest**(`action`: [Action](../interfaces/_siren_.action.md), `resolver?`: [FieldValueResolverFn](_action_to_http_request_.md#fieldvalueresolverfn)): *Promise‹AxiosRequestConfig›*
 
-*Defined in [action_to_http_request.ts:10](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/action_to_http_request.ts#L10)*
+*Defined in [action_to_http_request.ts:10](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/action_to_http_request.ts#L10)*
 
 **Parameters:**
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **failIfNotBuffer**(`data`: any, `headers`: any): *any*
 
-*Defined in [action_to_http_request.ts:58](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/action_to_http_request.ts#L58)*
+*Defined in [action_to_http_request.ts:58](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/action_to_http_request.ts#L58)*
 
 **Parameters:**
 
@@ -75,7 +75,7 @@ ___
 
 ▸ **jsonRequestTransformer**(`data`: any, `headers`: any): *any*
 
-*Defined in [action_to_http_request.ts:42](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/action_to_http_request.ts#L42)*
+*Defined in [action_to_http_request.ts:42](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/action_to_http_request.ts#L42)*
 
 **Parameters:**
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **resolveAllFieldValues**(`fields`: [Field](../interfaces/_siren_.field.md)[], `resolver?`: [FieldValueResolverFn](_action_to_http_request_.md#fieldvalueresolverfn)): *Promise‹any›*
 
-*Defined in [action_to_http_request.ts:68](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/action_to_http_request.ts#L68)*
+*Defined in [action_to_http_request.ts:68](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/action_to_http_request.ts#L68)*
 
 **Parameters:**
 

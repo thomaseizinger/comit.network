@@ -23,7 +23,7 @@ sidebar_label: "EthereumDeployContractPayload"
 
 • **amount**: *string*
 
-*Defined in [cnd.ts:55](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L55)*
+*Defined in [cnd.ts:55](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L55)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **data**: *string*
 
-*Defined in [cnd.ts:54](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L54)*
+*Defined in [cnd.ts:54](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L54)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **gas_limit**: *string*
 
-*Defined in [cnd.ts:56](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L56)*
+*Defined in [cnd.ts:56](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L56)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **network**: *string*
 
-*Defined in [cnd.ts:57](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L57)*
+*Defined in [cnd.ts:57](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L57)*

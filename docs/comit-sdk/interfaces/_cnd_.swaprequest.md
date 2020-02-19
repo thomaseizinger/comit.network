@@ -28,7 +28,7 @@ sidebar_label: "SwapRequest"
 
 • **alpha_asset**: *[Asset](_cnd_.asset.md)*
 
-*Defined in [cnd.ts:32](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L32)*
+*Defined in [cnd.ts:32](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L32)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **alpha_expiry**? : *undefined | number*
 
-*Defined in [cnd.ts:35](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L35)*
+*Defined in [cnd.ts:35](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L35)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **alpha_ledger**: *[Ledger](_cnd_.ledger.md)*
 
-*Defined in [cnd.ts:31](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L31)*
+*Defined in [cnd.ts:31](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L31)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **alpha_ledger_refund_identity**? : *undefined | string*
 
-*Defined in [cnd.ts:37](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L37)*
+*Defined in [cnd.ts:37](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L37)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **beta_asset**: *[Asset](_cnd_.asset.md)*
 
-*Defined in [cnd.ts:34](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L34)*
+*Defined in [cnd.ts:34](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L34)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **beta_expiry**? : *undefined | number*
 
-*Defined in [cnd.ts:36](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L36)*
+*Defined in [cnd.ts:36](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L36)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **beta_ledger**: *[Ledger](_cnd_.ledger.md)*
 
-*Defined in [cnd.ts:33](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L33)*
+*Defined in [cnd.ts:33](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L33)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **beta_ledger_redeem_identity**? : *undefined | string*
 
-*Defined in [cnd.ts:38](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L38)*
+*Defined in [cnd.ts:38](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L38)*
 
 ___
 
@@ -92,4 +92,4 @@ ___
 
 • **peer**: *[Peer](_cnd_.peer.md)*
 
-*Defined in [cnd.ts:39](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L39)*
+*Defined in [cnd.ts:39](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L39)*

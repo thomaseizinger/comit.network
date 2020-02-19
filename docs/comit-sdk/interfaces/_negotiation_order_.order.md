@@ -15,7 +15,6 @@ sidebar_label: "Order"
 * [ask](_negotiation_order_.order.md#ask)
 * [bid](_negotiation_order_.order.md#bid)
 * [id](_negotiation_order_.order.md#id)
-* [tradingPair](_negotiation_order_.order.md#tradingpair)
 * [validUntil](_negotiation_order_.order.md#validuntil)
 
 ## Properties
@@ -24,7 +23,7 @@ sidebar_label: "Order"
 
 • **ask**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [negotiation/order.ts:10](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L10)*
+*Defined in [negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L8)*
 
 ___
 
@@ -32,7 +31,7 @@ ___
 
 • **bid**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [negotiation/order.ts:9](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L9)*
+*Defined in [negotiation/order.ts:7](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L7)*
 
 ___
 
@@ -40,15 +39,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [negotiation/order.ts:7](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L7)*
-
-___
-
-###  tradingPair
-
-• **tradingPair**: *string*
-
-*Defined in [negotiation/order.ts:6](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L6)*
+*Defined in [negotiation/order.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L5)*
 
 ___
 
@@ -56,4 +47,4 @@ ___
 
 • **validUntil**: *number*
 
-*Defined in [negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L8)*
+*Defined in [negotiation/order.ts:6](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L6)*

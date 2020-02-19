@@ -1,31 +1,31 @@
 ---
-id: "_negotiation_maker_negotiator_.makerhttpapi"
-title: "MakerHttpApi"
-sidebar_label: "MakerHttpApi"
+id: "_negotiation_maker_negotiator_.httpservice"
+title: "HttpService"
+sidebar_label: "HttpService"
 ---
 
 ## Hierarchy
 
-* **MakerHttpApi**
+* **HttpService**
 
 ## Index
 
 ### Constructors
 
-* [constructor](_negotiation_maker_negotiator_.makerhttpapi.md#constructor)
+* [constructor](_negotiation_maker_negotiator_.httpservice.md#constructor)
 
 ### Methods
 
-* [getUrl](_negotiation_maker_negotiator_.makerhttpapi.md#geturl)
-* [listen](_negotiation_maker_negotiator_.makerhttpapi.md#listen)
+* [getUrl](_negotiation_maker_negotiator_.httpservice.md#geturl)
+* [listen](_negotiation_maker_negotiator_.httpservice.md#listen)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new MakerHttpApi**(`getOrderById`: function, `getExecutionParams`: function, `takeOrder`: function, `getOrderByTradingPair`: function): *[MakerHttpApi](_negotiation_maker_negotiator_.makerhttpapi.md)*
+\+ **new HttpService**(`getOrderById`: function, `getExecutionParams`: function, `takeOrder`: function, `getOrderByTradingPair`: function): *[HttpService](_negotiation_maker_negotiator_.httpservice.md)*
 
-*Defined in [negotiation/maker_negotiator.ts:120](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/maker_negotiator.ts#L120)*
+*Defined in [negotiation/maker/negotiator.ts:130](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L130)*
 
 **Parameters:**
 
@@ -64,7 +64,7 @@ Name | Type |
 ------ | ------ |
 `tradingPair` | string |
 
-**Returns:** *[MakerHttpApi](_negotiation_maker_negotiator_.makerhttpapi.md)*
+**Returns:** *[HttpService](_negotiation_maker_negotiator_.httpservice.md)*
 
 ## Methods
 
@@ -72,7 +72,7 @@ Name | Type |
 
 ▸ **getUrl**(): *undefined | string*
 
-*Defined in [negotiation/maker_negotiator.ts:195](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/maker_negotiator.ts#L195)*
+*Defined in [negotiation/maker/negotiator.ts:205](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L205)*
 
 **Returns:** *undefined | string*
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [negotiation/maker_negotiator.ts:135](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/maker_negotiator.ts#L135)*
+*Defined in [negotiation/maker/negotiator.ts:145](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L145)*
 
 **Parameters:**
 

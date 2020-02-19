@@ -20,7 +20,7 @@ sidebar_label: "actor"
 
 ▸ **createActor**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md), `ethereumWallet`: [EthereumWallet](../classes/_ethereum_wallet_.ethereumwallet.md), `cndUrl`: string, `name?`: undefined | string): *Promise‹[Actor](../interfaces/_actor_.actor.md)›*
 
-*Defined in [actor.ts:15](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/actor.ts#L15)*
+*Defined in [actor.ts:15](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/actor.ts#L15)*
 
 **Parameters:**
 

@@ -1,0 +1,108 @@
+---
+id: "_negotiation_taker_order_"
+title: "negotiation/taker/order"
+sidebar_label: "negotiation/taker/order"
+---
+
+## Index
+
+### Classes
+
+* [Order](../classes/_negotiation_taker_order_.order.md)
+
+### Interfaces
+
+* [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)
+* [MatchingCriteriaAsset](../interfaces/_negotiation_taker_order_.matchingcriteriaasset.md)
+
+### Functions
+
+* [assetMatches](_negotiation_taker_order_.md#assetmatches)
+* [assetOrderToSwap](_negotiation_taker_order_.md#assetordertoswap)
+* [matchingCriteriaToTradingPair](_negotiation_taker_order_.md#matchingcriteriatotradingpair)
+* [orderRate](_negotiation_taker_order_.md#orderrate)
+* [rateMatches](_negotiation_taker_order_.md#ratematches)
+
+## Functions
+
+###  assetMatches
+
+▸ **assetMatches**(`criteriaAsset`: [MatchingCriteriaAsset](../interfaces/_negotiation_taker_order_.matchingcriteriaasset.md), `orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md)): *boolean*
+
+*Defined in [negotiation/taker/order.ts:109](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/order.ts#L109)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`criteriaAsset` | [MatchingCriteriaAsset](../interfaces/_negotiation_taker_order_.matchingcriteriaasset.md) |
+`orderAsset` | [OrderAsset](../interfaces/_negotiation_order_.orderasset.md) |
+
+**Returns:** *boolean*
+
+___
+
+###  assetOrderToSwap
+
+▸ **assetOrderToSwap**(`orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md)): *[Asset](../interfaces/_cnd_.asset.md) | undefined*
+
+*Defined in [negotiation/taker/order.ts:133](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/order.ts#L133)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`orderAsset` | [OrderAsset](../interfaces/_negotiation_order_.orderasset.md) |
+
+**Returns:** *[Asset](../interfaces/_cnd_.asset.md) | undefined*
+
+___
+
+###  matchingCriteriaToTradingPair
+
+▸ **matchingCriteriaToTradingPair**(`matchingCriteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)): *string*
+
+*Defined in [negotiation/taker/order.ts:164](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/order.ts#L164)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`matchingCriteria` | [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md) |
+
+**Returns:** *string*
+
+___
+
+###  orderRate
+
+▸ **orderRate**(`rawOrder`: RawOrder): *BigNumber‹›*
+
+*Defined in [negotiation/taker/order.ts:102](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/order.ts#L102)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`rawOrder` | RawOrder |
+
+**Returns:** *BigNumber‹›*
+
+___
+
+###  rateMatches
+
+▸ **rateMatches**(`criteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md), `rawOrder`: RawOrder): *boolean*
+
+*Defined in [negotiation/taker/order.ts:90](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/order.ts#L90)*
+
+This is only exported for test purposes
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`criteria` | [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md) | - |
+`rawOrder` | RawOrder |   |
+
+**Returns:** *boolean*

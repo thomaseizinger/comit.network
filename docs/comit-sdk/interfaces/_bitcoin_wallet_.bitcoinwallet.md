@@ -11,6 +11,7 @@ sidebar_label: "BitcoinWallet"
 ## Implemented by
 
 * [InMemoryBitcoinWallet](../classes/_bitcoin_wallet_.inmemorybitcoinwallet.md)
+* [MockBitcoinWallet](../classes/___mocks___bitcoin_wallet_.mockbitcoinwallet.md)
 
 ## Index
 
@@ -28,7 +29,7 @@ sidebar_label: "BitcoinWallet"
 
 ▸ **broadcastTransaction**(`transactionHex`: string, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:15](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/bitcoin_wallet.ts#L15)*
+*Defined in [bitcoin_wallet.ts:15](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L15)*
 
 **Parameters:**
 
@@ -45,7 +46,7 @@ ___
 
 ▸ **getAddress**(): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:5](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/bitcoin_wallet.ts#L5)*
+*Defined in [bitcoin_wallet.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L5)*
 
 **Returns:** *Promise‹string›*
 
@@ -55,7 +56,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹number›*
 
-*Defined in [bitcoin_wallet.ts:7](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/bitcoin_wallet.ts#L7)*
+*Defined in [bitcoin_wallet.ts:7](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L7)*
 
 **Returns:** *Promise‹number›*
 
@@ -65,7 +66,7 @@ ___
 
 ▸ **getFee**(): *string*
 
-*Defined in [bitcoin_wallet.ts:20](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/bitcoin_wallet.ts#L20)*
+*Defined in [bitcoin_wallet.ts:20](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L20)*
 
 **Returns:** *string*
 
@@ -75,7 +76,7 @@ ___
 
 ▸ **sendToAddress**(`address`: string, `satoshis`: number, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/bitcoin_wallet.ts#L9)*
+*Defined in [bitcoin_wallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L9)*
 
 **Parameters:**
 

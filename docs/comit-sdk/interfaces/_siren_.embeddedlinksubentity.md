@@ -28,7 +28,7 @@ sidebar_label: "EmbeddedLinkSubEntity"
 
 • **class**? : *string[]*
 
-*Defined in [siren.ts:134](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L134)*
+*Defined in [siren.ts:134](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L134)*
 
 Describes the nature of an entity's content based on the current representation. Possible values are implementation-dependent and should be documented.
 
@@ -38,7 +38,7 @@ ___
 
 • **href**: *string*
 
-*Defined in [siren.ts:142](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L142)*
+*Defined in [siren.ts:142](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L142)*
 
 The URI of the linked sub-entity.
 
@@ -48,7 +48,7 @@ ___
 
 • **rel**: *[[RelValue](../modules/_siren_.md#relvalue), string]*
 
-*Defined in [siren.ts:138](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L138)*
+*Defined in [siren.ts:138](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L138)*
 
 Defines the relationship of the sub-entity to its parent, per Web Linking (RFC5899).
 
@@ -58,7 +58,7 @@ ___
 
 • **title**? : *undefined | string*
 
-*Defined in [siren.ts:147](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L147)*
+*Defined in [siren.ts:147](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L147)*
 
 Descriptive text about the entity.
 
@@ -68,4 +68,4 @@ ___
 
 • **type**? : *[MediaType](../modules/_siren_.md#mediatype)*
 
-*Defined in [siren.ts:143](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L143)*
+*Defined in [siren.ts:143](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L143)*

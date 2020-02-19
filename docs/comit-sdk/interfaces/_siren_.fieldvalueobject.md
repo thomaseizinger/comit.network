@@ -30,7 +30,7 @@ Value objects represent multiple selectable field values. Use in conjunction wit
 
 • **selected**? : *undefined | false | true*
 
-*Defined in [siren.ts:240](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L240)*
+*Defined in [siren.ts:240](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L240)*
 
 A value object with a `"selected" = true` attribute indicates that this value should be considered preselected by the client. When missing, the default value is `false`.
 
@@ -40,7 +40,7 @@ ___
 
 • **title**? : *undefined | string*
 
-*Defined in [siren.ts:232](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L232)*
+*Defined in [siren.ts:232](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L232)*
 
 Textual description of a field value.
 
@@ -50,6 +50,6 @@ ___
 
 • **value**: *string | number*
 
-*Defined in [siren.ts:236](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/siren.ts#L236)*
+*Defined in [siren.ts:236](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L236)*
 
 Possible value for the field.

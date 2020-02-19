@@ -22,7 +22,7 @@ sidebar_label: "OrderAsset"
 
 • **asset**: *string*
 
-*Defined in [negotiation/order.ts:15](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L15)*
+*Defined in [negotiation/order.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L13)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **ledger**: *string*
 
-*Defined in [negotiation/order.ts:14](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L14)*
+*Defined in [negotiation/order.ts:12](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L12)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **nominalAmount**: *string*
 
-*Defined in [negotiation/order.ts:16](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/negotiation/order.ts#L16)*
+*Defined in [negotiation/order.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L14)*

@@ -21,7 +21,7 @@ sidebar_label: "TryParams"
 
 • **maxTimeoutSecs**: *number*
 
-*Defined in [timeout_promise.ts:2](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/timeout_promise.ts#L2)*
+*Defined in [timeout_promise.ts:2](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/timeout_promise.ts#L2)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **tryIntervalSecs**: *number*
 
-*Defined in [timeout_promise.ts:3](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/timeout_promise.ts#L3)*
+*Defined in [timeout_promise.ts:3](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/timeout_promise.ts#L3)*

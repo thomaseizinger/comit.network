@@ -31,7 +31,7 @@ Facilitates access to the cnd REST API
 
 \+ **new Cnd**(`cndUrl`: string): *[Cnd](_cnd_.cnd.md)*
 
-*Defined in [cnd.ts:202](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L202)*
+*Defined in [cnd.ts:202](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L202)*
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ Name | Type |
 
 ▸ **executeAction**(`action`: [Action](../interfaces/_siren_.action.md), `resolver?`: [FieldValueResolverFn](../modules/_action_to_http_request_.md#fieldvalueresolverfn)): *Promise‹AxiosResponse›*
 
-*Defined in [cnd.ts:251](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L251)*
+*Defined in [cnd.ts:251](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L251)*
 
 **Parameters:**
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **fetch**<**T**>(`path`: string): *AxiosPromise‹T›*
 
-*Defined in [cnd.ts:243](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L243)*
+*Defined in [cnd.ts:243](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L243)*
 
 **Type parameters:**
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [cnd.ts:208](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L208)*
+*Defined in [cnd.ts:208](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L208)*
 
 **Returns:** *Promise‹string›*
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [cnd.ts:216](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L216)*
+*Defined in [cnd.ts:216](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L216)*
 
 **Returns:** *Promise‹string[]›*
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **getSwaps**(): *Promise‹[SwapSubEntity](../interfaces/_cnd_.swapsubentity.md)[]›*
 
-*Defined in [cnd.ts:237](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L237)*
+*Defined in [cnd.ts:237](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L237)*
 
 **Returns:** *Promise‹[SwapSubEntity](../interfaces/_cnd_.swapsubentity.md)[]›*
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **postSwap**(`swap`: [SwapRequest](../interfaces/_cnd_.swaprequest.md)): *Promise‹string›*
 
-*Defined in [cnd.ts:224](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L224)*
+*Defined in [cnd.ts:224](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L224)*
 
 **Parameters:**
 

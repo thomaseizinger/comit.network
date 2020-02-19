@@ -1,12 +1,12 @@
 ---
 id: "_negotiation_maker_negotiator_"
-title: "negotiation/maker_negotiator"
-sidebar_label: "negotiation/maker_negotiator"
+title: "negotiation/maker/negotiator"
+sidebar_label: "negotiation/maker/negotiator"
 ---
 
 ## Index
 
 ### Classes
 
-* [MakerHttpApi](../classes/_negotiation_maker_negotiator_.makerhttpapi.md)
-* [MakerNegotiator](../classes/_negotiation_maker_negotiator_.makernegotiator.md)
+* [HttpService](../classes/_negotiation_maker_negotiator_.httpservice.md)
+* [Negotiator](../classes/_negotiation_maker_negotiator_.negotiator.md)

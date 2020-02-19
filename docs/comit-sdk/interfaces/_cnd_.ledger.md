@@ -22,7 +22,7 @@ sidebar_label: "Ledger"
 
 • **chain_id**? : *undefined | number*
 
-*Defined in [cnd.ts:15](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L15)*
+*Defined in [cnd.ts:15](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L15)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [cnd.ts:14](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L14)*
+*Defined in [cnd.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L14)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **network**? : *undefined | string*
 
-*Defined in [cnd.ts:16](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L16)*
+*Defined in [cnd.ts:16](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L16)*

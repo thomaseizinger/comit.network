@@ -21,7 +21,7 @@ sidebar_label: "Peer"
 
 • **address_hint**: *string*
 
-*Defined in [cnd.ts:27](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L27)*
+*Defined in [cnd.ts:27](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L27)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **peer_id**: *string*
 
-*Defined in [cnd.ts:26](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/cnd.ts#L26)*
+*Defined in [cnd.ts:26](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/cnd.ts#L26)*

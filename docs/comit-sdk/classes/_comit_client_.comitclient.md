@@ -23,21 +23,21 @@ sidebar_label: "ComitClient"
 * [getPeerListenAddresses](_comit_client_.comitclient.md#getpeerlistenaddresses)
 * [retrieveSwapById](_comit_client_.comitclient.md#retrieveswapbyid)
 * [sendSwap](_comit_client_.comitclient.md#sendswap)
+* [withBitcoinWallet](_comit_client_.comitclient.md#withbitcoinwallet)
+* [withEthereumWallet](_comit_client_.comitclient.md#withethereumwallet)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new ComitClient**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md), `ethereumWallet`: [EthereumWallet](_ethereum_wallet_.ethereumwallet.md), `cnd`: [Cnd](_cnd_.cnd.md)): *[ComitClient](_comit_client_.comitclient.md)*
+\+ **new ComitClient**(`cnd`: [Cnd](_cnd_.cnd.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [comit_client.ts:7](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L7)*
+*Defined in [comit_client.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L9)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`bitcoinWallet` | [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md) |
-`ethereumWallet` | [EthereumWallet](_ethereum_wallet_.ethereumwallet.md) |
 `cnd` | [Cnd](_cnd_.cnd.md) |
 
 **Returns:** *[ComitClient](_comit_client_.comitclient.md)*
@@ -48,7 +48,7 @@ Name | Type |
 
 ▸ **getDoneSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comit_client.ts:64](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L64)*
+*Defined in [comit_client.ts:81](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L81)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **getNewSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comit_client.ts:41](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L41)*
+*Defined in [comit_client.ts:58](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L58)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **getOngoingSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comit_client.ts:55](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L55)*
+*Defined in [comit_client.ts:72](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L72)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -78,7 +78,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [comit_client.ts:78](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L78)*
+*Defined in [comit_client.ts:95](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L95)*
 
 **Returns:** *Promise‹string›*
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [comit_client.ts:82](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L82)*
+*Defined in [comit_client.ts:99](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L99)*
 
 **Returns:** *Promise‹string[]›*
 
@@ -98,7 +98,7 @@ ___
 
 ▸ **retrieveSwapById**(`swapId`: string): *Promise‹[Swap](_swap_.swap.md) | undefined›*
 
-*Defined in [comit_client.ts:86](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L86)*
+*Defined in [comit_client.ts:103](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L103)*
 
 **Parameters:**
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **sendSwap**(`swapRequest`: [SwapRequest](../interfaces/_cnd_.swaprequest.md)): *Promise‹[Swap](_swap_.swap.md)›*
 
-*Defined in [comit_client.ts:14](https://github.com/comit-network/comit-js-sdk/blob/638de0e/src/comit_client.ts#L14)*
+*Defined in [comit_client.ts:23](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L23)*
 
 **Parameters:**
 
@@ -123,3 +123,35 @@ Name | Type |
 `swapRequest` | [SwapRequest](../interfaces/_cnd_.swaprequest.md) |
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)›*
+
+___
+
+###  withBitcoinWallet
+
+▸ **withBitcoinWallet**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)): *[ComitClient](_comit_client_.comitclient.md)*
+
+*Defined in [comit_client.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L13)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`bitcoinWallet` | [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md) |
+
+**Returns:** *[ComitClient](_comit_client_.comitclient.md)*
+
+___
+
+###  withEthereumWallet
+
+▸ **withEthereumWallet**(`ethereumWallet`: [EthereumWallet](_ethereum_wallet_.ethereumwallet.md)): *[ComitClient](_comit_client_.comitclient.md)*
+
+*Defined in [comit_client.ts:18](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L18)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`ethereumWallet` | [EthereumWallet](_ethereum_wallet_.ethereumwallet.md) |
+
+**Returns:** *[ComitClient](_comit_client_.comitclient.md)*
