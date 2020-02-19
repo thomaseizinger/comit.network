@@ -4,7 +4,7 @@ title: "negotiation/taker/__mocks__/maker_client"
 sidebar_label: "negotiation/taker/__mocks__/maker_client"
 ---
 
-<!-- ## Index
+## Index
 
 ### Variables
 
@@ -77,7 +77,7 @@ ___
 ### `Const` mockTakeOrder
 
 • **mockTakeOrder**: *Mock‹any, any›* = jest.fn().mockImplementation(() => {
-  // The mocked function returns Promise<void>
+  // The mocked function returns Promise`<void>`
 })
 
-*Defined in [negotiation/taker/__mocks__/maker_client.ts:34](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/__mocks__/maker_client.ts#L34)* -->
+*Defined in [negotiation/taker/__mocks__/maker_client.ts:34](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/__mocks__/maker_client.ts#L34)*
