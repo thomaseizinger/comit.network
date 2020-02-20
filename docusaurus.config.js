@@ -1,7 +1,7 @@
 module.exports = {
   title: 'COMIT Developer Hub',
   tagline: 'COMIT is an open protocol facilitating trustless cross-blockchain applications',
-  url: 'https://comit-network.netlify.com',
+  url: 'https://comit.network',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'coblox', // Usually your GitHub org/user name.
@@ -12,6 +12,7 @@ module.exports = {
       logo: {
         alt: 'COMIT',
         src: 'img/logo_white-rect.svg',
+        href: 'https://comit.network'
       },
       links: [
         {to: 'docs/getting-started/create-comit-app', label: 'Docs', position: 'left'},
