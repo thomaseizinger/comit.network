@@ -11,7 +11,8 @@ module.exports = {
       title: 'Developer Hub',
       logo: {
         alt: 'COMIT',
-        src: 'img/logo_white-rect.svg',
+        src: 'img/logo.svg',
+        srcDark: 'img/logo_white.svg',
         href: 'https://comit.network'
       },
       links: [
