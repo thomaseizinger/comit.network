@@ -6,6 +6,8 @@ author_image_url: https://avatars2.githubusercontent.com/u/224613
 tags: [announcement, testnet]
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 > Life is life  
 > when we all give the power  
 > we all give the best  
@@ -96,32 +98,32 @@ Now that you have all the components running and you have some tests coins we ca
 
 1. Open comit-i in the browser: [http//localhost:8080](http//localhost:8080)
 2. Register protocol handler for COMIT links (tested on Chrome: Version 75.0.3770.142):
-![comit-i: register handler for COMIT links](/assets/images/2019-07/comiti_install_handler.png)
+<img alt="comit-i: register handler for COMIT links" src={useBaseUrl('/blog/assets/images/2019-07/comiti_install_handler.png')} />;
 3. Check on Twitter for the latest offer from [@COMITBobtimus](https://twitter.com/COMITBobtimus) and click on a COMIT link. Your browser should automatically forward to the link landing page. 
 Depending on what currency you are swapping, you will need to provide additional addresses. 
 In the case of the screenshot, the swap is between Ether and Bitcoin, i.e. you will **give (sell)** Bitcoin and will **receive (buy)** Ether.
 When done, click on **Send**.
-![comit-i: link-landing page](/assets/images/2019-07/comit_link_landing.png)
+<img alt="comit-i: link-landing page" src={useBaseUrl('/blog//assets/images/2019-07/comit_link_landing.png')} />;
 4. You will be redirected to the overview of pending swaps showing you your request:
-![Link-landing page](/assets/images/2019-07/comiti_pending.png)
+<img alt="comit-i: pending" src={useBaseUrl('/blog/assets/images/2019-07/comiti_pending.png')} />;
 5. You can click on the swap to get more details.
 As soon as **Bobtimus** has accepted the request you can move forward with the **funding action**.
-In our example, you will need to fund the **[Bitcoin HTLC](./2019-07-11-a-closer-look-on-bitcoin.html)**.
+In our example, you will need to fund the **[Bitcoin HTLC](./2019-07-11-a-closer-look-on-bitcoin.md)**.
 Go ahead and fund it with your favorite wallet or use `btc-cli sendtoaddress <address> <amount>` if you are running bitcoind in a docker container as described above.
-![comit-i: link-landing page](/assets/images/2019-07/comiti_fund.png)
+<img alt="comit-i: fund" src={useBaseUrl('/blog/assets/images/2019-07/comiti_fund.png')} />;
 6. Now you will need to wait until your transaction has been included in the Bitcoin blockchain. As soon as this happened, Bobtimus will follow up with funding the **Ether HTLC**.  
-![comit-i: both funded](/assets/images/2019-07/comiti_both_funded.png)
+<img alt="comit-i: funded" src={useBaseUrl('/blog/assets/images/2019-07/comiti_both_funded.png')} />;
 7. In the next step, you will need to redeem the **Ether HTLC**.
 For that, click on the **redeem** button and you will be shown a dialog which allows you to send a transaction to the **Ether HTLC** with your secret.
 As soon as your transaction has been confirmed, you will receive your Ether.
 For you, there is no further action to be done.
-![comit-i: redeem ether](/assets/images/2019-07/comiti_redeem_eth.png)
+<img alt="comit-i: redeem ether" src={useBaseUrl('/blog/assets/images/2019-07/comiti_redeem_eth.png')} />;
 8. By redeeming the **Ether HTLC** you revealed your secret.
 Bobtimus is able to now take his Bitcoin from the **Bitcoin HTLC**.
 As soon as he has redeemed his part, i.e. he redeemed the **Bitcoin HTLC**, you will see the following: 
-![comit-i: both redeemed](/assets/images/2019-07/comiti_both_redeemed.png)
+<img alt="comit-i: both redeemed" src={useBaseUrl('/blog/assets/images/2019-07/comiti_both_redeemed.png')} />;
 
-Congratulations on that, feel free to play around with it and tell us how it goes in the comment section below or on twitter at: [@CoBloXLab](https://twitter.com/cobloxlab).
+Congratulations on that, feel free to play around with it and tell us how it goes in the comment section below or on twitter at: [@comit_network](https://twitter.com/comit_network).
 
 Happy swapping,  
 

@@ -29,6 +29,7 @@ The idea of [Atomic Swap](https://en.wikipedia.org/wiki/Atomic_swap) is not new.
 In fact, it was proposed as far back as 2013 in this [Bitcointalk thread](https://bitcointalk.org/index.php?topic=193281.msg2003765#msg2003765), yet there aren’t many clear and detailed explanations of how to do one.
 So we thought it would be useful to publish a step-by-step walk-through of our proof of concept Atomic Swap across the Bitcoin and Ethereum blockchains.
 
+// TODO: FIX-LINK
 ![Connect all the blockchains]({{ site.github.url }}/assets/images/2018-06/0_Kf2JbMQlRA_hhNH2.jpeg)
 
 # Initial Communication

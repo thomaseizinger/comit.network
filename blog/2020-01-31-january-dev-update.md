@@ -23,13 +23,13 @@ If we do not seek to understand first then how can we build something useful to 
 To achieve our objective of better understanding COMIT App developers, we are putting a lot of efforts in reaching out to the community:
 
 - Events in January:
-  - [COMIT Community Coffee on 11Jan](youtube.com/watch?v=zo2-6XPB1M4)
-  - Attended the [Bitcoin Sydney meetup](https://www.meetup.com/Bitcoin_Sydney/events/267743296/) on 22Jan
-  - Philipp was part of the panel discussion at the [ETHSydney Meetup](meetup.com/ethsydney/events/267712163) on 23Jan
+  - [COMIT Community Coffee on 11Jan](https://youtube.com/watch?v=zo2-6XPB1M4)
+  - Attended the [Bitcoin Sydney meetup](https://meetup.com/Bitcoin_Sydney/events/267743296/) on 22Jan
+  - Philipp was part of the panel discussion at the [ETHSydney Meetup](https://meetup.com/ethsydney/events/267712163) on 23Jan
 - Upcoming events:
-  - [Advancing Bitcoin](advancingbitcoin.com) conference, London, 6-7Feb 
-  - [Financial Crypto conference](fc20.ifca.ai), Malaysia, 1-14Feb
-  - [Bitcoin Sydney Meetup](meetup.com/Bitcoin_Sydney/events/268163844), 26Feb 
+  - [Advancing Bitcoin](https://advancingbitcoin.com) conference, London, 6-7Feb 
+  - [Financial Crypto conference](https://fc20.ifca.ai/), Malaysia, 1-14Feb
+  - [Bitcoin Sydney Meetup](https://meetup.com/Bitcoin_Sydney/events/268163844), 26Feb 
 
 Our next COMIT community coffee is being planned, stay tune for date and time.
 If you wish to meet the CoBloX team at any of these events, do not hesitate to [reach](https://twitter.com/comit_network) [out](mailto:hello@coblox.tech).

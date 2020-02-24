@@ -45,6 +45,7 @@ Cheers,
 
 Do you think the mentioned topics are interesting and challenging? You are in luck:
 
+// TODO: FIX-LINK
 [![Job Opening](/assets/images/2019-03/were-hiring.jpeg)](https://tenx.tech/en/job-openings)
 
 ## Interesting happenings

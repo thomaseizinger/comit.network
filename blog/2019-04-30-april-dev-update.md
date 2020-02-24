@@ -24,7 +24,7 @@ What happened last month:
 
 As waffle.io is closing down as well, we have been actively looking for a new way to manage our GitHub issues.
 It feels like our requirements are unique as hardly any project management tool out there supports cross-GitHub organization boards, i.e. a single board which shows GitHub issues from various organizations and repositories.
-For now we will settle with [ZenHub](https://www.zenhub.com/). If you know a better/other tool, feel free to [let us know](https://twitter.com/cobloxlab).
+For now we will settle with [ZenHub](https://www.zenhub.com/). If you know a better/other tool, feel free to [let us know](https://twitter.com/comit_network).
 
 [Last month](./2019-04-01-march-dev-update) we promised something new, did you see it already?
 There was no press-release, tweet or whatsoever news report about it... we just quietly made [comit-i](https://github.com/comit-network/comit-i) open source.
@@ -46,7 +46,7 @@ Among others,
 * ... and many many more :)
 
 I hope you are as excited about our progress as we are.
-And as usual, if you want to reach out to us, just drop us a [message or mention us in a tweet](https://twitter.com/cobloxlab).
+And as usual, if you want to reach out to us, just drop us a [message or mention us in a tweet](https://twitter.com/comit_network).
 
 Cheers,
 

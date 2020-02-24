@@ -17,12 +17,12 @@ Ultimately, we want to make it possible for everyone to implement their own trad
 
 <!--truncate-->
 
-Then, we deployed [Bobtimus in the cloud]({% post_url 2019-07-16-comit-goes-testnet %})
+Then, we deployed [Bobtimus in the cloud](2019-07-16-comit-goes-testnet.md)
 to allow you to have a go and try it out.
 You need to have full nodes running to use [comit-rs](https://github.com/comit-network/comit-rs) at this stage.
 We know it is not ideal as you would have to sync Bitcoin testnet and Ethereum ropsten chains but we are working toward usability as part of our quaterly goals.
 
-We have also published a [blog post]({% post_url 2019-07-11-a-closer-look-on-bitcoin %}) that explains our Bitcoin HTLC in more details.
+We have also published a [blog post](2019-07-11-a-closer-look-on-bitcoin.md) that explains our Bitcoin HTLC in more details.
 
 Cheers,
 

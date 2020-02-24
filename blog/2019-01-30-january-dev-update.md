@@ -6,9 +6,11 @@ author_image_url: https://avatars1.githubusercontent.com/u/300805?s=400&v=4
 tags: [dev-update]
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 *New year, new resolutions.*
 
-After our [first swap](../../../2018/06/23/connect-all-the-blockchains.html) and making the whole [COMIT code open source](../../../2018/12/12/erc20-lightning-and-COMIT.html) we thought you would enjoy regular updates of what is happening at CoBloX.
+After our [first swap](2018-06-23-connect-all-the-blockchains.md) and making the whole [COMIT code open source](2018-12-12-erc20-lightning-and-COMIT.md) we thought you would enjoy regular updates of what is happening at CoBloX.
 Hence we will be starting a series of *dev update* posts, published *roughly* monthly, containing a summary of the latest COMIT advancements.
 
 <!--truncate-->
@@ -17,7 +19,8 @@ If you simply cannot wait for the *dev update*, feel free to check out our [scru
 
 During the holidays, some of us were still coding and mainly focused in completing the code for ERC20<->BTC and ETH<->BTC swaps.
 
-![alt text]({{ site.github.url }}/assets/images/2019-01/erc20tobtc720p.gif "ER20 to BTC atomic swap")
+
+<img alt="ER20 to BTC atomic swap" src={useBaseUrl('/blog/assets/images/2019-01/erc20tobtc720p.gif')} />;
 
 In January, we finalised our first [RFCs drafts](https://github.com/comit-network/RFCs/), this is a milestone for the COMIT protocol as a lot of work has happened since we released the first [COMIT white paper](https://arxiv.org/pdf/1810.02174).
 We are aiming to provide a comprehensive and clear documentation on how this open protocol operates.
