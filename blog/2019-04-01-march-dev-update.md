@@ -6,6 +6,8 @@ author_image_url: https://avatars2.githubusercontent.com/u/5486389
 tags: [dev-update]
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 > RIP Google Inbox - 31st March, 2019
 >
 > The only tool that lastingly changed the way I do emails.
@@ -45,8 +47,7 @@ Cheers,
 
 Do you think the mentioned topics are interesting and challenging? You are in luck:
 
-// TODO: FIX-LINK
-[![Job Opening](/assets/images/2019-03/were-hiring.jpeg)](https://tenx.tech/en/job-openings)
+[<img alt="Job Opening" src={useBaseUrl('/blog/assets/images/2019-03/were-hiring.jpeg')} />](https://tenx.tech/en/job-openings)
 
 ## Interesting happenings
 

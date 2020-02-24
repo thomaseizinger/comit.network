@@ -6,6 +6,8 @@ author_image_url: https://avatars2.githubusercontent.com/u/224613
 tags: [announcement, connect-all-the-blockchains]
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 > TL;DR:
   We did the (first) Atomic Swap between Ethereum and Bitcoin (using SegWit) on both Mainnets:
   BTC funding transaction: [https://btc.com/ad067ee417ee5518122374307d1fa494c67e30c75d38c7061d944b59e56fe024](https://btc.com/ad067ee417ee5518122374307d1fa494c67e30c75d38c7061d944b59e56fe024)
@@ -29,8 +31,7 @@ The idea of [Atomic Swap](https://en.wikipedia.org/wiki/Atomic_swap) is not new.
 In fact, it was proposed as far back as 2013 in this [Bitcointalk thread](https://bitcointalk.org/index.php?topic=193281.msg2003765#msg2003765), yet there aren’t many clear and detailed explanations of how to do one.
 So we thought it would be useful to publish a step-by-step walk-through of our proof of concept Atomic Swap across the Bitcoin and Ethereum blockchains.
 
-// TODO: FIX-LINK
-![Connect all the blockchains]({{ site.github.url }}/assets/images/2018-06/0_Kf2JbMQlRA_hhNH2.jpeg)
+<img alt="Connect all the blockchains" src={useBaseUrl('/blog/assets/images/2018-06/0_Kf2JbMQlRA_hhNH2.png')} />;
 
 # Initial Communication
 The approach presented below is based on the assumption that Alice and Bob want to exchange funds.
