@@ -1,12 +1,8 @@
 ---
-layout: post
 title:  "September, 2019 - Dev Update"
 author: daniel
-categories: [ ]
-image: assets/images/2019-09/dev_update_9.png
-featured: false
-hidden: false
-comments: true
+author_url: https://github.com/da-kami
+author_image_url: https://avatars1.githubusercontent.com/u/5557790
 tags: [dev-update]
 ---
 

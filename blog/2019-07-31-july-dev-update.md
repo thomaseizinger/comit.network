@@ -1,12 +1,8 @@
 ---
-layout: post
 title:  "July, 2019 - Dev Update"
 author: franck
-categories: [ ]
-image: assets/images/2019-07/dev_update_7.png
-featured: false
-hidden: false
-comments: true
+author_url: https://github.com/d4nte
+author_image_url: https://avatars1.githubusercontent.com/u/300805
 tags: [dev-update]
 ---
 

@@ -1,12 +1,8 @@
 ---
-layout: post
 title:  "November, 2019 - Dev Update"
 author: tobin
-categories: [ ]
-image: assets/images/2019-11/dev_update_11.png
-featured: false
-hidden: false
-comments: true
+author_url: https://github.com/tcharding
+author_image_url: https://avatars0.githubusercontent.com/u/12626037
 tags: [dev-update]
 ---
 

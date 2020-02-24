@@ -1,11 +1,9 @@
 ---
-layout: post
 title:  "ERC20, Lightning and COMIT"
-author: bonomat
-categories: [ ]
-image: assets/images/2018-12/0_TH_iFYgXVTNTUoLE.png
-featured: false
-hidden: false
+author: philipp
+author_url: https://github.com/bonomat
+author_image_url: https://avatars2.githubusercontent.com/u/224613
+tags: [announcement, connect-all-the-blockchains, erc20, lightning, swap]
 ---
 
 We are aware that the the gossip factory is working overtime since our [short demo at the TenX summit on Friday, 7th of December](https://www.youtube.com/watch?v=OLlFegcEZ8Y):

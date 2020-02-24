@@ -1,12 +1,8 @@
 ---
-layout: post
 title:  "October, 2019 - Dev Update"
-author: oetzn
-categories: [ ]
-image: assets/images/2019-10/dev_update_10.png
-featured: false
-hidden: false
-comments: true
+author: thomas
+author_url: https://github.com/thomaseizinger
+author_image_url: https://avatars2.githubusercontent.com/u/5486389
 tags: [dev-update]
 ---
 

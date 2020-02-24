@@ -1,15 +1,10 @@
 ---
-layout: post
 title:  "August, 2019 - Dev Update"
 author: lucas
-categories: [ ]
-image: assets/images/2019-08/dev_update_8.png
-featured: false
-hidden: false
-comments: true
+author_url: https://github.com/luckysori
+author_image_url: https://avatars3.githubusercontent.com/u/9418575
 tags: [dev-update]
 ---
-
 > Talk is cheap. Show me the code.
 >
 > — _Linus Torvalds_, linux-kernel mailing list

@@ -1,12 +1,8 @@
 ---
-layout: post
 title:  "February, 2019 - Dev Update"
-author: llfourn
-categories: [ ]
-image: assets/images/2019-02/dev_update_2.png
-featured: false
-hidden: false
-comments: true
+author: lloyd
+author_url: https://github.com/LLFourn
+author_image_url: https://avatars1.githubusercontent.com/u/3734083
 tags: [dev-update]
 ---
 

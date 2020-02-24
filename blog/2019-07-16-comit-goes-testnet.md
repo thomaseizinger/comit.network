@@ -1,14 +1,10 @@
 ---
-layout: post
-title:  "COMIT goes Testnet"
-author: bonomat
-categories: [ ]
-image: assets/images/2019-07/CoBloXblog-goesTestnet.png
-featured: false
-hidden: false
-comments: true
+title: "COMIT goes Testnet"
+author: philipp
+author_url: https://github.com/bonomat
+author_image_url: https://avatars2.githubusercontent.com/u/224613
+tags: [announcement, testnet]
 ---
-
 
 > Life is life  
 > when we all give the power  

@@ -1,12 +1,9 @@
 ---
-layout: post
 title:  "Connect all the Blockchains!!!"
-author: bonomat
-categories: [ ]
-image: assets/images/2018-06/0_Kf2JbMQlRA_hhNH2.png
-featured: false
-hidden: false
-comments: true
+author: philipp
+author_url: https://github.com/bonomat
+author_image_url: https://avatars2.githubusercontent.com/u/224613
+tags: [announcement, connect-all-the-blockchains]
 ---
 
 > TL;DR:

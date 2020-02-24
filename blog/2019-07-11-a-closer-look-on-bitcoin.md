@@ -1,12 +1,9 @@
 ---
-layout: post
 title:  "A closer look on Bitcoin scripts"
 author: daniel
-categories: [ ]
-image: assets/images/2019-07/BlogPost-LetsTalkStack.png
-featured: false
-hidden: false
-comments: true
+author_url: https://github.com/da-kami
+author_image_url: https://avatars1.githubusercontent.com/u/5557790
+tags: [bitcoin, script, educational]
 ---
 
 > sknab rof tuoliab dnoces fo knirb no rollecnahC 9002/naJ/30 semiT ehT

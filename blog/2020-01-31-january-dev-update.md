@@ -1,12 +1,8 @@
 ---
-layout: post
 title:  "January, 2020 - Dev Update"
 author: franck
-categories: [ ]
-image: assets/images/2020-01/dev_update_13.png
-featured: true
-hidden: false
-comments: true
+author_url: https://github.com/d4nte
+author_image_url: https://avatars1.githubusercontent.com/u/300805
 tags: [dev-update]
 ---
 
