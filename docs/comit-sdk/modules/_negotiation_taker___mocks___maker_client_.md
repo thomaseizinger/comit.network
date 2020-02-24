@@ -77,7 +77,7 @@ ___
 ### `Const` mockTakeOrder
 
 • **mockTakeOrder**: *Mock‹any, any›* = jest.fn().mockImplementation(() => {
-  // The mocked function returns Promise<void>
+  // The mocked function returns Promise`<void>`
 })
 
 *Defined in [negotiation/taker/__mocks__/maker_client.ts:34](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/__mocks__/maker_client.ts#L34)*
