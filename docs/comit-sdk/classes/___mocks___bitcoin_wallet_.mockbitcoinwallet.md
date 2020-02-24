@@ -30,7 +30,7 @@ sidebar_label: "MockBitcoinWallet"
 
 *Implementation of [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)*
 
-*Defined in [__mocks__/bitcoin_wallet.ts:4](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/bitcoin_wallet.ts#L4)*
+*Defined in [__mocks__/bitcoin_wallet.ts:4](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/__mocks__/bitcoin_wallet.ts#L4)*
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)*
 
-*Defined in [__mocks__/bitcoin_wallet.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/bitcoin_wallet.ts#L13)*
+*Defined in [__mocks__/bitcoin_wallet.ts:13](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/__mocks__/bitcoin_wallet.ts#L13)*
 
 **Returns:** *Promise‹string›*
 
@@ -61,7 +61,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)*
 
-*Defined in [__mocks__/bitcoin_wallet.ts:17](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/bitcoin_wallet.ts#L17)*
+*Defined in [__mocks__/bitcoin_wallet.ts:17](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/__mocks__/bitcoin_wallet.ts#L17)*
 
 **Returns:** *Promise‹number›*
 
@@ -73,7 +73,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)*
 
-*Defined in [__mocks__/bitcoin_wallet.ts:21](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/bitcoin_wallet.ts#L21)*
+*Defined in [__mocks__/bitcoin_wallet.ts:21](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/__mocks__/bitcoin_wallet.ts#L21)*
 
 **Returns:** *string*
 
@@ -85,7 +85,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)*
 
-*Defined in [__mocks__/bitcoin_wallet.ts:26](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/bitcoin_wallet.ts#L26)*
+*Defined in [__mocks__/bitcoin_wallet.ts:26](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/__mocks__/bitcoin_wallet.ts#L26)*
 
 **Parameters:**
 

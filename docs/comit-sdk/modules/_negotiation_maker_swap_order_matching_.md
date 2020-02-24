@@ -18,7 +18,7 @@ sidebar_label: "negotiation/maker/swap_order_matching"
 
 ▸ **areAmountsEqual**(`asset`: string, `unitAmount`: string, `nominalAmount`: string, `token?`: [Token](../interfaces/_tokens_tokens_.token.md)): *boolean*
 
-*Defined in [negotiation/maker/swap_order_matching.ts:55](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/swap_order_matching.ts#L55)*
+*Defined in [negotiation/maker/swap_order_matching.ts:57](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/swap_order_matching.ts#L57)*
 
 **Parameters:**
 
@@ -35,17 +35,17 @@ ___
 
 ###  assetsMatch
 
-▸ **assetsMatch**(`orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md), `swapAsset`: [Asset](../interfaces/_cnd_.asset.md), `swapLedger`: [Ledger](../interfaces/_cnd_.ledger.md)): *boolean*
+▸ **assetsMatch**(`orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md), `swapAsset`: [Asset](../interfaces/_cnd_cnd_.asset.md), `swapLedger`: [Ledger](../interfaces/_cnd_cnd_.ledger.md)): *boolean*
 
-*Defined in [negotiation/maker/swap_order_matching.ts:20](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/swap_order_matching.ts#L20)*
+*Defined in [negotiation/maker/swap_order_matching.ts:22](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/swap_order_matching.ts#L22)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `orderAsset` | [OrderAsset](../interfaces/_negotiation_order_.orderasset.md) |
-`swapAsset` | [Asset](../interfaces/_cnd_.asset.md) |
-`swapLedger` | [Ledger](../interfaces/_cnd_.ledger.md) |
+`swapAsset` | [Asset](../interfaces/_cnd_cnd_.asset.md) |
+`swapLedger` | [Ledger](../interfaces/_cnd_cnd_.ledger.md) |
 
 **Returns:** *boolean*
 
@@ -53,17 +53,18 @@ ___
 
 ###  match
 
-▸ **match**(`order`: [Order](../interfaces/_negotiation_order_.order.md), `props`: [SwapProperties](../interfaces/_cnd_.swapproperties.md)): *boolean*
+▸ **match**(`order`: [Order](../interfaces/_negotiation_order_.order.md), `props`: [SwapProperties](../interfaces/_cnd_cnd_.swapproperties.md)): *boolean*
 
-*Defined in [negotiation/maker/swap_order_matching.ts:11](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/swap_order_matching.ts#L11)*
+*Defined in [negotiation/maker/swap_order_matching.ts:13](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/swap_order_matching.ts#L13)*
 
 Check that a given swap matches the agreed conditions of an accepted order.
+See: [MakerNegotiator](_negotiation_maker_negotiator_.md#makernegotiator)
 
 **Parameters:**
 
 Name | Type | Description |
 ------ | ------ | ------ |
 `order` | [Order](../interfaces/_negotiation_order_.order.md) | The order to check against the swap. |
-`props` | [SwapProperties](../interfaces/_cnd_.swapproperties.md) | The properties of the the swap to check against the order.  |
+`props` | [SwapProperties](../interfaces/_cnd_cnd_.swapproperties.md) | The properties of the the swap to check against the order.  |
 
 **Returns:** *boolean*

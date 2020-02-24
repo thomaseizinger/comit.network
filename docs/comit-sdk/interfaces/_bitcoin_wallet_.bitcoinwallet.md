@@ -4,6 +4,9 @@ title: "BitcoinWallet"
 sidebar_label: "BitcoinWallet"
 ---
 
+Interface defining the Bitcoin wallet used in the SDK.
+You can plug your own wallet by passing a custom implementation of this interface to the [ComitClient](../classes/_comit_client_.comitclient.md).
+
 ## Hierarchy
 
 * **BitcoinWallet**
@@ -29,7 +32,7 @@ sidebar_label: "BitcoinWallet"
 
 ▸ **broadcastTransaction**(`transactionHex`: string, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:15](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L15)*
+*Defined in [bitcoin_wallet.ts:19](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L19)*
 
 **Parameters:**
 
@@ -46,7 +49,7 @@ ___
 
 ▸ **getAddress**(): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L5)*
+*Defined in [bitcoin_wallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L9)*
 
 **Returns:** *Promise‹string›*
 
@@ -56,7 +59,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹number›*
 
-*Defined in [bitcoin_wallet.ts:7](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L7)*
+*Defined in [bitcoin_wallet.ts:11](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L11)*
 
 **Returns:** *Promise‹number›*
 
@@ -66,7 +69,7 @@ ___
 
 ▸ **getFee**(): *string*
 
-*Defined in [bitcoin_wallet.ts:20](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L20)*
+*Defined in [bitcoin_wallet.ts:24](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L24)*
 
 **Returns:** *string*
 
@@ -76,7 +79,7 @@ ___
 
 ▸ **sendToAddress**(`address`: string, `satoshis`: number, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/bitcoin_wallet.ts#L9)*
+*Defined in [bitcoin_wallet.ts:13](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L13)*
 
 **Parameters:**
 

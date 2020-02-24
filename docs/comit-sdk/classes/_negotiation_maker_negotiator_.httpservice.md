@@ -4,6 +4,8 @@ title: "HttpService"
 sidebar_label: "HttpService"
 ---
 
+A simple [express](http://expressjs.com/) HTTP service to allow takers to access the maker's orders.
+
 ## Hierarchy
 
 * **HttpService**
@@ -25,7 +27,7 @@ sidebar_label: "HttpService"
 
 \+ **new HttpService**(`getOrderById`: function, `getExecutionParams`: function, `takeOrder`: function, `getOrderByTradingPair`: function): *[HttpService](_negotiation_maker_negotiator_.httpservice.md)*
 
-*Defined in [negotiation/maker/negotiator.ts:130](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L130)*
+*Defined in [negotiation/maker/negotiator.ts:177](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L177)*
 
 **Parameters:**
 
@@ -72,7 +74,7 @@ Name | Type |
 
 ▸ **getUrl**(): *undefined | string*
 
-*Defined in [negotiation/maker/negotiator.ts:205](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L205)*
+*Defined in [negotiation/maker/negotiator.ts:252](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L252)*
 
 **Returns:** *undefined | string*
 
@@ -82,7 +84,7 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [negotiation/maker/negotiator.ts:145](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L145)*
+*Defined in [negotiation/maker/negotiator.ts:192](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L192)*
 
 **Parameters:**
 

@@ -1,16 +1,16 @@
 ---
-id: "___mocks___cnd_"
-title: "__mocks__/cnd"
-sidebar_label: "__mocks__/cnd"
+id: "_cnd___mocks___cnd_"
+title: "cnd/__mocks__/cnd"
+sidebar_label: "cnd/__mocks__/cnd"
 ---
 
 ## Index
 
 ### Variables
 
-* [Cnd](___mocks___cnd_.md#const-cnd)
-* [mockFetch](___mocks___cnd_.md#const-mockfetch)
-* [mockPostSwap](___mocks___cnd_.md#const-mockpostswap)
+* [Cnd](_cnd___mocks___cnd_.md#const-cnd)
+* [mockFetch](_cnd___mocks___cnd_.md#const-mockfetch)
+* [mockPostSwap](_cnd___mocks___cnd_.md#const-mockpostswap)
 
 ## Variables
 
@@ -23,7 +23,7 @@ sidebar_label: "__mocks__/cnd"
   };
 })
 
-*Defined in [__mocks__/cnd.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/cnd.ts#L14)*
+*Defined in [cnd/__mocks__/cnd.ts:14](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/__mocks__/cnd.ts#L14)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
   });
 })
 
-*Defined in [__mocks__/cnd.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/cnd.ts#L5)*
+*Defined in [cnd/__mocks__/cnd.ts:5](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/__mocks__/cnd.ts#L5)*
 
 ___
 
@@ -48,4 +48,4 @@ ___
   return Promise.resolve("/mock/swap/location");
 })
 
-*Defined in [__mocks__/cnd.ts:1](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/__mocks__/cnd.ts#L1)*
+*Defined in [cnd/__mocks__/cnd.ts:1](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/__mocks__/cnd.ts#L1)*

@@ -4,6 +4,9 @@ title: "Negotiator"
 sidebar_label: "Negotiator"
 ---
 
+Handles the negotiation on the taker side of a trade.
+Bundles functionality to get orders from a maker, take them and initiate the swap execution.
+
 ## Hierarchy
 
 * **Negotiator**
@@ -24,14 +27,14 @@ sidebar_label: "Negotiator"
 
 \+ **new Negotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `makerUrl`: string): *[Negotiator](_negotiation_taker_negotiator_.negotiator.md)*
 
-*Defined in [negotiation/taker/negotiator.ts:56](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/negotiator.ts#L56)*
+*Defined in [negotiation/taker/negotiator.ts:62](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/negotiator.ts#L62)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`comitClient` | [ComitClient](_comit_client_.comitclient.md) |
-`makerUrl` | string |
+Name | Type | Description |
+------ | ------ | ------ |
+`comitClient` | [ComitClient](_comit_client_.comitclient.md) | The [ComitClient](_comit_client_.comitclient.md) of the taker for swap execution |
+`makerUrl` | string | The url where the maker provides offers according to the [MakerNegotiator](../modules/_negotiation_maker_negotiator_.md#makernegotiator)  |
 
 **Returns:** *[Negotiator](_negotiation_taker_negotiator_.negotiator.md)*
 
@@ -39,9 +42,9 @@ Name | Type |
 
 ###  getOrder
 
-▸ **getOrder**(`criteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)): *Promise‹[Order](_negotiation_taker_order_.order.md)›*
+▸ **getOrder**(`criteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)): *Promise‹[TakerOrder](../modules/_negotiation_taker_order_.md#takerorder)›*
 
-*Defined in [negotiation/taker/negotiator.ts:70](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/negotiator.ts#L70)*
+*Defined in [negotiation/taker/negotiator.ts:80](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/negotiator.ts#L80)*
 
 Get an order from the maker based on specified criteria. Whatever is returned from the maker is
 returned here, even if it does not match the criteria or is invalid. Not all criteria are passed to the maker.
@@ -54,4 +57,4 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `criteria` | [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md) | The criteria of the order to be requested from the maker.  |
 
-**Returns:** *Promise‹[Order](_negotiation_taker_order_.order.md)›*
+**Returns:** *Promise‹[TakerOrder](../modules/_negotiation_taker_order_.md#takerorder)›*

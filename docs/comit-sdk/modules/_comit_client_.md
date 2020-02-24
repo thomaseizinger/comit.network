@@ -18,14 +18,14 @@ sidebar_label: "comit_client"
 
 ###  isOngoing
 
-▸ **isOngoing**(`swap`: [SwapSubEntity](../interfaces/_cnd_.swapsubentity.md)): *boolean*
+▸ **isOngoing**(`swap`: [SwapSubEntity](../interfaces/_cnd_cnd_.swapsubentity.md)): *boolean*
 
-*Defined in [comit_client.ts:137](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L137)*
+*Defined in [comit_client.ts:160](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L160)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`swap` | [SwapSubEntity](../interfaces/_cnd_.swapsubentity.md) |
+`swap` | [SwapSubEntity](../interfaces/_cnd_cnd_.swapsubentity.md) |
 
 **Returns:** *boolean*

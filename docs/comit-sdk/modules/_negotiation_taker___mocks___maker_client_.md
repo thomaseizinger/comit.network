@@ -25,7 +25,7 @@ sidebar_label: "negotiation/taker/__mocks__/maker_client"
   };
 })
 
-*Defined in [negotiation/taker/__mocks__/maker_client.ts:38](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/__mocks__/maker_client.ts#L38)*
+*Defined in [negotiation/taker/__mocks__/maker_client.ts:38](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/__mocks__/maker_client.ts#L38)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
   };
 })
 
-*Defined in [negotiation/taker/__mocks__/maker_client.ts:22](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/__mocks__/maker_client.ts#L22)*
+*Defined in [negotiation/taker/__mocks__/maker_client.ts:22](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/__mocks__/maker_client.ts#L22)*
 
 ___
 
@@ -70,14 +70,14 @@ ___
     };
   })
 
-*Defined in [negotiation/taker/__mocks__/maker_client.ts:1](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/__mocks__/maker_client.ts#L1)*
+*Defined in [negotiation/taker/__mocks__/maker_client.ts:1](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/__mocks__/maker_client.ts#L1)*
 
 ___
 
 ### `Const` mockTakeOrder
 
 • **mockTakeOrder**: *Mock‹any, any›* = jest.fn().mockImplementation(() => {
-  // The mocked function returns Promise`<void>`
+  // The mocked function returns Promise<void>
 })
 
-*Defined in [negotiation/taker/__mocks__/maker_client.ts:34](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/taker/__mocks__/maker_client.ts#L34)*
+*Defined in [negotiation/taker/__mocks__/maker_client.ts:34](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/__mocks__/maker_client.ts#L34)*

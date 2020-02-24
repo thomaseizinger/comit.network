@@ -4,6 +4,8 @@ title: "Order"
 sidebar_label: "Order"
 ---
 
+The order of a trade as created by the maker through the [MakerNegotiator](../modules/_negotiation_maker_negotiator_.md#makernegotiator).
+
 ## Hierarchy
 
 * **Order**
@@ -23,7 +25,7 @@ sidebar_label: "Order"
 
 • **ask**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L8)*
+*Defined in [negotiation/order.ts:11](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L11)*
 
 ___
 
@@ -31,7 +33,7 @@ ___
 
 • **bid**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [negotiation/order.ts:7](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L7)*
+*Defined in [negotiation/order.ts:10](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L10)*
 
 ___
 
@@ -39,7 +41,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [negotiation/order.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L5)*
+*Defined in [negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L8)*
 
 ___
 
@@ -47,4 +49,4 @@ ___
 
 • **validUntil**: *number*
 
-*Defined in [negotiation/order.ts:6](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L6)*
+*Defined in [negotiation/order.ts:9](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L9)*

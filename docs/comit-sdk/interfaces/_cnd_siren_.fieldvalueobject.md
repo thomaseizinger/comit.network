@@ -1,5 +1,5 @@
 ---
-id: "_siren_.fieldvalueobject"
+id: "_cnd_siren_.fieldvalueobject"
 title: "FieldValueObject"
 sidebar_label: "FieldValueObject"
 ---
@@ -20,9 +20,9 @@ Value objects represent multiple selectable field values. Use in conjunction wit
 
 ### Properties
 
-* [selected](_siren_.fieldvalueobject.md#optional-selected)
-* [title](_siren_.fieldvalueobject.md#optional-title)
-* [value](_siren_.fieldvalueobject.md#value)
+* [selected](_cnd_siren_.fieldvalueobject.md#optional-selected)
+* [title](_cnd_siren_.fieldvalueobject.md#optional-title)
+* [value](_cnd_siren_.fieldvalueobject.md#value)
 
 ## Properties
 
@@ -30,7 +30,7 @@ Value objects represent multiple selectable field values. Use in conjunction wit
 
 • **selected**? : *undefined | false | true*
 
-*Defined in [siren.ts:240](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L240)*
+*Defined in [cnd/siren.ts:240](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/siren.ts#L240)*
 
 A value object with a `"selected" = true` attribute indicates that this value should be considered preselected by the client. When missing, the default value is `false`.
 
@@ -40,7 +40,7 @@ ___
 
 • **title**? : *undefined | string*
 
-*Defined in [siren.ts:232](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L232)*
+*Defined in [cnd/siren.ts:232](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/siren.ts#L232)*
 
 Textual description of a field value.
 
@@ -50,6 +50,6 @@ ___
 
 • **value**: *string | number*
 
-*Defined in [siren.ts:236](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/siren.ts#L236)*
+*Defined in [cnd/siren.ts:236](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/siren.ts#L236)*
 
 Possible value for the field.

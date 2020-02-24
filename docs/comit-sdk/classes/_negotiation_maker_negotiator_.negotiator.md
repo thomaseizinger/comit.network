@@ -4,6 +4,9 @@ title: "Negotiator"
 sidebar_label: "Negotiator"
 ---
 
+Handles the negotiation on the maker side of a trade.
+Bundles functionality to create orders for a maker and make them available for the taker.
+
 ## Hierarchy
 
 * **Negotiator**
@@ -28,17 +31,17 @@ sidebar_label: "Negotiator"
 
 ###  constructor
 
-\+ **new Negotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `executionParams`: [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md), `tryParams`: [TryParams](../interfaces/_timeout_promise_.tryparams.md)): *[Negotiator](_negotiation_maker_negotiator_.negotiator.md)*
+\+ **new Negotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `executionParams`: [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md), `tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *[Negotiator](_negotiation_maker_negotiator_.negotiator.md)*
 
-*Defined in [negotiation/maker/negotiator.ts:15](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L15)*
+*Defined in [negotiation/maker/negotiator.ts:21](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L21)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`comitClient` | [ComitClient](_comit_client_.comitclient.md) |
-`executionParams` | [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md) |
-`tryParams` | [TryParams](../interfaces/_timeout_promise_.tryparams.md) |
+Name | Type | Description |
+------ | ------ | ------ |
+`comitClient` | [ComitClient](_comit_client_.comitclient.md) | The [ComitClient](_comit_client_.comitclient.md) of the taker for swap execution. |
+`executionParams` | [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md) | The [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md) of the maker for swap execution. |
+`tryParams` | [TryParams](../interfaces/_util_timeout_promise_.tryparams.md) | The [TryParams](../interfaces/_util_timeout_promise_.tryparams.md) of the maker for swap execution.  |
 
 **Returns:** *[Negotiator](_negotiation_maker_negotiator_.negotiator.md)*
 
@@ -48,19 +51,19 @@ Name | Type |
 
 ▸ **addOrder**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *boolean*
 
-*Defined in [negotiation/maker/negotiator.ts:38](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L38)*
+*Defined in [negotiation/maker/negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L50)*
 
-add an Order to the order book.
+Add an Order to the order book.
 
 **Parameters:**
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`order` | [Order](../interfaces/_negotiation_order_.order.md) | the order to add.  |
+`order` | [Order](../interfaces/_negotiation_order_.order.md) | The order to add.  |
 
 **Returns:** *boolean*
 
-true if the order parameters are valid and were successfully added to the order book, false otherwise.
+True if the order parameters are valid and were successfully added to the order book, false otherwise.
 
 ___
 
@@ -68,9 +71,13 @@ ___
 
 ▸ **getExecutionParams**(): *[ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)*
 
-*Defined in [negotiation/maker/negotiator.ts:56](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L56)*
+*Defined in [negotiation/maker/negotiator.ts:83](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L83)*
+
+Get the [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md) of the maker.
 
 **Returns:** *[ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)*
+
+The [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md) of the maker.
 
 ___
 
@@ -78,15 +85,19 @@ ___
 
 ▸ **getOrderById**(`orderId`: string): *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
 
-*Defined in [negotiation/maker/negotiator.ts:52](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L52)*
+*Defined in [negotiation/maker/negotiator.ts:75](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L75)*
+
+Get an [Order](../interfaces/_negotiation_order_.order.md) by [Order.id](../interfaces/_negotiation_order_.order.md#id).
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`orderId` | string |
+Name | Type | Description |
+------ | ------ | ------ |
+`orderId` | string | The [Order.id](../interfaces/_negotiation_order_.order.md#id). |
 
 **Returns:** *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
+
+An [Order](../interfaces/_negotiation_order_.order.md) or undefined if there is no [Order](../interfaces/_negotiation_order_.order.md) for the given id.
 
 ___
 
@@ -94,15 +105,19 @@ ___
 
 ▸ **getOrderByTradingPair**(`tradingPair`: string): *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
 
-*Defined in [negotiation/maker/negotiator.ts:48](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L48)*
+*Defined in [negotiation/maker/negotiator.ts:66](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L66)*
+
+Get an [Order](../interfaces/_negotiation_order_.order.md) by trading pair (e.g. ethereum-ether-bitcoin-bitcoin).
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`tradingPair` | string |
+Name | Type | Description |
+------ | ------ | ------ |
+`tradingPair` | string | A trading pair (e.g. bitcoin-bitcoin-ethereum-erc20). |
 
 **Returns:** *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
+
+An [Order](../interfaces/_negotiation_order_.order.md) or undefined if there is no [Order](../interfaces/_negotiation_order_.order.md) for the given trading pair.
 
 ___
 
@@ -110,9 +125,11 @@ ___
 
 ▸ **getUrl**(): *string | undefined*
 
-*Defined in [negotiation/maker/negotiator.ts:72](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L72)*
+*Defined in [negotiation/maker/negotiator.ts:111](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L111)*
 
 **Returns:** *string | undefined*
+
+The maker's [HttpService](_negotiation_maker_negotiator_.httpservice.md) URL.
 
 ___
 
@@ -120,14 +137,16 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [negotiation/maker/negotiator.ts:76](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L76)*
+*Defined in [negotiation/maker/negotiator.ts:120](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L120)*
+
+Exposes the maker's [HttpService](_negotiation_maker_negotiator_.httpservice.md) on the given port and hostname.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`port` | number |
-`hostname?` | undefined &#124; string |
+Name | Type | Description |
+------ | ------ | ------ |
+`port` | number | The port where the [HttpService](_negotiation_maker_negotiator_.httpservice.md) should be exposed. |
+`hostname?` | undefined &#124; string | Optionally a hostname can be provided as well.  |
 
 **Returns:** *Promise‹void›*
 
@@ -137,13 +156,18 @@ ___
 
 ▸ **takeOrder**(`swapId`: string, `order`: [Order](../interfaces/_negotiation_order_.order.md)): *void*
 
-*Defined in [negotiation/maker/negotiator.ts:60](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/maker/negotiator.ts#L60)*
+*Defined in [negotiation/maker/negotiator.ts:96](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L96)*
+
+Take an order by accepting the swap request on the maker side.
+
+This function uses the given swapId and order to find a matching [Swap](_swap_.swap.md) using the [ComitClient](_comit_client_.comitclient.md).
+If a matching [Swap](_swap_.swap.md) can be found {@link Swap#accept} is called.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`swapId` | string |
-`order` | [Order](../interfaces/_negotiation_order_.order.md) |
+Name | Type | Description |
+------ | ------ | ------ |
+`swapId` | string | The id of a swap. |
+`order` | [Order](../interfaces/_negotiation_order_.order.md) | The order corresponding to the swap.  |
 
 **Returns:** *void*

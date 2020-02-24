@@ -4,6 +4,8 @@ title: "EthereumWallet"
 sidebar_label: "EthereumWallet"
 ---
 
+Simple Ethereum wallet based on [ethers.js](https://github.com/ethers-io/ethers.js/).
+
 ## Hierarchy
 
 * **EthereumWallet**
@@ -28,7 +30,7 @@ sidebar_label: "EthereumWallet"
 
 \+ **new EthereumWallet**(`jsonRpcUrl`: string, `key?`: SigningKey | HDNode | Arrayish): *[EthereumWallet](_ethereum_wallet_.ethereumwallet.md)*
 
-*Defined in [ethereum_wallet.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L14)*
+*Defined in [ethereum_wallet.ts:17](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/ethereum_wallet.ts#L17)*
 
 **Parameters:**
 
@@ -43,9 +45,9 @@ Name | Type |
 
 ###  callContract
 
-▸ **callContract**(`data`: string, `contractAddress`: string, `gasLimit`: string): *Promise‹undefined | string›*
+▸ **callContract**(`data`: string, `contractAddress`: string, `gasLimit`: string): *Promise‹string›*
 
-*Defined in [ethereum_wallet.ts:71](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L71)*
+*Defined in [ethereum_wallet.ts:72](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/ethereum_wallet.ts#L72)*
 
 **Parameters:**
 
@@ -55,15 +57,15 @@ Name | Type |
 `contractAddress` | string |
 `gasLimit` | string |
 
-**Returns:** *Promise‹undefined | string›*
+**Returns:** *Promise‹string›*
 
 ___
 
 ###  deployContract
 
-▸ **deployContract**(`data`: string, `amount`: BigNumber, `gasLimit`: string): *Promise‹undefined | string›*
+▸ **deployContract**(`data`: string, `amount`: BigNumber, `gasLimit`: string): *Promise‹string›*
 
-*Defined in [ethereum_wallet.ts:55](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L55)*
+*Defined in [ethereum_wallet.ts:58](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/ethereum_wallet.ts#L58)*
 
 **Parameters:**
 
@@ -73,7 +75,7 @@ Name | Type |
 `amount` | BigNumber |
 `gasLimit` | string |
 
-**Returns:** *Promise‹undefined | string›*
+**Returns:** *Promise‹string›*
 
 ___
 
@@ -81,7 +83,7 @@ ___
 
 ▸ **getAccount**(): *string*
 
-*Defined in [ethereum_wallet.ts:23](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L23)*
+*Defined in [ethereum_wallet.ts:26](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/ethereum_wallet.ts#L26)*
 
 **Returns:** *string*
 
@@ -91,7 +93,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹BigNumber‹››*
 
-*Defined in [ethereum_wallet.ts:27](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L27)*
+*Defined in [ethereum_wallet.ts:30](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/ethereum_wallet.ts#L30)*
 
 **Returns:** *Promise‹BigNumber‹››*
 
@@ -101,7 +103,7 @@ ___
 
 ▸ **getErc20Balance**(`contractAddress`: string, `decimals?`: undefined | number): *Promise‹BigNumber›*
 
-*Defined in [ethereum_wallet.ts:31](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/ethereum_wallet.ts#L31)*
+*Defined in [ethereum_wallet.ts:34](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/ethereum_wallet.ts#L34)*
 
 **Parameters:**
 

@@ -4,6 +4,11 @@ title: "ComitClient"
 sidebar_label: "ComitClient"
 ---
 
+The ComitClient class is a one-stop shop interface for interacting with [Swap](_swap_.swap.md)s of [Cnd](_cnd_cnd_.cnd.md).
+
+It bundles all the necessary dependencies ([BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md), [EthereumWallet](_ethereum_wallet_.ethereumwallet.md), [Cnd](_cnd_cnd_.cnd.md)) to
+provide you with instances of [Swap](_swap_.swap.md)s.
+
 ## Hierarchy
 
 * **ComitClient**
@@ -30,15 +35,15 @@ sidebar_label: "ComitClient"
 
 ###  constructor
 
-\+ **new ComitClient**(`cnd`: [Cnd](_cnd_.cnd.md)): *[ComitClient](_comit_client_.comitclient.md)*
+\+ **new ComitClient**(`cnd`: [Cnd](_cnd_cnd_.cnd.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [comit_client.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L9)*
+*Defined in [comit_client.ts:15](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L15)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`cnd` | [Cnd](_cnd_.cnd.md) |
+`cnd` | [Cnd](_cnd_cnd_.cnd.md) |
 
 **Returns:** *[ComitClient](_comit_client_.comitclient.md)*
 
@@ -48,7 +53,7 @@ Name | Type |
 
 ▸ **getDoneSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comit_client.ts:81](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L81)*
+*Defined in [comit_client.ts:105](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L105)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -58,7 +63,7 @@ ___
 
 ▸ **getNewSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comit_client.ts:58](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L58)*
+*Defined in [comit_client.ts:82](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L82)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -68,7 +73,7 @@ ___
 
 ▸ **getOngoingSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [comit_client.ts:72](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L72)*
+*Defined in [comit_client.ts:96](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L96)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -78,7 +83,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [comit_client.ts:95](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L95)*
+*Defined in [comit_client.ts:119](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L119)*
 
 **Returns:** *Promise‹string›*
 
@@ -88,7 +93,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [comit_client.ts:99](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L99)*
+*Defined in [comit_client.ts:123](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L123)*
 
 **Returns:** *Promise‹string[]›*
 
@@ -98,7 +103,7 @@ ___
 
 ▸ **retrieveSwapById**(`swapId`: string): *Promise‹[Swap](_swap_.swap.md) | undefined›*
 
-*Defined in [comit_client.ts:103](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L103)*
+*Defined in [comit_client.ts:127](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L127)*
 
 **Parameters:**
 
@@ -112,15 +117,17 @@ ___
 
 ###  sendSwap
 
-▸ **sendSwap**(`swapRequest`: [SwapRequest](../interfaces/_cnd_.swaprequest.md)): *Promise‹[Swap](_swap_.swap.md)›*
+▸ **sendSwap**(`swapRequest`: [SwapRequest](../interfaces/_cnd_cnd_.swaprequest.md)): *Promise‹[Swap](_swap_.swap.md)›*
 
-*Defined in [comit_client.ts:23](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L23)*
+*Defined in [comit_client.ts:47](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L47)*
+
+Send a [SwapRequest](../interfaces/_cnd_cnd_.swaprequest.md) to [Cnd](_cnd_cnd_.cnd.md) to create a [Swap](_swap_.swap.md).
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`swapRequest` | [SwapRequest](../interfaces/_cnd_.swaprequest.md) |
+Name | Type | Description |
+------ | ------ | ------ |
+`swapRequest` | [SwapRequest](../interfaces/_cnd_cnd_.swaprequest.md) |   |
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)›*
 
@@ -130,13 +137,17 @@ ___
 
 ▸ **withBitcoinWallet**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [comit_client.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L13)*
+*Defined in [comit_client.ts:26](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L26)*
+
+Sets a [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md) in the ComitClient.
+
+If you are planning to use this instance to handle swaps involving Bitcoin, you should set this.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`bitcoinWallet` | [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md) |
+Name | Type | Description |
+------ | ------ | ------ |
+`bitcoinWallet` | [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md) | The wallet that should be used to handle Bitcoin related actions of swaps.  |
 
 **Returns:** *[ComitClient](_comit_client_.comitclient.md)*
 
@@ -146,12 +157,16 @@ ___
 
 ▸ **withEthereumWallet**(`ethereumWallet`: [EthereumWallet](_ethereum_wallet_.ethereumwallet.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [comit_client.ts:18](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/comit_client.ts#L18)*
+*Defined in [comit_client.ts:38](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/comit_client.ts#L38)*
+
+Sets a [EthereumWallet](_ethereum_wallet_.ethereumwallet.md) in the ComitClient.
+
+If you are planning to use this instance to handle swaps involving Ethereum, you should set this.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`ethereumWallet` | [EthereumWallet](_ethereum_wallet_.ethereumwallet.md) |
+Name | Type | Description |
+------ | ------ | ------ |
+`ethereumWallet` | [EthereumWallet](_ethereum_wallet_.ethereumwallet.md) | The wallet that should be used to handle Ethereum related actions of swaps.  |
 
 **Returns:** *[ComitClient](_comit_client_.comitclient.md)*

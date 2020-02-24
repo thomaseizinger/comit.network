@@ -5,7 +5,7 @@ sidebar_label: "README"
 ---
 
 <a href="https://comit.network">
-  <img src="https://github.com/comit-network/comit-js-sdk/blob/master/logo.svg" height="120px" />
+  <img src="https://github.com/comit-network/comit-js-sdk/raw/master/logo.svg?sanitize=true" height="120px" />
 </a>
 
 ---

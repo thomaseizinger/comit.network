@@ -4,6 +4,8 @@ title: "OrderAsset"
 sidebar_label: "OrderAsset"
 ---
 
+Representation of the bid or ask of an [Order](_negotiation_order_.order.md).
+
 ## Hierarchy
 
 * **OrderAsset**
@@ -22,7 +24,7 @@ sidebar_label: "OrderAsset"
 
 • **asset**: *string*
 
-*Defined in [negotiation/order.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L13)*
+*Defined in [negotiation/order.ts:19](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L19)*
 
 ___
 
@@ -30,7 +32,7 @@ ___
 
 • **ledger**: *string*
 
-*Defined in [negotiation/order.ts:12](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L12)*
+*Defined in [negotiation/order.ts:18](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L18)*
 
 ___
 
@@ -38,4 +40,8 @@ ___
 
 • **nominalAmount**: *string*
 
-*Defined in [negotiation/order.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d186ad0/src/negotiation/order.ts#L14)*
+*Defined in [negotiation/order.ts:26](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/order.ts#L26)*
+
+The amount in a human-readable format.
+Ether for Ethereum (not Wei).
+Bitcoin for Bitcoin (not Satoshi).
