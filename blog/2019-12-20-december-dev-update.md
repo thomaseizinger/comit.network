@@ -1,5 +1,5 @@
 ---
-title:  "December, 2010 - Dev Update"
+title:  "December, 2019 - Dev Update"
 author: daniel
 author_url: https://github.com/da-kami
 author_image_url: https://avatars1.githubusercontent.com/u/5557790
