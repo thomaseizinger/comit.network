@@ -17,6 +17,9 @@ tags: [dev-update]
 Tomorrow the team takes off for Singapore (we are an Australian company and work out of Sydney but our parent company TenX is based in Singapore).
 We get together with everyone from TenX twice a year, its a lot of fun.
 There are late night hacking sessions and serious amounts of quality food.
+
+<!--truncate-->
+
 Our late night hacking this trip will be done together with a bunch of local developers, we are hosting a [COMIT hackathon](https://www.hackathon.com/event/comit-hackathon---atomic-swaps-for-your-application-79280691683).
 Places are limited but still available, please [sign up](https://www.eventbrite.com/e/comit-hackathon-atomic-swaps-for-your-application-tickets-79280691683) and join us if you are in Singapore next week.
 Let's connect all the blockchains, together.

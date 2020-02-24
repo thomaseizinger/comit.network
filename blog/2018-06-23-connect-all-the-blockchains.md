@@ -19,6 +19,8 @@ comments: true
 Since [Bitcoin](https://bitcoin.org/bitcoin.pdf)’s genesis block in 2009 a multitude of different blockchains have emerged.
 Each serving different purposes, from providing the means of payment, smart contract execution, identity management, logistic tracking or securing IoT.
 
+<!--truncate-->
+
 We at [TenX](https://www.tenx.tech/) believe in decentralisation and sometimes we wonder why there are centralised exchanges when blockchains were created with decentralisation as a core principle.
 This is why we strive to connecting all the blockchains, no matter what purpose they serve, in a decentralised manner.
 Hence we recently founded the R&D Lab CoBloX in Sydney, who develops the [COMIT](http://www.comit.network/) protocol.

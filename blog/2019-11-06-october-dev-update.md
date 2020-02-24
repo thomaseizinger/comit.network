@@ -19,6 +19,8 @@ In October we had two main focus areas:
 1. Extending and improving the ["getting started"](https://github.com/comit-network/create-comit-app) projects we started in September,
 2. Making cnd (comit network daemon) more robust by adding recovery after a shutdown.
 
+<!--truncate-->
+
 Additionally we did quite a lot of community work.
 We started the month by spontaneously sending [Daniel](https://twitter.com/dakarzel) to the Ethereum Devcon5 in Osaka.
 A great opportunity to speak Japanese for a week, network at the many fun parties, get insights into the Ethereum community and advances on e.g. eth2.0.

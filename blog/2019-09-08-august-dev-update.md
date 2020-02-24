@@ -19,6 +19,7 @@ Last month we doubled down on our efforts to improve COMIT's accessibility and r
 - Investigated how we could use [Miniscript](http://bitcoin.sipa.be/miniscript/) to [model our HTLCs](https://github.com/comit-network/comit-rs/issues/1287).
 - Took steps towards persisting swaps between restarts by starting work on [adding a database to cnd](https://github.com/comit-network/comit-rs/issues/1243) and [modifying btsieve accordingly](https://github.com/comit-network/spikes/blob/master/0014-resume-swaps-after-restart.adoc).
 
+<!--truncate-->
 
 We also got confirmation that, [once again](https://www.youtube.com/watch?time_continue=1025&v=FI9cwksTrQs), [Thomas](https://twitter.com/oetzn) will be presenting at Scaling Bitcoin.
 This time around he will be conducting a WIP session in Tel Aviv on how to conditionally transfer tokens on top of Bitcoin.

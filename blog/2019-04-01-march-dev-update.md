@@ -16,6 +16,8 @@ tags: [dev-update]
 
 It feels like we just started the quarter and here is already the 3rd dev update of this year, meaning Q1 is already over.
 
+<!--truncate-->
+
 [Lloyd](https://twitter.com/LLFOURN) spent quite some time on writing [RFCs](https://github.com/comit-network/RFCs) in the last two sprints.
 In short, he managed to put down an initial version for all the supported ledgers and assets that we currently have in COMIT, which are Bitcoin & Ethereum with the Bitcoin, Ether and ERC20 assets.
 The exciting part about this is that we can now change our reference implementation of COMIT, [comit-rs](https://github.com/comit-network/comit-rs), to refer to the RFCs for the smart contract templates of the HTLCs instead of compiling them as part of the build.

@@ -18,6 +18,8 @@ Lately, we have been very busy preparing for the TenX Genesis event that went do
 All here at CoBloX were very excited to join our colleagues in Singapore for a full week of exchanging knowledge over beers and socializing events.
 We also gave a workshop on COMIT there, showcasing what we have achieved right until then.
 
+<!--truncate-->
+
 So, let's jump right into what has happened in COMIT.
 First, great progress has been made on the development side.
 

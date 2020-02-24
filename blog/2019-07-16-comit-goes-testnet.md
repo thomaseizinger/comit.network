@@ -22,6 +22,8 @@ After months of hard work we are proud to present a live testnet version of COMI
 The description below gives you step-by-step guide of how to setup the COMIT Node daemon (cnd) on your machine and do a first swap against Bobtimus: an automated swapping bot on our side. 
 He currently supports Bitcoin and Ether but will be extended in the future.
 
+<!--truncate-->
+
 ## Phase 1: Setup
 In order to achieve an atomic swap between Bitcoin and Ethereum on testnet you need the following components running:
 

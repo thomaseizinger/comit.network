@@ -19,6 +19,8 @@ We implemented a custom algorithm for the rates, based on the wallet balances to
 This is of course not to be used for mainnet but it was a good exercise to test the modularity of Bobtimus rate service.
 Ultimately, we want to make it possible for everyone to implement their own trading algorithm using Bobtimus.
 
+<!--truncate-->
+
 Then, we deployed [Bobtimus in the cloud]({% post_url 2019-07-16-comit-goes-testnet %})
 to allow you to have a go and try it out.
 You need to have full nodes running to use [comit-rs](https://github.com/comit-network/comit-rs) at this stage.

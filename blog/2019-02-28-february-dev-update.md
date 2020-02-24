@@ -18,6 +18,8 @@ This month, [Philipp](https://twitter.com/bonomat) and I attended 2019's [The Fi
 It was a fun, exciting and inspiring week.
 The people I met were not only incredibly smart but also highly motivated to do real research and invent new things.
 
+<!--truncate-->
+
 Our humble contribution to the conference was [a poster](https://coblox.tech/docs/financial_crypto19.pdf) which demonstrates how you can do atomic swaps without the *option problem*.
 
 The presentations that were most relevant to my interests were:

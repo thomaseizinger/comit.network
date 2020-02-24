@@ -12,6 +12,8 @@ We are aware that the the gossip factory is working overtime since our [short de
 So yes, it is true, we showed a live demo where we swapped a non-native asset to an asset on a layer-2 network on both mainnets.
 In particular, we swapped 10 PAY tokens on Ethereum for 71240 Satoshi on the Lightning Network using COMIT.
 
+<!--truncate-->
+
 In this blog post we want to provide a short update about our latest findings in that regards.
 During the implementation of the proof of concept (PoC) we came across some challenges that we thought were worth talking about.
 

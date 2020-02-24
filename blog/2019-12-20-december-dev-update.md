@@ -18,6 +18,8 @@ December, the silent time of the year, was not that silent for us.
 By the end of November the CoBloX team was flying out to Singapore for Christmas at the TenX office. 
 We had a wonderful time in Singapore meeting up with colleagues from all over the world. 
 
+<!--truncate-->
+
 We invested quite some time into [create-comit-app](https://github.com/comit-network/create-comit-app) before our hackathon on 08.12.2019.
 Two things shall be mentioned specifically:
 1. [create-comit-app](https://github.com/comit-network/create-comit-app) was [released for Windows](https://github.com/comit-network/create-comit-app/releases),

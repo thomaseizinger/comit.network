@@ -21,6 +21,8 @@ Within this blog post I want to follow up on CoBloX's original promise:
 
 > To bring back knowledge and learnings back to the community.
 
+<!--truncate-->
+
 For the sake of completion I will use the script of the [original blogpost by Philipp]({% post_url 2018-06-23-connect-all-the-blockchains %}) as example for my explanations here.
 Note, that this script has slightly changed.
 The changes will shortly be explained in the last section of this post.

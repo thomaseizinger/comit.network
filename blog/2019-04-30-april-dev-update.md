@@ -22,6 +22,8 @@ On Wednesday, May 8 2019 we are celebrating our 1st year anniversary as resident
 and, since [last month](./2019-04-01-march-dev-update) did not mention it: [Thomas](https://twitter.com/oetzn) had his 1 year anniversary a few weeks ago.
 It's been an amazing journey so far and I'm looking forward to what will come.
 
+<!--truncate-->
+
 What happened last month:
 
 As waffle.io is closing down as well, we have been actively looking for a new way to manage our GitHub issues.

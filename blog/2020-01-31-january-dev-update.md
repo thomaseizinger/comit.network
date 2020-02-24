@@ -22,6 +22,8 @@ I believe anyone who builds a product, platform or protocol for others, should a
 We, at CoBloX, are building COMIT as an open-source protocol for anyone to leverage the power of atomic swaps in their own software.
 If we do not seek to understand first then how can we build something useful to you?
 
+<!--truncate-->
+
 To achieve our objective of better understanding COMIT App developers, we are putting a lot of efforts in reaching out to the community:
 
 - Events in January:

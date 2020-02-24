@@ -16,6 +16,8 @@ tags: [dev-update]
 
 In September we invested a great deal of our brainpower into building the C( )MIT developer community. 
 
+<!--truncate-->
+
 Our first achievement on the road to success was the release of [C( )MIT 0.1.0](https://github.com/comit-network/comit-rs/releases/tag/0.1.0) 🥳🎉. 
 Over the course of the month two more releases followed - check out the [latest release](https://github.com/comit-network/comit-rs/releases) on Github!
 We got several cool features merged on [comit-rs](https://github.com/comit-network/comit-rs), such as replacing ZMQ with using the bitcoind HTTP interface. 
