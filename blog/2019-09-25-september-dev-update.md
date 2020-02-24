@@ -10,19 +10,19 @@ tags: [dev-update]
 >
 > — _Paul Brandt_
 
-In September we invested a great deal of our brainpower into building the C( )MIT developer community. 
+In September we invested a great deal of our brainpower into building the COMIT developer community. 
 
 <!--truncate-->
 
-Our first achievement on the road to success was the release of [C( )MIT 0.1.0](https://github.com/comit-network/comit-rs/releases/tag/0.1.0) 🥳🎉. 
+Our first achievement on the road to success was the release of [COMIT 0.1.0](https://github.com/comit-network/comit-rs/releases/tag/0.1.0) 🥳🎉. 
 Over the course of the month two more releases followed - check out the [latest release](https://github.com/comit-network/comit-rs/releases) on Github!
 We got several cool features merged on [comit-rs](https://github.com/comit-network/comit-rs), such as replacing ZMQ with using the bitcoind HTTP interface. 
 This resulted in a big refactoring of btsieve, which allowed us to integrate it into cnd!
 For the next release you can expect only one binary, which will be cnd.
 
-Besides improving our Rust reference implementation we focused on creating tools that allow developers to easily get started with C( )MIT.
-In order to be able to present how C( )MIT works in a simple and understandable manner we created two new projects in September:
-1. [hello-swap](https://github.com/comit-network/hello-swap): A "Hello World" example for C( )MIT that shows you how to do an atomic swap using HTLCs.
+Besides improving our Rust reference implementation we focused on creating tools that allow developers to easily get started with COMIT.
+In order to be able to present how COMIT works in a simple and understandable manner we created two new projects in September:
+1. [hello-swap](https://github.com/comit-network/hello-swap): A "Hello World" example for COMIT that shows you how to do an atomic swap using HTLCs.
 2. [create-comit-app](https://github.com/comit-network/create-comit-app): A simple CLI inspired by create-react-app that allows you to spin up a development environment.
 
 The [create-comit-app](https://github.com/comit-network/create-comit-app) project is especially cool.
@@ -33,24 +33,24 @@ With [create-comit-app](https://github.com/comit-network/create-comit-app) you g
   * Ethereum dev node,
   * 2x cnd (comit network daemon) so you can do a swap on your local machine.
 
-With [hello-swap](https://github.com/comit-network/hello-swap) and [create-comit-app](https://github.com/comit-network/create-comit-app) it is wonderfully simple to get started building on top of C( )MIT - we really recommend you take a look.
+With [hello-swap](https://github.com/comit-network/hello-swap) and [create-comit-app](https://github.com/comit-network/create-comit-app) it is wonderfully simple to get started building on top of COMIT - we really recommend you take a look.
 
 Already sounds good? There is more!
 We did not just stop at [hello-swap](https://github.com/comit-network/hello-swap) and [create-comit-app](https://github.com/comit-network/create-comit-app) but also created [comit-js-sdk](https://github.com/comit-network/comit-js-sdk) a JavaScript SDK that enables you to interact with the cnd API in the easiest manner. 
-Using the [comit-js-sdk](https://github.com/comit-network/comit-js-sdk) it becomes fairly simple to integrate C( )MIT into your JavaScript application. [hello-swap](https://github.com/comit-network/hello-swap) uses the [comit-js-sdk](https://github.com/comit-network/comit-js-sdk) under the hood, it is a great starting point to get to know the SDK!
+Using the [comit-js-sdk](https://github.com/comit-network/comit-js-sdk) it becomes fairly simple to integrate COMIT into your JavaScript application. [hello-swap](https://github.com/comit-network/hello-swap) uses the [comit-js-sdk](https://github.com/comit-network/comit-js-sdk) under the hood, it is a great starting point to get to know the SDK!
 
-In September our most important goal was to spread the word about C( )MIT as much as possible - and we did. 
+In September our most important goal was to spread the word about COMIT as much as possible - and we did. 
 We organised several [meetups](https://www.meetup.com/Cross-Blockchain-Developers/) and delivered our first workshop at [BokkyPooBah's Ethereum Workshop](https://www.meetup.com/BokkyPooBahs-Ethereum-Workshop/events/264682620).
 First, that was a great deal of fun! Second, we had several key learnings about our users and could validate several of our assumptions. 
 One immediate result of the learnings from our first meetup was the creation of the three new projects [hello-swap](https://github.com/comit-network/hello-swap), [create-comit-app](https://github.com/comit-network/create-comit-app) and [comit-js-sdk](https://github.com/comit-network/comit-js-sdk). 
-We are planning to continuously extend these tools with e.g. adding testnet and mainnet features for [create-comit-app](https://github.com/comit-network/create-comit-app) and adding extensions to [hello-swap](https://github.com/comit-network/hello-swap) that show what can be built on top of C( )MIT.
+We are planning to continuously extend these tools with e.g. adding testnet and mainnet features for [create-comit-app](https://github.com/comit-network/create-comit-app) and adding extensions to [hello-swap](https://github.com/comit-network/hello-swap) that show what can be built on top of COMIT.
 
 Building a local community is great - building a community around the world is even greater! Thus, we put three items into our planning pipeline:
 1. Hackathon in Singapore between 06-08 December 2019
 2. Workshop in Zurich between 10-13 December 2019
 3. Workshop in Vienna between 16-18 December 2019
 
-If you would like to learn more about C( )MIT you are very welcome to join us at one of our meetups and upcoming events - or check out our relaunched website at [comit.network](https://www.comit.network/)!
+If you would like to learn more about COMIT you are very welcome to join us at one of our meetups and upcoming events - or check out our relaunched website at [comit.network](https://www.comit.network/)!
 
 Stay tuned,
 
