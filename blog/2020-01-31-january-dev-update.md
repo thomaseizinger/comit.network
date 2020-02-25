@@ -36,7 +36,7 @@ If you wish to meet the CoBloX team at any of these events, do not hesitate to [
 
 ---
 
-The CoBloX Team started the new year strong to progress on our [2020 Goals]({% post_url 2019-12-05-2020-COMIT-goals %}).
+The CoBloX Team started the new year strong to progress on our [2020 Goals](2019-12-05-2020-COMIT-goals.md).
 
 Thomas has been finalising a [plan of attack](https://github.com/comit-network/spikes/pull/50) to integrate Lightning Bitcoin in COMIT,
 using [lnd](https://github.com/lightningnetwork/lnd/).

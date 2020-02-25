@@ -11,7 +11,7 @@ tags: [bitcoin, script, educational]
 > — *[Satoshi Nakamoto](https://github.com/trottier/original-bitcoin/blob/master/src/main.cpp#L1442)*
 
 When I started at CoBloX a few weeks back, I faced a steep learning curve to master the [RFC documenting the SWAP-Basic protocol](https://github.com/comit-network/RFCs/blob/master/RFC-005-SWAP-Basic-Bitcoin.md).
-It's been almost a year that we published our [original blog post]({% post_url 2018-06-23-connect-all-the-blockchains %}).
+It's been almost a year that we published our [original blog post](2018-06-23-connect-all-the-blockchains.md).
 It described how HTLCs work and how they can be facilitated for atomic swaps between two blockchains.
 However, this blog post lacks the explanation of the Bitcoin HTLC, i.e. how the stack-based scripting language allows us to create HTLCs on the Bitcoin blockchain.
 Within this blog post I want to follow up on CoBloX's original promise:
@@ -20,7 +20,7 @@ Within this blog post I want to follow up on CoBloX's original promise:
 
 <!--truncate-->
 
-For the sake of completion I will use the script of the [original blogpost by Philipp]({% post_url 2018-06-23-connect-all-the-blockchains %}) as example for my explanations here.
+For the sake of completion I will use the script of the [original blogpost by Philipp](2018-06-23-connect-all-the-blockchains.md) as example for my explanations here.
 Note, that this script has slightly changed.
 The changes will shortly be explained in the last section of this post.
 
@@ -56,9 +56,9 @@ Let's first do a very quick recap of how an atomic swap works in COMIT - Bitcoin
 This is just a very basic summary of a successful swap, you can find more details in the [SWAP-Basic protocol specification](https://github.com/comit-network/RFCs/blob/master/RFC-003-SWAP-Basic.md).
 
 What is relevant for this blog post? - The fund and redeem transaction of the first COMIT atomic swap on Bitcoin.
-The Ethereum fund and redeem transaction are not considered further in this blogpost, if you are interested you can take a look at the [original blogpost by Philipp]({% post_url 2018-06-23-connect-all-the-blockchains %}) were they are described in more detail.
+The Ethereum fund and redeem transaction are not considered further in this blogpost, if you are interested you can take a look at the [original blogpost by Philipp](2018-06-23-connect-all-the-blockchains.md) were they are described in more detail.
 
-From [Philipp's original blogpost]({% post_url 2018-06-23-connect-all-the-blockchains %}) we know the Bitcoin transaction hashes, so we can easily find the transactions using any Bitcoin block-explorer:
+From [Philipp's original blogpost](2018-06-23-connect-all-the-blockchains.md) we know the Bitcoin transaction hashes, so we can easily find the transactions using any Bitcoin block-explorer:
 
 - Fund transaction: [https://btc.com/ad067ee417ee5518122374307d1fa494c67e30c75d38c7061d944b59e56fe024](https://btc.com/ad067ee417ee5518122374307d1fa494c67e30c75d38c7061d944b59e56fe024)
 - Redeem transaction: [https://btc.com/5800c704f139e388d4146be7110294470c8c17b34488544863a535d2346a4637](https://btc.com/5800c704f139e388d4146be7110294470c8c17b34488544863a535d2346a4637)
@@ -303,7 +303,7 @@ It adds an evaluation of the secret's length of 32 bytes:
 The reason why it was added is a bit tricky.
 It is related to how the Ethereum contract works.
 Let's take a closer look.
-[Philipp's original blogpost]({% post_url 2018-06-23-connect-all-the-blockchains %}) goes into detail with the Ethereum contract, the current version can be found in the [SWAP-Basic Ethereum RFC](https://github.com/comit-network/RFCs/blob/master/RFC-007-SWAP-Basic-Ether.md).
+[Philipp's original blogpost](2018-06-23-connect-all-the-blockchains.md) goes into detail with the Ethereum contract, the current version can be found in the [SWAP-Basic Ethereum RFC](https://github.com/comit-network/RFCs/blob/master/RFC-007-SWAP-Basic-Ether.md).
 The way the secret is extracted from the call-stack in Ethereum is like this:
 ```text
     // Load secret into memory

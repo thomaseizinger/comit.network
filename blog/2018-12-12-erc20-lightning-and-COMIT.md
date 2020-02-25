@@ -18,7 +18,7 @@ During the implementation of the proof of concept (PoC) we came across some chal
 
 # ERC20
 
-As with our [previous Ether HTLC]({% post_url 2018-06-23-connect-all-the-blockchains %}) we wanted to deploy single use smart contracts to avoid the problems associated with stateful contracts.
+As with our [previous Ether HTLC](2018-06-23-connect-all-the-blockchains.md) we wanted to deploy single use smart contracts to avoid the problems associated with stateful contracts.
 Designing and implementing Ether and Bitcoin HTLCs in this way is straightforward because they're native assets.
 However, ERC20 tokens are managed by a smart contract which needs to be invoked
 to transfer ownership.
@@ -77,7 +77,7 @@ That is why **right now** is the perfect time to do it!
 
 If you don't yet know what COMIT is: check out [the website](https://comit.network) for more details.
 In short: **COMIT is an open protocol facilitating trustless cross-blockchain applications**.
-The simplest use case one can imagine is an atomic swap between two currencies as you have seen in our former blog post [here]({% post_url 2018-06-23-connect-all-the-blockchains %}).
+The simplest use case one can imagine is an atomic swap between two currencies as you have seen in our former blog post [here](2018-06-23-connect-all-the-blockchains.md).
 
 # And where?
 
