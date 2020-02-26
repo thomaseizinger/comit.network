@@ -65,7 +65,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/coblox/comit.network/edit/master/',
+            'https://github.com/comit-network/comit.network/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
