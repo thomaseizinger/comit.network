@@ -22,7 +22,7 @@ sidebar_label: "Asset"
 
 • **name**: *string*
 
-*Defined in [cnd/cnd.ts:20](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L20)*
+*Defined in [cnd/cnd.ts:20](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L20)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **quantity**: *string*
 
-*Defined in [cnd/cnd.ts:21](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L21)*
+*Defined in [cnd/cnd.ts:21](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L21)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **token_contract**? : *undefined | string*
 
-*Defined in [cnd/cnd.ts:22](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L22)*
+*Defined in [cnd/cnd.ts:22](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L22)*

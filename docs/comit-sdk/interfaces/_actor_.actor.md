@@ -27,7 +27,7 @@ Representation of an actor during swap execution.
 
 • **addressHint**: *string*
 
-*Defined in [actor.ts:13](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/actor.ts#L13)*
+*Defined in [actor.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/actor.ts#L13)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **bitcoinWallet**: *[BitcoinWallet](_bitcoin_wallet_.bitcoinwallet.md)*
 
-*Defined in [actor.ts:14](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/actor.ts#L14)*
+*Defined in [actor.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/actor.ts#L14)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **comitClient**: *[ComitClient](../classes/_comit_client_.comitclient.md)*
 
-*Defined in [actor.ts:11](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/actor.ts#L11)*
+*Defined in [actor.ts:11](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/actor.ts#L11)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **ethereumWallet**: *[EthereumWallet](../classes/_ethereum_wallet_.ethereumwallet.md)*
 
-*Defined in [actor.ts:15](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/actor.ts#L15)*
+*Defined in [actor.ts:15](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/actor.ts#L15)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **name**? : *undefined | string*
 
-*Defined in [actor.ts:10](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/actor.ts#L10)*
+*Defined in [actor.ts:10](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/actor.ts#L10)*
 
 ___
 
@@ -67,4 +67,4 @@ ___
 
 • **peerId**: *string*
 
-*Defined in [actor.ts:12](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/actor.ts#L12)*
+*Defined in [actor.ts:12](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/actor.ts#L12)*

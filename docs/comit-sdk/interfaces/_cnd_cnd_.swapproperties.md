@@ -30,7 +30,7 @@ sidebar_label: "SwapProperties"
 
 • **counterparty**: *string*
 
-*Defined in [cnd/cnd.ts:110](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L110)*
+*Defined in [cnd/cnd.ts:110](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L110)*
 
 The peer-id of the counterparty of this swap.
 
@@ -40,7 +40,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [cnd/cnd.ts:106](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L106)*
+*Defined in [cnd/cnd.ts:106](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L106)*
 
 The id of the swap.
 
@@ -50,7 +50,7 @@ ___
 
 • **parameters**: *object*
 
-*Defined in [cnd/cnd.ts:126](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L126)*
+*Defined in [cnd/cnd.ts:126](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L126)*
 
 The parameters of this swap.
 
@@ -72,7 +72,7 @@ ___
 
 • **protocol**: *string*
 
-*Defined in [cnd/cnd.ts:118](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L118)*
+*Defined in [cnd/cnd.ts:118](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L118)*
 
 The cryptographic protocol that is employed in this swap.
 
@@ -82,7 +82,7 @@ ___
 
 • **role**: *"Alice" | "Bob"*
 
-*Defined in [cnd/cnd.ts:114](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L114)*
+*Defined in [cnd/cnd.ts:114](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L114)*
 
 The role in which you are participating in this swap.
 
@@ -92,7 +92,7 @@ ___
 
 • **state**? : *undefined | object*
 
-*Defined in [cnd/cnd.ts:136](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L136)*
+*Defined in [cnd/cnd.ts:136](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L136)*
 
 The detailed state of the swap.
 
@@ -102,6 +102,6 @@ ___
 
 • **status**: *"IN_PROGRESS" | "SWAPPED" | "NOT_SWAPPED" | "INTERNAL_FAILURE"*
 
-*Defined in [cnd/cnd.ts:122](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L122)*
+*Defined in [cnd/cnd.ts:122](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L122)*
 
 The status this swap is currently in.

@@ -27,7 +27,7 @@ Bundles functionality to get orders from a maker, take them and initiate the swa
 
 \+ **new Negotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `makerUrl`: string): *[Negotiator](_negotiation_taker_negotiator_.negotiator.md)*
 
-*Defined in [negotiation/taker/negotiator.ts:62](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/negotiator.ts#L62)*
+*Defined in [negotiation/taker/negotiator.ts:62](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/negotiation/taker/negotiator.ts#L62)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ Name | Type | Description |
 
 ▸ **getOrder**(`criteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)): *Promise‹[TakerOrder](../modules/_negotiation_taker_order_.md#takerorder)›*
 
-*Defined in [negotiation/taker/negotiator.ts:80](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/taker/negotiator.ts#L80)*
+*Defined in [negotiation/taker/negotiator.ts:80](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/negotiation/taker/negotiator.ts#L80)*
 
 Get an order from the maker based on specified criteria. Whatever is returned from the maker is
 returned here, even if it does not match the criteria or is invalid. Not all criteria are passed to the maker.

@@ -23,7 +23,7 @@ sidebar_label: "EthereumCallContractPayload"
 
 • **contract_address**: *string*
 
-*Defined in [cnd/cnd.ts:66](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L66)*
+*Defined in [cnd/cnd.ts:66](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L66)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **data**: *string*
 
-*Defined in [cnd/cnd.ts:67](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L67)*
+*Defined in [cnd/cnd.ts:67](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L67)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **gas_limit**: *string*
 
-*Defined in [cnd/cnd.ts:68](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L68)*
+*Defined in [cnd/cnd.ts:68](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L68)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **network**: *string*
 
-*Defined in [cnd/cnd.ts:69](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L69)*
+*Defined in [cnd/cnd.ts:69](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L69)*

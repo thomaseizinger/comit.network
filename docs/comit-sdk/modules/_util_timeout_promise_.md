@@ -19,9 +19,9 @@ sidebar_label: "util/timeout_promise"
 
 ###  sleep
 
-▸ **sleep**(`ms`: number): *Promise‹unknown›*
+▸ **sleep**(`ms`: number): *Promise‹void›*
 
-*Defined in [util/timeout_promise.ts:20](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/util/timeout_promise.ts#L20)*
+*Defined in [util/timeout_promise.ts:23](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/util/timeout_promise.ts#L23)*
 
 **Parameters:**
 
@@ -29,7 +29,7 @@ Name | Type |
 ------ | ------ |
 `ms` | number |
 
-**Returns:** *Promise‹unknown›*
+**Returns:** *Promise‹void›*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **timeoutPromise**<**T**>(`ms`: number, `promise`: Promise‹T›): *Promise‹T›*
 
-*Defined in [util/timeout_promise.ts:9](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/util/timeout_promise.ts#L9)*
+*Defined in [util/timeout_promise.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/util/timeout_promise.ts#L9)*
 
 **Type parameters:**
 

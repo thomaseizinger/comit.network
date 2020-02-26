@@ -21,7 +21,7 @@ sidebar_label: "GetInfo"
 
 • **id**: *string*
 
-*Defined in [cnd/cnd.ts:9](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L9)*
+*Defined in [cnd/cnd.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L9)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **listen_addresses**: *string[]*
 
-*Defined in [cnd/cnd.ts:10](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L10)*
+*Defined in [cnd/cnd.ts:10](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L10)*

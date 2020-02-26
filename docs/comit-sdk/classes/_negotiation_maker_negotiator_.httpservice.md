@@ -27,7 +27,7 @@ A simple [express](http://expressjs.com/) HTTP service to allow takers to access
 
 \+ **new HttpService**(`getOrderById`: function, `getExecutionParams`: function, `takeOrder`: function, `getOrderByTradingPair`: function): *[HttpService](_negotiation_maker_negotiator_.httpservice.md)*
 
-*Defined in [negotiation/maker/negotiator.ts:177](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L177)*
+*Defined in [negotiation/maker/negotiator.ts:175](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/negotiation/maker/negotiator.ts#L175)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ Name | Type |
 
 ▸ **getUrl**(): *undefined | string*
 
-*Defined in [negotiation/maker/negotiator.ts:252](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L252)*
+*Defined in [negotiation/maker/negotiator.ts:250](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/negotiation/maker/negotiator.ts#L250)*
 
 **Returns:** *undefined | string*
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [negotiation/maker/negotiator.ts:192](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/negotiation/maker/negotiator.ts#L192)*
+*Defined in [negotiation/maker/negotiator.ts:190](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/negotiation/maker/negotiator.ts#L190)*
 
 **Parameters:**
 

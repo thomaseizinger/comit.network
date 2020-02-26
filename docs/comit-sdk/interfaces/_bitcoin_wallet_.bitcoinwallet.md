@@ -32,7 +32,7 @@ You can plug your own wallet by passing a custom implementation of this interfac
 
 ▸ **broadcastTransaction**(`transactionHex`: string, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:19](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L19)*
+*Defined in [bitcoin_wallet.ts:19](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/bitcoin_wallet.ts#L19)*
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ ___
 
 ▸ **getAddress**(): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L9)*
+*Defined in [bitcoin_wallet.ts:9](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/bitcoin_wallet.ts#L9)*
 
 **Returns:** *Promise‹string›*
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹number›*
 
-*Defined in [bitcoin_wallet.ts:11](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L11)*
+*Defined in [bitcoin_wallet.ts:11](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/bitcoin_wallet.ts#L11)*
 
 **Returns:** *Promise‹number›*
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **getFee**(): *string*
 
-*Defined in [bitcoin_wallet.ts:24](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L24)*
+*Defined in [bitcoin_wallet.ts:24](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/bitcoin_wallet.ts#L24)*
 
 **Returns:** *string*
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **sendToAddress**(`address`: string, `satoshis`: number, `network`: string): *Promise‹string›*
 
-*Defined in [bitcoin_wallet.ts:13](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/bitcoin_wallet.ts#L13)*
+*Defined in [bitcoin_wallet.ts:13](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/bitcoin_wallet.ts#L13)*
 
 **Parameters:**
 

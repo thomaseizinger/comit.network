@@ -1,6 +1,6 @@
 ---
 id: "index"
-title: "comit-sdk - v0.11.1"
+title: "comit-sdk - v0.12.0"
 sidebar_label: "README"
 ---
 

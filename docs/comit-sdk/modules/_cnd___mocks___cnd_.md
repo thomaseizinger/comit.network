@@ -23,13 +23,13 @@ sidebar_label: "cnd/__mocks__/cnd"
   };
 })
 
-*Defined in [cnd/__mocks__/cnd.ts:14](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/__mocks__/cnd.ts#L14)*
+*Defined in [cnd/__mocks__/cnd.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/__mocks__/cnd.ts#L14)*
 
 ___
 
 ### `Const` mockFetch
 
-• **mockFetch**: *Mock‹any, any›* = jest.fn().mockImplementation(() => {
+• **mockFetch**: *Mock‹any, any›* = jest.fn().mockImplementation(async () => {
   return Promise.resolve({
     data: {
       properties: { id: "123456" },
@@ -38,14 +38,14 @@ ___
   });
 })
 
-*Defined in [cnd/__mocks__/cnd.ts:5](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/__mocks__/cnd.ts#L5)*
+*Defined in [cnd/__mocks__/cnd.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/__mocks__/cnd.ts#L5)*
 
 ___
 
 ### `Const` mockPostSwap
 
-• **mockPostSwap**: *Mock‹any, any›* = jest.fn().mockImplementation(() => {
+• **mockPostSwap**: *Mock‹any, any›* = jest.fn().mockImplementation(async () => {
   return Promise.resolve("/mock/swap/location");
 })
 
-*Defined in [cnd/__mocks__/cnd.ts:1](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/__mocks__/cnd.ts#L1)*
+*Defined in [cnd/__mocks__/cnd.ts:1](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/__mocks__/cnd.ts#L1)*

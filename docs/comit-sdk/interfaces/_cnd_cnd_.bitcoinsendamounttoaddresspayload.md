@@ -22,7 +22,7 @@ sidebar_label: "BitcoinSendAmountToAddressPayload"
 
 • **amount**: *string*
 
-*Defined in [cnd/cnd.ts:49](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L49)*
+*Defined in [cnd/cnd.ts:49](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L49)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **network**: *string*
 
-*Defined in [cnd/cnd.ts:50](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L50)*
+*Defined in [cnd/cnd.ts:50](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L50)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **to**: *string*
 
-*Defined in [cnd/cnd.ts:48](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L48)*
+*Defined in [cnd/cnd.ts:48](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L48)*

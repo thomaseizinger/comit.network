@@ -23,7 +23,7 @@ Defines the parameters (for how long and how often) to try executing an action o
 
 • **maxTimeoutSecs**: *number*
 
-*Defined in [util/timeout_promise.ts:5](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/util/timeout_promise.ts#L5)*
+*Defined in [util/timeout_promise.ts:5](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/util/timeout_promise.ts#L5)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **tryIntervalSecs**: *number*
 
-*Defined in [util/timeout_promise.ts:6](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/util/timeout_promise.ts#L6)*
+*Defined in [util/timeout_promise.ts:6](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/util/timeout_promise.ts#L6)*

@@ -4,7 +4,7 @@ title: "Swap"
 sidebar_label: "Swap"
 ---
 
-A statefull class that represents a single swap.
+A stateful class that represents a single swap.
 
 It has all the dependencies embedded that are necessary for taking actions on the swap.
 
@@ -40,7 +40,7 @@ It has all the dependencies embedded that are necessary for taking actions on th
 
 \+ **new Swap**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_bitcoin_wallet_.bitcoinwallet.md), `ethereumWallet`: [EthereumWallet](_ethereum_wallet_.ethereumwallet.md), `cnd`: [Cnd](_cnd_cnd_.cnd.md), `self`: string): *[Swap](_swap_.swap.md)*
 
-*Defined in [swap.ts:14](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L14)*
+*Defined in [swap.ts:14](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L14)*
 
 **Parameters:**
 
@@ -59,7 +59,7 @@ Name | Type |
 
 • **self**: *string*
 
-*Defined in [swap.ts:19](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L19)*
+*Defined in [swap.ts:19](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L19)*
 
 ## Methods
 
@@ -67,7 +67,7 @@ Name | Type |
 
 ▸ **accept**(`tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *Promise‹void›*
 
-*Defined in [swap.ts:28](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L28)*
+*Defined in [swap.ts:28](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L28)*
 
 Looks for and executes the accept action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -86,7 +86,7 @@ ___
 
 ▸ **decline**(`tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *Promise‹void›*
 
-*Defined in [swap.ts:38](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L38)*
+*Defined in [swap.ts:38](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L38)*
 
 Looks for and executes the decline action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -105,7 +105,7 @@ ___
 
 ▸ **deploy**(`tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *Promise‹string›*
 
-*Defined in [swap.ts:51](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L51)*
+*Defined in [swap.ts:51](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L51)*
 
 Looks for and executes the deploy action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -128,7 +128,7 @@ ___
 
 ▸ **doLedgerAction**(`ledgerAction`: [LedgerAction](../modules/_cnd_cnd_.md#ledgeraction)): *Promise‹string›*
 
-*Defined in [swap.ts:135](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L135)*
+*Defined in [swap.ts:135](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L135)*
 
 Low level API for executing a ledger action returned from [Cnd](_cnd_cnd_.cnd.md).
 
@@ -148,7 +148,7 @@ ___
 
 ▸ **fetchDetails**(): *Promise‹[SwapDetails](../interfaces/_cnd_cnd_.swapdetails.md)›*
 
-*Defined in [swap.ts:104](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L104)*
+*Defined in [swap.ts:104](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L104)*
 
 **Returns:** *Promise‹[SwapDetails](../interfaces/_cnd_cnd_.swapdetails.md)›*
 
@@ -158,7 +158,7 @@ ___
 
 ▸ **fund**(`tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *Promise‹string›*
 
-*Defined in [swap.ts:66](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L66)*
+*Defined in [swap.ts:66](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L66)*
 
 Looks for and executes the fund action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -179,7 +179,7 @@ ___
 
 ▸ **redeem**(`tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *Promise‹string›*
 
-*Defined in [swap.ts:81](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L81)*
+*Defined in [swap.ts:81](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L81)*
 
 Looks for and executes the redeem action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -200,7 +200,7 @@ ___
 
 ▸ **refund**(`tryParams`: [TryParams](../interfaces/_util_timeout_promise_.tryparams.md)): *Promise‹string›*
 
-*Defined in [swap.ts:96](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L96)*
+*Defined in [swap.ts:96](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L96)*
 
 Looks for and executes the refund action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -221,7 +221,7 @@ ___
 
 ▸ **tryExecuteSirenAction**<**R**>(`actionName`: string, `__namedParameters`: object): *Promise‹AxiosResponse‹R››*
 
-*Defined in [swap.ts:118](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/swap.ts#L118)*
+*Defined in [swap.ts:118](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/swap.ts#L118)*
 
 Low level API for executing actions on the [Swap](_swap_.swap.md).
 

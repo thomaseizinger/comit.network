@@ -35,4 +35,4 @@ sidebar_label: "cnd/cnd"
 
 Ƭ **LedgerAction**: *object | object | object | object | object*
 
-*Defined in [cnd/cnd.ts:72](https://github.com/comit-network/comit-js-sdk/blob/95ab111/src/cnd/cnd.ts#L72)*
+*Defined in [cnd/cnd.ts:72](https://github.com/comit-network/comit-js-sdk/blob/d75521e/src/cnd/cnd.ts#L72)*
