@@ -42,6 +42,9 @@ Those (libp2p-based) protocols facilitate the exchange of information for the pu
 
 ### COMIT Cryptographic Protocols
 
+The COMIT cryptographic protocols define protocols for executing an atomic swaps.
+For the negotiation phase please refer to the [negotiation protocol section](#comit-negotiation-protocols).
+
 The COMIT protocol distinguishes between ledgers and assets.
 When referring to a ledger we use a an uppercase first letter (e.g. Bitcoin, Ethereum), when referring to an asset we use a lowercase first letter (e.g. bitcoin, ether).
 
@@ -76,8 +79,16 @@ The HErc20 protocol supports the following asset:
 
 The HALight protocol is currently still in development, the first supported asset will be bitcoin on the Lightning network.
 
-## COMIT Communication Protocols
+### COMIT Communication Protocols
 
 The communication protocols of COMIT are used to exchange information between parties prior to the execution of a [swap](../core-concepts/atomic-swap-htlc.md).
 
 The communication protocols in [cnd](#comit-network-daemon-cnd) are based on [libp2p](https://libp2p.io/).
+
+### COMIT Negotiation Protocols
+
+Currently the [COMIT network daemon (cnd)](https://github.com/comit-network/comit-rs/) does not support [negotiation](../core-concepts/negotiation.md) protocols.
+However, the [Javascript SDK](../comit-sdk/index.md) includes a simple server-client negotiation protocol that shows how negotiation and execution can be combined in an application.
+
+Note that you don't have to use the negotiation classes provided by the [Javascript SDK](../comit-sdk/index.md) when building an application on top of COMIT. 
+Your application can introduce its own negotiation protocol instead. 
