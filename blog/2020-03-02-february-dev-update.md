@@ -10,6 +10,8 @@ tags: [dev-update]
 >
 > — Santosh Kalvar
 
+[Join us for the next COMIT Community ☕️](https://meet.jit.si/COMIT-Community-Coffee-04-2020) on 02.04.2020, 7pm Sydney time, or listen in on [youtube](https://youtu.be/DHbGsf9i8TM)!
+
 In this blogpost we first want to [HALight](https://github.com/comit-network/comit-rs/issues/1954) - ahm, highlight - the recent effort to design and integrate the new protocol that adds Lightning to COMIT. 
 COMIT consists of [cryptographic protocols](https://comit.network/docs/comit-protocol/comit-protocol-stack#comit-cryptographic-protocols) and [communication protocols](https://comit.network/docs/comit-protocol/comit-protocol-stack#comit-communication-protocols).
 Cryptographic protocols are currently defined as HAL, HErc20 and  HALight - where HALight is a new protocol that defines atomic swaps using the concept of hold-invoiced in lnd.
@@ -34,7 +36,7 @@ We are looking forward to the upcoming conferences later this year and hope that
 We joined another [Bitcoin Sydney meetup](https://www.meetup.com/en-AU/Bitcoin_Sydney/events/268163844/) where [Rusty Russel](https://github.com/rustyrussell) answered questions about Lightning and gave insights into the development of [c-lightning](https://github.com/ElementsProject/lightning).
 The discussion with Rusty lead us to the conclusion that it is worth taking another look at c-lightning as alternative to [lnd](https://github.com/lightningnetwork/lnd) for the Lightning integration.
 
-Our next COMIT community coffee is being planned, date and time will be announced within the next two weeks.
+Our next COMIT community coffee is planned on 02.04.2020, 7pm Sydeny time. [Join us in the Jitsi call](https://meet.jit.si/COMIT-Community-Coffee-04-2020) or listen in on [youtube](https://youtu.be/DHbGsf9i8TM)!
 
 — Daniel
 
