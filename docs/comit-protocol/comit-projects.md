@@ -14,8 +14,8 @@ Here is a list of the most important repositories on GitHub:
 
 * [comit-rs](https://github.com/comit-network/comit-rs): The comit-rs project is the reference implementation of the protocol written in Rust. The [comit network daemon (cnd)](comit-protocol-stack.md#comit-network-daemon-cnd) is the binary that is released by the comit-rs project.
 * [comit-js-sdk](https://github.com/comit-network/comit-js-sdk): The COMIT Javascript SDK (comit-js-sdk) wraps the communication with cnd and provides an entry point for integrating atomic swaps with COMIT into Javascript & Typescript applications.
-* [create-comit-app](https://github.com/comit-network/create-comit-app): The create-comit-app project includes Typescript demos and examples that show how to use the comit-js-sdk. Additionally it includes the `start-env` which spins up a development environment using docker containers.
-* [blockchain-contracts](https://github.com/comit-network/blockchain-contracts): The blockchain-contracts project contains the HTLC code that is used for atomic swaps in comit-rs.
+* [create-comit-app](https://github.com/comit-network/create-comit-app): The create-comit-app project includes Typescript demos and examples that show how to use the comit-js-sdk. Additionally it includes the `start-env` which spins up a development environment using docker containers. Take a look at the [Getting Started](../getting-started/create-comit-app.md) section for more information.
+* [blockchain-contracts](https://github.com/comit-network/blockchain-contracts): The blockchain-contracts project contains the blockchain contract that is used for atomic swaps in comit-rs.
 * [specification (RFCs)](https://github.com/comit-network/RFCs): The technical specification of the COMIT protocol. Details around each protocol are specified in detail here.
 
 ## Technical Specification Details
