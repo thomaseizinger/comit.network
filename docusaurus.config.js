@@ -26,8 +26,8 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/getting-started/create-comit-app', 
-          label: 'Docs', 
+          to: 'docs/getting-started/create-comit-app',
+          label: 'Docs',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -45,8 +45,8 @@ module.exports = {
               label: `v${version}`,
               to: `docs/${version}/getting-started/create-comit-app`,
             })),
-          ), 
-        },        
+          ),
+        },
         {
           href: 'https://github.com/comit-network',
           label: 'GitHub',
