@@ -6,11 +6,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'coblox', // Usually your GitHub org/user name.
   projectName: 'comit-network', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
-    gtag: {
-      trackingID: 'G-RQEDN1PVTD',
-    },
     navbar: {
       title: 'Developer Hub',
       logo: {
@@ -73,6 +69,9 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          gtag: {
+            trackingID: 'G-RQEDN1PVTD',
+          },
         },
         blog: {
           feedOptions: {
