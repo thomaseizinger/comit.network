@@ -10,6 +10,10 @@ module.exports = {
     gtag: {
       trackingID: 'G-RQEDN1PVTD',
     },
+    algolia: {
+      apiKey: '8227df9d2316772d3462018f3968c609',
+      indexName: 'comit_developer',
+    },
     navbar: {
       title: 'Developer Hub',
       logo: {
