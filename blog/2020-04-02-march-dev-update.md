@@ -12,7 +12,7 @@ tags: [dev-update]
 
 [Join us for the next COMIT Community ☕️](https://meet.jit.si/COMIT-Community-Coffee-04-2020) today, 7pm Sydney time, or listen in on [youtube](https://youtu.be/DHbGsf9i8TM)!
 
-Today's community coffee we will reflect on the first quarter of this year with a focus on Lightning Network (layer 2) integration into COMIT.
+On today's community coffee we will reflect on the first quarter of this year with a focus on Lightning Network (layer 2) integration into COMIT.
 We will discuss advantages and possible pitfalls. 
 Furthermore, we will discuss decentralised order-book solutions and what we want to tackle in the second quarter.
 
