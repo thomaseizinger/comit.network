@@ -32,7 +32,7 @@ sidebar_label: "WalletError"
 
 \+ **new WalletError**(`attemptedAction`: string, `source`: [Error](_cnd_axios_rfc7807_middleware_.problem.md#static-error), `callParams`: any): *[WalletError](_swap_.walleterror.md)*
 
-*Defined in [src/swap.ts:10](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L10)*
+*Defined in [src/swap.ts:10](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L10)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
 
 • **attemptedAction**: *string*
 
-*Defined in [src/swap.ts:12](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L12)*
+*Defined in [src/swap.ts:12](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L12)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **callParams**: *any*
 
-*Defined in [src/swap.ts:14](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L14)*
+*Defined in [src/swap.ts:14](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L14)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **source**: *[Error](_cnd_axios_rfc7807_middleware_.problem.md#static-error)*
 
-*Defined in [src/swap.ts:13](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L13)*
+*Defined in [src/swap.ts:13](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L13)*
 
 ___
 

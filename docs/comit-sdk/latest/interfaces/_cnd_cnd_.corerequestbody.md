@@ -29,7 +29,7 @@ sidebar_label: "CoreRequestBody"
 
 • **alpha**: *A*
 
-*Defined in [src/cnd/cnd.ts:52](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L52)*
+*Defined in [src/cnd/cnd.ts:52](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L52)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **beta**: *B*
 
-*Defined in [src/cnd/cnd.ts:53](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L53)*
+*Defined in [src/cnd/cnd.ts:53](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L53)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **peer**: *[Peer](_cnd_cnd_.peer.md)*
 
-*Defined in [src/cnd/cnd.ts:55](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L55)*
+*Defined in [src/cnd/cnd.ts:55](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L55)*
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 • **role**: *"Alice" | "Bob"*
 
-*Defined in [src/cnd/cnd.ts:54](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L54)*
+*Defined in [src/cnd/cnd.ts:54](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L54)*

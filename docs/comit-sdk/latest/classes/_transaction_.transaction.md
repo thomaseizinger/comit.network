@@ -30,7 +30,7 @@ A handy interface to know the status of a blockchain transaction
 
 \+ **new Transaction**(`wallet`: object, `id`: string): *[Transaction](_transaction_.transaction.md)*
 
-*Defined in [src/transaction.ts:25](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/transaction.ts#L25)*
+*Defined in [src/transaction.ts:25](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L25)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
 
 • **id**: *string*
 
-*Defined in [src/transaction.ts:28](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/transaction.ts#L28)*
+*Defined in [src/transaction.ts:28](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L28)*
 
 ## Methods
 
@@ -58,7 +58,7 @@ Name | Type |
 
 ▸ **status**(`confirmations?`: undefined | number): *Promise‹[TransactionStatus](../enums/_transaction_.transactionstatus.md)›*
 
-*Defined in [src/transaction.ts:36](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/transaction.ts#L36)*
+*Defined in [src/transaction.ts:36](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L36)*
 
 **`throws`** Ethereum: If the Receipt cannot be retrieved despite the transaction being mined.
 

@@ -33,7 +33,7 @@ sidebar_label: "LightningWallet"
 
 ▸ **addHoldInvoice**(`satAmount`: string, `secretHash`: string, `expiry`: number, `cltvExpiry`: number): *Promise‹string›*
 
-*Defined in [src/wallet/lightning.ts:48](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L48)*
+*Defined in [src/wallet/lightning.ts:48](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L48)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **addInvoice**(`satAmount`: string): *Promise‹object›*
 
-*Defined in [src/wallet/lightning.ts:124](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L124)*
+*Defined in [src/wallet/lightning.ts:124](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L124)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **assertLndDetails**(`selfPublicKey`: string, `chain`: string, `network`: string): *Promise‹void›*
 
-*Defined in [src/wallet/lightning.ts:146](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L146)*
+*Defined in [src/wallet/lightning.ts:146](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L146)*
 
 Asserts that the available lnd instance is the same than the one connected to cnd.
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **confirmedChannelBalance**(): *Promise‹string›*
 
-*Defined in [src/wallet/lightning.ts:75](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L75)*
+*Defined in [src/wallet/lightning.ts:75](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L75)*
 
 **Returns:** *Promise‹string›*
 
@@ -100,7 +100,7 @@ ___
 
 ▸ **confirmedWalletBalance**(): *Promise‹string›*
 
-*Defined in [src/wallet/lightning.ts:79](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L79)*
+*Defined in [src/wallet/lightning.ts:79](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L79)*
 
 **Returns:** *Promise‹string›*
 
@@ -110,7 +110,7 @@ ___
 
 ▸ **getInfo**(): *Promise‹GetInfoResponse›*
 
-*Defined in [src/wallet/lightning.ts:87](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L87)*
+*Defined in [src/wallet/lightning.ts:87](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L87)*
 
 **Returns:** *Promise‹GetInfoResponse›*
 
@@ -120,7 +120,7 @@ ___
 
 ▸ **getPubkey**(): *Promise‹string›*
 
-*Defined in [src/wallet/lightning.ts:83](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L83)*
+*Defined in [src/wallet/lightning.ts:83](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L83)*
 
 **Returns:** *Promise‹string›*
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **lookupInvoice**(`secretHash`: string): *Promise‹Invoice›*
 
-*Defined in [src/wallet/lightning.ts:118](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L118)*
+*Defined in [src/wallet/lightning.ts:118](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L118)*
 
 **Parameters:**
 
@@ -146,7 +146,7 @@ ___
 
 ▸ **newAddress**(`type`: AddressType): *Promise‹string›*
 
-*Defined in [src/wallet/lightning.ts:71](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L71)*
+*Defined in [src/wallet/lightning.ts:71](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L71)*
 
 **Parameters:**
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **openChannel**(`toPubkey`: string, `satAmount`: number): *Promise‹[Outpoint](../interfaces/_wallet_lightning_.outpoint.md)›*
 
-*Defined in [src/wallet/lightning.ts:91](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L91)*
+*Defined in [src/wallet/lightning.ts:91](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L91)*
 
 **Parameters:**
 
@@ -179,7 +179,7 @@ ___
 
 ▸ **sendPayment**(`publicKey`: string, `satAmount`: string, `secretHash`: string, `finalCltvDelta`: number): *Promise‹SendResponse›*
 
-*Defined in [src/wallet/lightning.ts:31](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L31)*
+*Defined in [src/wallet/lightning.ts:31](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L31)*
 
 **Parameters:**
 
@@ -198,7 +198,7 @@ ___
 
 ▸ **sendPaymentWithRequest**(`paymentRequest`: string): *Promise‹SendResponse›*
 
-*Defined in [src/wallet/lightning.ts:112](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L112)*
+*Defined in [src/wallet/lightning.ts:112](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L112)*
 
 **Parameters:**
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **settleInvoice**(`secret`: string): *Promise‹void›*
 
-*Defined in [src/wallet/lightning.ts:66](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L66)*
+*Defined in [src/wallet/lightning.ts:66](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L66)*
 
 **Parameters:**
 
@@ -230,7 +230,7 @@ ___
 
 ▸ **newInstance**(`certPath`: string | false, `macaroonPath`: string, `lndRpcSocket`: string, `lndP2pSocket`: string): *Promise‹[LightningWallet](_wallet_lightning_.lightningwallet.md)›*
 
-*Defined in [src/wallet/lightning.ts:12](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/lightning.ts#L12)*
+*Defined in [src/wallet/lightning.ts:12](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L12)*
 
 **Parameters:**
 

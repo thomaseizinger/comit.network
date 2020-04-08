@@ -35,7 +35,7 @@ Facilitates access to the [COMIT network daemon (cnd)](@link https://github.com/
 
 \+ **new Cnd**(`cndUrl`: string): *[Cnd](_cnd_cnd_.cnd.md)*
 
-*Defined in [src/cnd/cnd.ts:336](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L336)*
+*Defined in [src/cnd/cnd.ts:336](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L336)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ Name | Type |
 
 ▸ **createHalightLightningBitcoinHanEthereumEther**(`body`: [HalightLightningBitcoinHanEthereumEtherRequestBody](../modules/_cnd_cnd_.md#halightlightningbitcoinhanethereumetherrequestbody)): *Promise‹string›*
 
-*Defined in [src/cnd/cnd.ts:469](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L469)*
+*Defined in [src/cnd/cnd.ts:469](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L469)*
 
 Post a swap request on the lightning REST API route of cnd `/swaps/halight/lightning/bitcoin/han/ethereum/ether`
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **createHalightLightningBitcoinHerc20EthereumErc20**(`body`: [HalightLightningBitcoinHerc20EthereumErc20RequestBody](../modules/_cnd_cnd_.md#halightlightningbitcoinherc20ethereumerc20requestbody)): *Promise‹string›*
 
-*Defined in [src/cnd/cnd.ts:485](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L485)*
+*Defined in [src/cnd/cnd.ts:485](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L485)*
 
 Post a swap request on the lightning REST API route of cnd `/swaps/halight/lightning/bitcoin/herc20/ethereum/erc20`
 
@@ -91,7 +91,7 @@ ___
 
 ▸ **createHanEthereumEtherHalightLightningBitcoin**(`body`: [HanEthereumEtherHalightLightningBitcoinRequestBody](../modules/_cnd_cnd_.md#hanethereumetherhalightlightningbitcoinrequestbody)): *Promise‹string›*
 
-*Defined in [src/cnd/cnd.ts:437](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L437)*
+*Defined in [src/cnd/cnd.ts:437](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L437)*
 
 Post a swap request on the lightning REST API route of cnd `/swaps/han/ethereum/ether/halight/lightning/bitcoin`
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **createHerc20EthereumErc20HalightLightningBitcoin**(`body`: [Herc20EthereumErc20HalightLightningBitcoinRequestBody](../modules/_cnd_cnd_.md#herc20ethereumerc20halightlightningbitcoinrequestbody)): *Promise‹string›*
 
-*Defined in [src/cnd/cnd.ts:453](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L453)*
+*Defined in [src/cnd/cnd.ts:453](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L453)*
 
 Post a swap request on the lightning REST API route of cnd `/swaps/herc20/ethereum/erc20/halight/lightning/bitcoin`
 
@@ -131,7 +131,7 @@ ___
 
 ▸ **executeSirenAction**(`action`: [Action](../interfaces/_cnd_siren_.action.md), `resolver?`: [FieldValueResolverFn](../modules/_cnd_action_to_http_request_.md#fieldvalueresolverfn)): *Promise‹AxiosResponse›*
 
-*Defined in [src/cnd/cnd.ts:423](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L423)*
+*Defined in [src/cnd/cnd.ts:423](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L423)*
 
 Proceed with an action request on the cnd REST API.
 
@@ -152,7 +152,7 @@ ___
 
 ▸ **fetch**<**T**>(`path`: string): *AxiosPromise‹T›*
 
-*Defined in [src/cnd/cnd.ts:411](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L411)*
+*Defined in [src/cnd/cnd.ts:411](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L411)*
 
 Fetch data from the REST API.
 
@@ -178,7 +178,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [src/cnd/cnd.ts:354](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L354)*
+*Defined in [src/cnd/cnd.ts:354](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L354)*
 
 Get the peer id of the cnd node
 
@@ -194,7 +194,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [src/cnd/cnd.ts:369](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L369)*
+*Defined in [src/cnd/cnd.ts:369](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L369)*
 
 Get the address on which cnd is listening for peer-to-peer/COMIT messages.
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **getSwaps**(): *Promise‹[SwapSubEntity](../interfaces/_cnd_cnd_.swapsubentity.md)[]›*
 
-*Defined in [src/cnd/cnd.ts:397](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L397)*
+*Defined in [src/cnd/cnd.ts:397](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L397)*
 
 List the swaps handled by this cnd instance.
 
@@ -226,7 +226,7 @@ ___
 
 ▸ **postSwap**(`swap`: [SwapRequest](../interfaces/_cnd_cnd_.swaprequest.md)): *Promise‹string›*
 
-*Defined in [src/cnd/cnd.ts:385](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L385)*
+*Defined in [src/cnd/cnd.ts:385](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L385)*
 
 Sends a swap request to cnd.
 

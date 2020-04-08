@@ -33,7 +33,7 @@ Bundles functionality to create orders for a maker and make them available for t
 
 \+ **new MakerNegotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `executionParams`: [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md), `tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *[MakerNegotiator](_negotiation_maker_maker_negotiator_.makernegotiator.md)*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:21](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L21)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:21](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L21)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ Name | Type | Description |
 
 ▸ **addOrder**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *boolean*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L50)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:50](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L50)*
 
 Add an Order to the order book.
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **getExecutionParams**(): *[ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:83](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L83)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:83](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L83)*
 
 Get the [ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md) of the maker.
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **getOrderById**(`orderId`: string): *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:75](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L75)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:75](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L75)*
 
 Get an [Order](../interfaces/_negotiation_order_.order.md) by [Order.id](../interfaces/_negotiation_order_.order.md#id).
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **getOrderByTradingPair**(`tradingPair`: string): *[Order](../interfaces/_negotiation_order_.order.md) | undefined*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:66](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L66)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:66](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L66)*
 
 Get an [Order](../interfaces/_negotiation_order_.order.md) by trading pair (e.g. ethereum-ether-bitcoin-bitcoin).
 
@@ -125,7 +125,7 @@ ___
 
 ▸ **getUrl**(): *string | undefined*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:109](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L109)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:109](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L109)*
 
 **Returns:** *string | undefined*
 
@@ -137,7 +137,7 @@ ___
 
 ▸ **listen**(`port`: number, `hostname?`: undefined | string): *Promise‹void›*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:118](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L118)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:118](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L118)*
 
 Exposes the maker's [HttpService](_negotiation_maker_maker_negotiator_.httpservice.md) on the given port and hostname.
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **takeOrder**(`swapId`: string, `order`: [Order](../interfaces/_negotiation_order_.order.md)): *Promise‹void›*
 
-*Defined in [src/negotiation/maker/maker_negotiator.ts:96](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/maker/maker_negotiator.ts#L96)*
+*Defined in [src/negotiation/maker/maker_negotiator.ts:96](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/maker/maker_negotiator.ts#L96)*
 
 Take an order by accepting the swap request on the maker side.
 

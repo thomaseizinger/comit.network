@@ -20,7 +20,7 @@ sidebar_label: "comit_client"
 
 ▸ **isOngoing**(`swap`: [SwapSubEntity](../interfaces/_cnd_cnd_.swapsubentity.md)): *boolean*
 
-*Defined in [src/comit_client.ts:159](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L159)*
+*Defined in [src/comit_client.ts:159](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L159)*
 
 **Parameters:**
 

@@ -48,7 +48,7 @@ It has all the dependencies embedded that are necessary for taking actions on th
 
 \+ **new Swap**(`cnd`: [Cnd](_cnd_cnd_.cnd.md), `self`: string, `wallets`: AllWallets): *[Swap](_swap_.swap.md)*
 
-*Defined in [src/swap.ts:26](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L26)*
+*Defined in [src/swap.ts:26](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L26)*
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ Name | Type |
 
 • **self**: *string*
 
-*Defined in [src/swap.ts:30](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L30)*
+*Defined in [src/swap.ts:30](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L30)*
 
 ## Methods
 
@@ -74,7 +74,7 @@ Name | Type |
 
 ▸ **accept**(`tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *Promise‹void›*
 
-*Defined in [src/swap.ts:43](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L43)*
+*Defined in [src/swap.ts:43](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L43)*
 
 Looks for and executes the accept action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -95,7 +95,7 @@ ___
 
 ▸ **decline**(`tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *Promise‹void›*
 
-*Defined in [src/swap.ts:54](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L54)*
+*Defined in [src/swap.ts:54](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L54)*
 
 Looks for and executes the decline action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -116,7 +116,7 @@ ___
 
 ▸ **deploy**(`tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *Promise‹[Transaction](_transaction_.transaction.md) | string›*
 
-*Defined in [src/swap.ts:68](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L68)*
+*Defined in [src/swap.ts:68](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L68)*
 
 Looks for and executes the deploy action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -141,7 +141,7 @@ ___
 
 ▸ **doLedgerAction**(`ledgerAction`: [LedgerAction](../modules/_cnd_cnd_.md#ledgeraction)): *Promise‹[Transaction](_transaction_.transaction.md) | string›*
 
-*Defined in [src/swap.ts:166](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L166)*
+*Defined in [src/swap.ts:166](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L166)*
 
 Low level API for executing a ledger action returned from [Cnd](_cnd_cnd_.cnd.md).
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **fetchDetails**(): *Promise‹[SwapDetails](../interfaces/_cnd_cnd_.swapdetails.md)›*
 
-*Defined in [src/swap.ts:130](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L130)*
+*Defined in [src/swap.ts:130](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L130)*
 
 Fetch the details of a swap.
 
@@ -179,7 +179,7 @@ ___
 
 ▸ **fund**(`tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *Promise‹[Transaction](_transaction_.transaction.md) | string›*
 
-*Defined in [src/swap.ts:84](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L84)*
+*Defined in [src/swap.ts:84](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L84)*
 
 Looks for and executes the fund action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -202,7 +202,7 @@ ___
 
 ▸ **getAlphaDeployTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:346](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L346)*
+*Defined in [src/swap.ts:346](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L346)*
 
 Get the Alpha deploy transaction.
 
@@ -216,7 +216,7 @@ ___
 
 ▸ **getAlphaFundTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:359](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L359)*
+*Defined in [src/swap.ts:359](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L359)*
 
 Get the Alpha Fund transaction.
 
@@ -230,7 +230,7 @@ ___
 
 ▸ **getAlphaRedeemTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:370](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L370)*
+*Defined in [src/swap.ts:370](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L370)*
 
 Get the Alpha Redeem transaction.
 
@@ -244,7 +244,7 @@ ___
 
 ▸ **getAlphaRefundTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:383](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L383)*
+*Defined in [src/swap.ts:383](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L383)*
 
 Get the Alpha Refund transaction.
 
@@ -258,7 +258,7 @@ ___
 
 ▸ **getBetaDeployTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:396](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L396)*
+*Defined in [src/swap.ts:396](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L396)*
 
 Get the Beta deploy transaction.
 
@@ -272,7 +272,7 @@ ___
 
 ▸ **getBetaFundTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:409](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L409)*
+*Defined in [src/swap.ts:409](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L409)*
 
 Get the Beta Fund transaction.
 
@@ -286,7 +286,7 @@ ___
 
 ▸ **getBetaRedeemTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:420](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L420)*
+*Defined in [src/swap.ts:420](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L420)*
 
 Get the Beta Redeem transaction.
 
@@ -300,7 +300,7 @@ ___
 
 ▸ **getBetaRefundTransaction**(): *Promise‹[Transaction](_transaction_.transaction.md) | string | null›*
 
-*Defined in [src/swap.ts:433](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L433)*
+*Defined in [src/swap.ts:433](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L433)*
 
 Get the Beta Refund transaction.
 
@@ -314,7 +314,7 @@ ___
 
 ▸ **redeem**(`tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *Promise‹[Transaction](_transaction_.transaction.md) | string›*
 
-*Defined in [src/swap.ts:100](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L100)*
+*Defined in [src/swap.ts:100](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L100)*
 
 Looks for and executes the redeem action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -337,7 +337,7 @@ ___
 
 ▸ **refund**(`tryParams`: [TryParams](../interfaces/_swap_.tryparams.md)): *Promise‹[Transaction](_transaction_.transaction.md) | string›*
 
-*Defined in [src/swap.ts:116](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L116)*
+*Defined in [src/swap.ts:116](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L116)*
 
 Looks for and executes the refund action of this [Swap](_swap_.swap.md).
 If the [Swap](_swap_.swap.md) is not in the right state this call will throw a timeout exception.
@@ -360,7 +360,7 @@ ___
 
 ▸ **tryExecuteSirenAction**<**R**>(`actionName`: string, `__namedParameters`: object): *Promise‹AxiosResponse‹R››*
 
-*Defined in [src/swap.ts:148](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L148)*
+*Defined in [src/swap.ts:148](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L148)*
 
 Low level API for executing actions on the [Swap](_swap_.swap.md).
 

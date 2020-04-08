@@ -23,7 +23,7 @@ sidebar_label: "MatchingCriteriaAsset"
 
 • **asset**: *string*
 
-*Defined in [src/negotiation/taker/order.ts:21](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L21)*
+*Defined in [src/negotiation/taker/order.ts:21](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L21)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **ledger**: *string*
 
-*Defined in [src/negotiation/taker/order.ts:20](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L20)*
+*Defined in [src/negotiation/taker/order.ts:20](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L20)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **maxNominalAmount**? : *undefined | string*
 
-*Defined in [src/negotiation/taker/order.ts:23](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L23)*
+*Defined in [src/negotiation/taker/order.ts:23](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L23)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **minNominalAmount**? : *undefined | string*
 
-*Defined in [src/negotiation/taker/order.ts:22](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L22)*
+*Defined in [src/negotiation/taker/order.ts:22](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L22)*

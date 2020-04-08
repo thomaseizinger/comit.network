@@ -24,7 +24,7 @@ Representation of the bid or ask of an [Order](_negotiation_order_.order.md).
 
 • **asset**: *string*
 
-*Defined in [src/negotiation/order.ts:19](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L19)*
+*Defined in [src/negotiation/order.ts:19](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L19)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **ledger**: *string*
 
-*Defined in [src/negotiation/order.ts:18](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L18)*
+*Defined in [src/negotiation/order.ts:18](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L18)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **nominalAmount**: *string*
 
-*Defined in [src/negotiation/order.ts:26](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L26)*
+*Defined in [src/negotiation/order.ts:26](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L26)*
 
 The amount in a human-readable format.
 Ether for Ethereum (not Wei).

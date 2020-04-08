@@ -56,7 +56,7 @@ sidebar_label: "cnd/cnd"
 
 Ƭ **HalightLightningBitcoinHanEthereumEtherRequestBody**: *[CoreRequestBody](../interfaces/_cnd_cnd_.corerequestbody.md)‹[HalightLightningBitcoinRequestParams](_cnd_cnd_.md#halightlightningbitcoinrequestparams), [HanEthereumEtherRequestParams](_cnd_cnd_.md#hanethereumetherrequestparams)›*
 
-*Defined in [src/cnd/cnd.ts:100](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L100)*
+*Defined in [src/cnd/cnd.ts:100](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L100)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 Ƭ **HalightLightningBitcoinHerc20EthereumErc20RequestBody**: *[CoreRequestBody](../interfaces/_cnd_cnd_.corerequestbody.md)‹[HalightLightningBitcoinRequestParams](_cnd_cnd_.md#halightlightningbitcoinrequestparams), [Herc20EthereumErc20RequestParams](_cnd_cnd_.md#herc20ethereumerc20requestparams)›*
 
-*Defined in [src/cnd/cnd.ts:104](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L104)*
+*Defined in [src/cnd/cnd.ts:104](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L104)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 Ƭ **HalightLightningBitcoinRequestParams**: *[RequestParams](../interfaces/_cnd_cnd_.requestparams.md) & [Halight](../interfaces/_cnd_cnd_.halight.md) & [Bitcoin](../interfaces/_cnd_cnd_.bitcoin.md)*
 
-*Defined in [src/cnd/cnd.ts:85](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L85)*
+*Defined in [src/cnd/cnd.ts:85](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L85)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 Ƭ **HanEthereumEtherHalightLightningBitcoinRequestBody**: *[CoreRequestBody](../interfaces/_cnd_cnd_.corerequestbody.md)‹[HanEthereumEtherRequestParams](_cnd_cnd_.md#hanethereumetherrequestparams), [HalightLightningBitcoinRequestParams](_cnd_cnd_.md#halightlightningbitcoinrequestparams)›*
 
-*Defined in [src/cnd/cnd.ts:92](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L92)*
+*Defined in [src/cnd/cnd.ts:92](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L92)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 Ƭ **HanEthereumEtherRequestParams**: *[RequestParams](../interfaces/_cnd_cnd_.requestparams.md) & [Han](../interfaces/_cnd_cnd_.han.md) & [Ethereum](../interfaces/_cnd_cnd_.ethereum.md)*
 
-*Defined in [src/cnd/cnd.ts:84](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L84)*
+*Defined in [src/cnd/cnd.ts:84](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L84)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 Ƭ **Herc20EthereumErc20HalightLightningBitcoinRequestBody**: *[CoreRequestBody](../interfaces/_cnd_cnd_.corerequestbody.md)‹[Herc20EthereumErc20RequestParams](_cnd_cnd_.md#herc20ethereumerc20requestparams), [HalightLightningBitcoinRequestParams](_cnd_cnd_.md#halightlightningbitcoinrequestparams)›*
 
-*Defined in [src/cnd/cnd.ts:96](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L96)*
+*Defined in [src/cnd/cnd.ts:96](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L96)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 Ƭ **Herc20EthereumErc20RequestParams**: *[RequestParams](../interfaces/_cnd_cnd_.requestparams.md) & [Herc20](../interfaces/_cnd_cnd_.herc20.md) & [Ethereum](../interfaces/_cnd_cnd_.ethereum.md)*
 
-*Defined in [src/cnd/cnd.ts:88](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L88)*
+*Defined in [src/cnd/cnd.ts:88](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L88)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 Ƭ **LedgerAction**: *object | object | object | object | object | object | object | object*
 
-*Defined in [src/cnd/cnd.ts:161](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L161)*
+*Defined in [src/cnd/cnd.ts:161](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L161)*
 
 ## Functions
 
@@ -120,7 +120,7 @@ ___
 
 ▸ **ledgerIsEthereum**(`ledger`: [Ledger](../interfaces/_cnd_cnd_.ledger.md)): *boolean*
 
-*Defined in [src/cnd/cnd.ts:19](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L19)*
+*Defined in [src/cnd/cnd.ts:19](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L19)*
 
 **Parameters:**
 

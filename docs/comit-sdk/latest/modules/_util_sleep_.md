@@ -16,7 +16,7 @@ sidebar_label: "util/sleep"
 
 ▸ **sleep**(`ms`: number): *Promise‹void›*
 
-*Defined in [src/util/sleep.ts:1](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/util/sleep.ts#L1)*
+*Defined in [src/util/sleep.ts:1](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/util/sleep.ts#L1)*
 
 **Parameters:**
 

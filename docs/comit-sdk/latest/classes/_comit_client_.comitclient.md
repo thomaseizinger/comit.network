@@ -37,7 +37,7 @@ provide you with instances of [Swap](_swap_.swap.md)s.
 
 \+ **new ComitClient**(`cnd`: [Cnd](_cnd_cnd_.cnd.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [src/comit_client.ts:15](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L15)*
+*Defined in [src/comit_client.ts:15](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L15)*
 
 **Parameters:**
 
@@ -53,7 +53,7 @@ Name | Type |
 
 ▸ **getDoneSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [src/comit_client.ts:105](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L105)*
+*Defined in [src/comit_client.ts:105](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L105)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **getNewSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [src/comit_client.ts:82](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L82)*
+*Defined in [src/comit_client.ts:82](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L82)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **getOngoingSwaps**(): *Promise‹[Swap](_swap_.swap.md)[]›*
 
-*Defined in [src/comit_client.ts:96](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L96)*
+*Defined in [src/comit_client.ts:96](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L96)*
 
 **Returns:** *Promise‹[Swap](_swap_.swap.md)[]›*
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **getPeerId**(): *Promise‹string›*
 
-*Defined in [src/comit_client.ts:119](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L119)*
+*Defined in [src/comit_client.ts:119](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L119)*
 
 **Returns:** *Promise‹string›*
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **getPeerListenAddresses**(): *Promise‹string[]›*
 
-*Defined in [src/comit_client.ts:123](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L123)*
+*Defined in [src/comit_client.ts:123](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L123)*
 
 **Returns:** *Promise‹string[]›*
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **retrieveSwapById**(`swapId`: string): *Promise‹[Swap](_swap_.swap.md) | undefined›*
 
-*Defined in [src/comit_client.ts:127](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L127)*
+*Defined in [src/comit_client.ts:127](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L127)*
 
 **Parameters:**
 
@@ -119,7 +119,7 @@ ___
 
 ▸ **sendSwap**(`swapRequest`: [SwapRequest](../interfaces/_cnd_cnd_.swaprequest.md)): *Promise‹[Swap](_swap_.swap.md)›*
 
-*Defined in [src/comit_client.ts:47](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L47)*
+*Defined in [src/comit_client.ts:47](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L47)*
 
 Send a [SwapRequest](../interfaces/_cnd_cnd_.swaprequest.md) to [Cnd](_cnd_cnd_.cnd.md) to create a [Swap](_swap_.swap.md).
 
@@ -137,7 +137,7 @@ ___
 
 ▸ **withBitcoinWallet**(`bitcoinWallet`: [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [src/comit_client.ts:26](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L26)*
+*Defined in [src/comit_client.ts:26](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L26)*
 
 Sets a [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md) in the ComitClient.
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **withEthereumWallet**(`ethereumWallet`: [EthereumWallet](_wallet_ethereum_.ethereumwallet.md)): *[ComitClient](_comit_client_.comitclient.md)*
 
-*Defined in [src/comit_client.ts:38](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/comit_client.ts#L38)*
+*Defined in [src/comit_client.ts:38](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/comit_client.ts#L38)*
 
 Sets a [EthereumWallet](_wallet_ethereum_.ethereumwallet.md) in the ComitClient.
 

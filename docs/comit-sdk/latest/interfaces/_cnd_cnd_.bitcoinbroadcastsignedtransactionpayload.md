@@ -21,7 +21,7 @@ sidebar_label: "BitcoinBroadcastSignedTransactionPayload"
 
 • **hex**: *string*
 
-*Defined in [src/cnd/cnd.ts:116](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L116)*
+*Defined in [src/cnd/cnd.ts:116](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L116)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **network**: *string*
 
-*Defined in [src/cnd/cnd.ts:117](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/cnd/cnd.ts#L117)*
+*Defined in [src/cnd/cnd.ts:117](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L117)*

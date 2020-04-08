@@ -29,7 +29,7 @@ sidebar_label: "negotiation/order"
 
 • **BITCOIN_DECIMALS**: *8* = 8
 
-*Defined in [src/negotiation/order.ts:85](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L85)*
+*Defined in [src/negotiation/order.ts:85](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L85)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **ETHER_DECIMALS**: *18* = 18
 
-*Defined in [src/negotiation/order.ts:86](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L86)*
+*Defined in [src/negotiation/order.ts:86](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L86)*
 
 ## Functions
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **fromNominal**(`asset`: string, `nominalAmount`: string, `token?`: [Token](../interfaces/_tokens_tokens_.token.md)): *BigNumber | undefined*
 
-*Defined in [src/negotiation/order.ts:96](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L96)*
+*Defined in [src/negotiation/order.ts:96](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L96)*
 
 Convert from nominal amount to underlying base unit of an asset, e.g. convert Ether to Wei.
 
@@ -67,7 +67,7 @@ ___
 
 ▸ **isNative**(`__namedParameters`: object): *boolean*
 
-*Defined in [src/negotiation/order.ts:78](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L78)*
+*Defined in [src/negotiation/order.ts:78](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L78)*
 
 Helper function to check if an asset is native (e.g. ether is on Ethereum but erc20 is not).
 according to the given asset and ledger string.
@@ -89,7 +89,7 @@ ___
 
 ▸ **isOrderValid**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *boolean*
 
-*Defined in [src/negotiation/order.ts:34](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L34)*
+*Defined in [src/negotiation/order.ts:34](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L34)*
 
 Validates that all fields of an [Order](../interfaces/_negotiation_order_.order.md) are set correctly.
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **toTradingPair**(`order`: [Order](../interfaces/_negotiation_order_.order.md)): *string*
 
-*Defined in [src/negotiation/order.ts:60](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/order.ts#L60)*
+*Defined in [src/negotiation/order.ts:60](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L60)*
 
 Convert the bid and ask [OrderAsset](../interfaces/_negotiation_order_.orderasset.md) to the trading-pair string, e.g. ethereum-ether-bitcoin-bitcoin.
 

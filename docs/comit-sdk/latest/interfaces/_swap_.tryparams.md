@@ -23,7 +23,7 @@ Defines the parameters (for how long and how often) to try executing an action o
 
 • **maxTimeoutSecs**: *number*
 
-*Defined in [src/swap.ts:512](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L512)*
+*Defined in [src/swap.ts:512](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L512)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **tryIntervalSecs**: *number*
 
-*Defined in [src/swap.ts:513](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/swap.ts#L513)*
+*Defined in [src/swap.ts:513](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L513)*

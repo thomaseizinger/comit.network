@@ -29,4 +29,4 @@ sidebar_label: "tokens/definitions"
   }
 ]
 
-*Defined in [src/tokens/definitions.ts:11](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/tokens/definitions.ts#L11)*
+*Defined in [src/tokens/definitions.ts:11](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/tokens/definitions.ts#L11)*

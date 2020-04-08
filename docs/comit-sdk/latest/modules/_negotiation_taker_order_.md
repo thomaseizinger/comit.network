@@ -39,7 +39,7 @@ sidebar_label: "negotiation/taker/order"
 
 ▸ **assetMatches**(`criteriaAsset`: [MatchingCriteriaAsset](../interfaces/_negotiation_taker_order_.matchingcriteriaasset.md), `orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md)): *boolean*
 
-*Defined in [src/negotiation/taker/order.ts:108](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L108)*
+*Defined in [src/negotiation/taker/order.ts:108](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L108)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **assetOrderToSwap**(`orderAsset`: [OrderAsset](../interfaces/_negotiation_order_.orderasset.md)): *[Asset](../interfaces/_cnd_cnd_.asset.md) | undefined*
 
-*Defined in [src/negotiation/taker/order.ts:132](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L132)*
+*Defined in [src/negotiation/taker/order.ts:132](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L132)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **matchingCriteriaToTradingPair**(`matchingCriteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)): *string*
 
-*Defined in [src/negotiation/taker/order.ts:163](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L163)*
+*Defined in [src/negotiation/taker/order.ts:163](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L163)*
 
 **Parameters:**
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **orderRate**(`rawOrder`: RawOrder): *BigNumber*
 
-*Defined in [src/negotiation/taker/order.ts:101](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L101)*
+*Defined in [src/negotiation/taker/order.ts:101](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L101)*
 
 **Parameters:**
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **rateMatches**(`criteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md), `rawOrder`: RawOrder): *boolean*
 
-*Defined in [src/negotiation/taker/order.ts:89](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/negotiation/taker/order.ts#L89)*
+*Defined in [src/negotiation/taker/order.ts:89](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L89)*
 
 This is only exported for test purposes
 

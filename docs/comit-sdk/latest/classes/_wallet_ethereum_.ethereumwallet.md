@@ -32,7 +32,7 @@ Simple Ethereum wallet based on [ethers.js](https://github.com/ethers-io/ethers.
 
 \+ **new EthereumWallet**(`jsonRpcUrl`: string, `key?`: SigningKey | HDNode | Arrayish): *[EthereumWallet](_wallet_ethereum_.ethereumwallet.md)*
 
-*Defined in [src/wallet/ethereum.ts:21](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L21)*
+*Defined in [src/wallet/ethereum.ts:21](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L21)*
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ Name | Type |
 
 ▸ **callContract**(`data`: string, `contractAddress`: string, `gasLimit`: string): *Promise‹string›*
 
-*Defined in [src/wallet/ethereum.ts:76](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L76)*
+*Defined in [src/wallet/ethereum.ts:76](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L76)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ ___
 
 ▸ **deployContract**(`data`: string, `amount`: BigNumber, `gasLimit`: string): *Promise‹string›*
 
-*Defined in [src/wallet/ethereum.ts:62](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L62)*
+*Defined in [src/wallet/ethereum.ts:62](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L62)*
 
 **Parameters:**
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **getAccount**(): *string*
 
-*Defined in [src/wallet/ethereum.ts:30](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L30)*
+*Defined in [src/wallet/ethereum.ts:30](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L30)*
 
 **Returns:** *string*
 
@@ -95,7 +95,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹BigNumberEthers›*
 
-*Defined in [src/wallet/ethereum.ts:34](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L34)*
+*Defined in [src/wallet/ethereum.ts:34](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L34)*
 
 **Returns:** *Promise‹BigNumberEthers›*
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **getErc20Balance**(`contractAddress`: string, `decimals?`: undefined | number): *Promise‹BigNumber›*
 
-*Defined in [src/wallet/ethereum.ts:38](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L38)*
+*Defined in [src/wallet/ethereum.ts:38](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L38)*
 
 **Parameters:**
 
@@ -122,7 +122,7 @@ ___
 
 ▸ **getTransaction**(`transactionId`: string): *Promise‹TransactionResponse›*
 
-*Defined in [src/wallet/ethereum.ts:95](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L95)*
+*Defined in [src/wallet/ethereum.ts:95](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L95)*
 
 **Parameters:**
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **getTransactionReceipt**(`transactionId`: string): *Promise‹TransactionReceipt›*
 
-*Defined in [src/wallet/ethereum.ts:89](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/ethereum.ts#L89)*
+*Defined in [src/wallet/ethereum.ts:89](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/ethereum.ts#L89)*
 
 **Parameters:**
 

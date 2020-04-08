@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SDK_DIR="../comit-js-sdk"
-DEST_DIR="docs/comit-sdk/"
+DEST_DIR="docs/comit-sdk/latest/"
 
 function sdk_exists() {
   if [ -d $SDK_DIR ]; then

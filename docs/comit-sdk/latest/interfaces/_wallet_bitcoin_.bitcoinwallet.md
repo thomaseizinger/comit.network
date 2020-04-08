@@ -33,7 +33,7 @@ take input via text fields, etc.
 
 ▸ **broadcastTransaction**(`transactionHex`: string, `network`: string): *Promise‹string›*
 
-*Defined in [src/wallet/bitcoin.ts:21](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/bitcoin.ts#L21)*
+*Defined in [src/wallet/bitcoin.ts:21](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L21)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **getAddress**(): *Promise‹string›*
 
-*Defined in [src/wallet/bitcoin.ts:11](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/bitcoin.ts#L11)*
+*Defined in [src/wallet/bitcoin.ts:11](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L11)*
 
 **Returns:** *Promise‹string›*
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **getBalance**(): *Promise‹number›*
 
-*Defined in [src/wallet/bitcoin.ts:13](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/bitcoin.ts#L13)*
+*Defined in [src/wallet/bitcoin.ts:13](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L13)*
 
 **Returns:** *Promise‹number›*
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **getFee**(): *string*
 
-*Defined in [src/wallet/bitcoin.ts:26](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/bitcoin.ts#L26)*
+*Defined in [src/wallet/bitcoin.ts:26](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L26)*
 
 **Returns:** *string*
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **sendToAddress**(`address`: string, `satoshis`: number, `network`: string): *Promise‹string›*
 
-*Defined in [src/wallet/bitcoin.ts:15](https://github.com/comit-network/comit-js-sdk/blob/364611d/src/wallet/bitcoin.ts#L15)*
+*Defined in [src/wallet/bitcoin.ts:15](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L15)*
 
 **Parameters:**
 
