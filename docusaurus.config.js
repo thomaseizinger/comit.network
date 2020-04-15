@@ -5,7 +5,7 @@ module.exports = {
   tagline: 'COMIT is an open protocol facilitating trustless cross-blockchain applications',
   url: 'https://comit.network',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/docusaurus/favicon.ico',
   organizationName: 'comit-network', // Usually your GitHub org/user name.
   projectName: 'comit-js-sdk', // Usually your repo name.
   themeConfig: {
@@ -20,8 +20,8 @@ module.exports = {
       title: 'Developer Hub',
       logo: {
         alt: 'COMIT',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo_white.svg',
+        src: 'img/docusaurus/logo.svg',
+        srcDark: 'img/docusaurus/logo_white.svg',
         href: 'https://comit.network'
       },
       links: [
