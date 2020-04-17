@@ -1,332 +1,522 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/comit.css" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
-    <link rel="icon" href="images/COMITlogoWbg.png"/>
-    <title>:: COMIT ::</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQEDN1PVTD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-      gtag('config', 'G-RQEDN1PVTD');
-    </script>
+  <title>COMIT Network</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQEDN1PVTD"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="img/docusaurus/favicon.ico"/>
+
+  <link rel="stylesheet" type="text/css" href="css/app.css?v=11">
+  
 </head>
 
-<body>
-    <div class="wrapper">
-        <!-- Home screen section starts-->
-        <section class="home-block">
-            <div class="container-fluid">
-                <!-- Header logo and navigation section starts-->
-                <header class="header-block py-2 d-flex justify-content-between align-items-center">
-                    <div class="header-block__logo">
-
-                        <h1><img src="images/COMITlogoWHITE.png" width="40">  COMIT</h1>
-                    </div>
-                    <nav class="header-block__nav">
-                        <ul>
-                            <li><a href="docs/getting-started/create-comit-app">Documentation</a></li>
-                            <li><a href="blog/">Blog</a></li>
-                            <li><a href="#about">Learn More</a></li>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#whatsnew">Whats New</a></li>
-                            <li><a href="https://github.com/comit-network" target="_blank">Get it from GitHub</a></li>
-                            <li><a href="mailto:hello@coblox.tech" target="_blank">Contact</a></li>
-                        </ul>
-                    </nav>
-                </header>
-                <!-- Header logo and navigation section end-->
-                <!-- Banner content section starts-->
-                <div class="comit-container banner-block">
-                    <div class="row align-items-center wow fadeInUp">
-                        <div class="col-md-6">
-                            <div class="banner-block__text">
-                                <h2 class="mb-5">COMIT is an open protocol facilitating trustless cross-blockchain applications</h2>
-                                <a class="comit-button btn-2 py-2 px-4" href="docs/getting-started/create-comit-app" target="_blank">
-                                    <span>Getting Started <img class="arrow-to-right ml-5" src="images/arrow-pointing-to-right.svg" /></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="banner-block__graph text-center">
-                                <img src="images/hero-graphic.svg" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Banner content section end-->
-            </div>
-        </section>
-        <!-- Home screen section end-->
-        <section id="about" class="about-block light-bg">
-            <div class="container-fluid">
-                <div class="intro-block">
-                    <div class="row">
-                        <div class="col-md-6 pr-0">
-                            <div class="comit-container intro-block__atomic d-flex">
-                                <div class="wow fadeInUp">
-                                    <h2 class="intro-block__title">Atomic Swap</h2>
-                                    <p>Use the COMIT software to trade cryptocurrencies on the internet peer-to-peer. Because it uses atomic swaps you do not need to use an exchange or trust the other party - your funds are safe at all time</p>
-                                    <a class="comit-button btn-2 py-2 px-4" href="https://github.com/comit-network/comit-rs/releases" target="_blank">
-                                        <span>Download <img class="arrow-to-right ml-5" src="images/arrow-pointing-to-right.svg" /></span>
-                                    </a>
-                                </div>
-                                <div class="intro-block__atomic__img"><img src="images/atomic-swap.svg" /></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 pl-md-0">
-                            <div class="comit-container intro-block__developers d-flex">
-                                <div class="wow fadeInUp">
-                                    <h2 class="intro-block__title">For Developers</h2>
-                                    <p>COMIT is built with developers in mind. You can integrate COMIT in your own software or use its powerful API to create new cross-chain applications.</p>
-                                    <a class="comit-button btn-2 py-2 px-4" href="https://github.com/comit-network/comit-js-sdk" target="_blank" >
-                                        <span>JavaScript SDK <img class="arrow-to-right ml-5" src="images/arrow-pointing-to-right.svg" /></span>
-                                    </a>
-                                </div>
-                                <div class="intro-block__developers__img"><img src="images/for-developers.svg" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="comit-container">
-                    <div class="about-details-block">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="py-5 pr-4 wow fadeInUp">
-                                    <h6 class="small-title pb-3">Learn More</h6>
-                                    <h2 class="pb-3">Cross-Blockchain Interoperability</h2>
-                                    <p>COMIT shares similar properties to the internet: while the internet’s purpose is to share data between various isolated networks (LAN), COMIT facilitate the sharing of value between isolated ecosystems (Blockchains).</p>
-                                    <a class="comit-button btn-2 py-2 px-4" href="https://github.com/comit-network/RFCs" target="_blank">
-                                        <span>Read our RFCs</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-details-block__atomic-swap pt-5">
-                                    <div id="demo" class="carousel slide p-5" data-ride="carousel">
-
-                                        <img src="images/About.svg" alt="Los Angeles">
-                                        <!-- Indicators 
-                                        <ul class="carousel-indicators">
-                                            <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                            <li data-target="#demo" data-slide-to="1"></li>
-                                            <li data-target="#demo" data-slide-to="2"></li>
-                                            <li data-target="#demo" data-slide-to="3"></li>
-                                            <li data-target="#demo" data-slide-to="4"></li>
-                                            <li data-target="#demo" data-slide-to="5"></li>
-                                        </ul>-->
-
-                                        <!-- The slideshow 
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img src="images/About.svg" alt="Los Angeles">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img src="images/About.svg" alt="Chicago">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img src="images/About.svg" alt="New York">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img src="images/About.svg" alt="New York">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img src="images/About.svg" alt="New York">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img src="images/About.svg" alt="New York">
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="features" class="feature-block mt-5">
-            <div class="container-fluid">
-                <div class="comit-container">
-                    <div class="row wow fadeInUp">
-                        <div class="col-md-5">
-                            <h6 class="small-title">Features</h6>
-                        </div>
-                        <div class="col-md-7">
-                            <h2>COMIT enables atomic swaps using Hash Time Locked Contracts (HTLCs).</h2>
-                        </div>
-                    </div>
-                    <div class="row mt-5 wow fadeInUp">
-                        <div class="col-md-3">
-                            <span class="feature-block__icon"><img src="images/Features/Trustless.svg" /></span>
-                            <h5>Trustless</h5>
-                            <p>No need for trusting third parties. Keep ownership of blockchain assets at all time</p>
-                        </div>
-                        <div class="col-md-3">
-                            <span class="feature-block__icon"><img src="images/Features/Global.svg" /></span>
-                            <h5>Global</h5>
-                            <p>Global access without limitations to any asset or business process connected to a blockchain</p>
-                        </div>
-                        <div class="col-md-3">
-                            <span class="feature-block__icon"><img src="images/Features/Revenue.svg" /></span>
-                            <h5>Assets</h5>
-                            <p>COMIT supports multiple crypto assets such as BTC, ETH and ERC-20</p>
-                        </div>
-                        <div class="col-md-3">
-                            <span class="feature-block__icon"><img src="images/Features/Opportunities.svg" /></span>
-                            <h5>Opportunities</h5>
-                            <p>Build your applications on top of COMIT using our simple API</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="whycomit" class="why-comit">
-            <div class="why-comit__image-block">
-                <figure class="why-comit__image-block__bg">
-                    <img src="images/nik-macmillan-280300-unsplash.png" />
-                </figure>
-                <div class="why-comit__image-block__content text-white">
-                    <div class="container-fluid">
-                        <div class="comit-container">
-                            <div class="row py-5 wow fadeInUp">
-                                <div class="col-md-4">
-                                    <h6 class="small-title">Why Comit?</h6>
-                                </div>
-                                <div class="col-md-7">
-                                    <h2 class="pb-4">COMIT removes the need for trusted third parties when exchanging cryptocurrencies.</h2>
-                                    <!--a class="comit-button btn-2 py-2 px-4">
-                                        <span>Whitepaper</span>
-                                    </a-->
-                                    <a class="comit-button btn-2 py-2 px-4 ml-2" href="https://github.com/comit-network/" target="_blank">
-                                        <span>Get it from GitHub</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="why-comit__content-block blue-bg text-white pt-5">
-                <div class="container-fluid">
-                    <div class="comit-container">
-                        <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-7">
-                                <h2 class="pb-5 wow fadeInUp">No deposits. No counterparty risk. No custodial risk. And no extra token.</h2>
-                            </div>
-                        </div>
-                        <div class="row text-center pt-5 wow fadeInUp">
-                            <div class="col-md-3">
-                                <span class="why-comit__icon"><img src="images/why-comit/1.svg" /></span>
-                                <p>Your keys, your assets</p>
-                            </div>
-                            <div class="col-md-3">
-                                <span class="why-comit__icon"><img src="images/why-comit/2.svg" /></span>
-                                <p>A simple API for a complex protocol</p>
-                            </div>
-                            <div class="col-md-3">
-                                <span class="why-comit__icon"><img src="images/why-comit/3.svg" /></span>
-                                <p>Remove counterparty and custodial risk</p>
-                            </div>
-                            <div class="col-md-3">
-                                <span class="why-comit__icon"><img src="images/why-comit/4.svg" /></span>
-                                <p>No extra token, no extra blockchain</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="whatsnew" class="whats-new pt-5">
-            <div class="container-fluid">
-                <div class="comit-container">
-                    <div class="row pb-5 wow fadeInUp">
-                        <div class="col-md-4">
-                            <h6 class="small-title">Whats New</h6>
-                        </div>
-                        <div class="col-md-7">
-                            <h2 class="pb-3">Get the latest news from our blog.</h2>
-                            <a class="comit-button btn-2 py-2 px-4" href="https://blog.coblox.tech/" target="_blank">
-                                <span>blog.coblox.tech</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!--div class="row whats-new__blog">
-                        <div class="col-md-4"><img src="images/blog1.png" /></div>
-                        <div class="col-md-4"><img src="images/blog2.png" /></div>
-                        <div class="col-md-4"><img src="images/blog3.png" /></div>
-                    </div-->
-                </div>
-            </div>
-        </section>
-        <section class="build-future light-bg">
-            <div class="build-future__image-block">
-                <figure class="build-future__image-block__bg">
-                    <img src="images/join-us-bg.png" />
-                </figure>
-                <div class="build-future__image-block__content">
-                    <div class="container-fluid">
-                        <div class="comit-container">
-                            <div class="row pt-4 wow fadeInUp">
-                                <div class="col-md-4">
-                                    <h6 class="small-title text-white">Join us</h6>
-                                </div>
-                                <div class="col-md-5">
-                                    <h2 class="pb-3">Build the future</h2>
-                                    <p class="pb-3">At CoBloX, we are commited to exploring the disruptive potential of blockchain technologies. We perform impactful research to create new buildng blocks to scale blockchain systems towards wider adoption for a decentralised future. And we also like beer 🍺</p>
-                                    <a class="comit-button btn-2 py-2 px-4" href="https://coblox.tech/" target="_blank">
-                                        <span>coblox.tech</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="comit-footer">
-            <div class="container-fluid">
-                <div class="row wow fadeInUp">
-                    <div class="col-md-4">
-                        <h4>COMIT</h4>
-                        <h6 class="comit-footer__copyright">COMIT Network paper is licenced under a MIT license</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li><a style="color:white" href="#about">Learn More</a></li>
-                            <li><a style="color:white" href="#features">Features</a></li>
-                            <!--li><a href="#">Career</a></li-->
-                            <li><a style="color:white" href="#whatsnew">Whats New</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul>
-                            <li><a style="color:white" href="https://github.com/comit-network" target="_blank">Get it from GitHub</a></li>
-                            <li><a style="color:white" href="mailto:hello@coblox.tech" target="_blank">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+<body class="font-opensans outline-none">
+    
+  <!-- Header -->
+  <header id="head" class="bg-header w-full overflow-hidden  relative m-0 p-0">
+    <video autoplay loop muted     
+    class="hidden md:flex w-screen h-auto min-h-full min-w-full object-cover absolute object-right-top z-minus">
+        <source src="img/comit-animation.mp4" type="video/mp4" />
+    </video>
+    <video autoplay loop muted     
+    class="md:hidden w-screen h-auto min-h-full min-w-full object-cover absolute top-0 -mt-80 object-right-bottom z-minus">
+        <source src="img/comit-mobile-animation.mp4" type="video/mp4" />
+    </video>
+  <!-- Navigation -->
+  <nav class="w-full flex items-center justify-between flex-wrap p-5 pt-0">
+    <a class="md:pl-26 md:mt-8 " href="#">
+      <img class="w-84 md:w-54" src="img/comit-logo.svg"  alt="COMIT">
+    </a>      
+    <div  class="block md:hidden ">
+      <button id="nav-toggle" class="flex items-center px-3 py-10 outline-none ">
+        <img class="w-33" src="img/menu.svg" alt="COMIT MENU">
+      </button>
     </div>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/comit.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <div class=" w-full md:w-auto hidden md:flex bg-klein-blue-50 md:bg-transparent md:items-center pt-6 md:pt-1 pl-5 md:pl-0 md:pr-13" id="nav-content">
+			<ul class="list-reset font-bold text-white text-6xl md:text-p md:flex md:justify-end md:flex-1 md:items-center">
+				<li class="mr-10 pr-3">
+					<a class="inline-block rounded-full hover:bg-pacific-blue py-2 pr-4 pl-4 md:pl-6" href="https://comit.network/docs/getting-started/create-comit-app">
+            Documentation
+          </a>
+				</li>
+				<li class="mr-10  pr-3">
+					<a class="inline-block rounded-full hover:bg-pacific-blue py-2 px-4" href="https://comit.network/blog/">
+            Blog
+          </a>
+				</li>
+				<li class="mr-20 ">
+					<a class="inline-block rounded-full hover:bg-pacific-blue py-2 px-4" href="https://github.com/comit-network/">
+            GitHub
+          </a>
+				</li>				
+			</ul>
+		</div>
+  </nav>
+  <!-- /Navigation -->
+    <div class=" absolute md:relative left-0 right-0 bottom-0 text-center md:text-left text-white mb-54 md:mb-0 md:pt-50 md:mt-5 md:pl-33 header-text">
+      <div class="grid grid-cols-1">
+          <h1 class="text-8xl md:text-h1">PURE. NATIVE.<br>CROSS BLOCKCHAIN</h1>          
+          <p class="font-light pt-13 md:pt-5 text-6xl md:text-h3 text-white">
+            COMIT is an open protocol<br>facilitating trustless<br>cross-blockchain applications
+          </p>
+          <a class="btn mx-auto md:ml-0 mt-17 text-6xl md:text-h3 md:mt-7 w-114 md:w-54 h-32 md:h-16 bg-pacific-blue" href="https://comit.network/docs/getting-started/create-comit-app">
+            Get Started
+          </a>          
+      </div>
+    </div>
+  </header>
+  <!-- /Header -->
+
+  <!-- Page Content -->
+   <!-- block-one -->
+  <div class="w-full bg-one bg-white-lilac">
+    <div class="grid grid-cols-1">
+      <h2 class="pt-54 mb-4 text-center">
+        CONNECTING ALL<br class="block md:hidden"> THE BLOCKCHAINS<br class="hidden md:block">
+        WITHOUT<br class="block md:hidden"> ADDING YET ANOTHER ONE
+      </h2>
+      <p class="text-center px-3">
+        We believe that a good cross-blockchain solution is one<br class="block md:hidden"> 
+        that minimizes complexity instead of adding<br class="hidden md:block">
+        to it.<br class="block md:hidden"> The COMIT open source protocol is designed to be:
+      </p>
+      <div class="md:m-auto md:max-w-xxl md:pr-16 grid grid-cols-12">
+          <p class="font-bold text-klein-blue pt-28 md:pt-9 text-right col-span-4 md:col-span-5">
+            PURE &nbsp;&mdash;&nbsp;
+          </p>
+          <p class="pt-28 md:pt-9 col-span-8 md:col-span-7 pl-1 whitespace-no-wrap">          
+            No additional chain. No additional token.
+          </p>
+          <p class="font-bold text-klein-blue pt-28 md:pt-9 text-right col-span-4 md:col-span-5">
+            NATIVE &nbsp;&mdash;&nbsp;
+          </p>
+          <p class="pt-28 md:pt-9 col-span-8 md:col-span-7 pl-1">          
+            Any blockchain. Any layer.
+          </p>
+          <p class="font-bold text-klein-blue pt-28 md:pt-9 text-right col-span-4 md:col-span-5">
+            TRUSTLESS &nbsp;&mdash;&nbsp;
+          </p>
+          <p class="pt-28 md:pt-9 col-span-8 md:col-span-7 pl-1">          
+            No trusted 3rd parties. Verify, don’t trust.
+          </p>
+          <p class="font-bold text-klein-blue pt-28 md:pt-9 text-right col-span-4 md:col-span-5">
+            ACCOUNTLESS &nbsp;&mdash;&nbsp;
+          </p>
+          <p class="pt-28 md:pt-9 col-span-8 md:col-span-7 pl-1">          
+            No need to create an account or deposit tokens.
+          </p>
+          <p class="font-bold text-klein-blue pt-28 md:pt-9 text-right col-span-4 md:col-span-5">
+            OPEN &nbsp;&mdash;&nbsp;
+          </p>
+          <p class="pt-28 md:pt-9 col-span-8 md:col-span-7 pl-1">          
+            Tools and codebase that are open source.
+          </p>
+      </div>
+    </div>
+  </div>
+  <!-- /block-one -->
+  <!-- .block-two -->
+  <div class="px-24  w-full bg-two">
+    <h2 class="pt-84 md:pt-18 mb-4 text-center">THE TECH BEHIND THE SWAP</h2>
+    <div class="grid grid-cols-2 pt-50 md:pt-13">
+      <div class="pr-40 md:pr-10 my-auto">
+        <img class="float-right w-92 md:w-33 md:pt-20" src="img/case.svg" alt="OPEN DEVELOPER CENTRIC TOOLS">
+      </div>
+      <div class="text-left">
+        <h3>OPEN DEVELOPER <br>CENTRIC TOOLS</h3>
+        <p class="md:pt-4 ">
+          Use <strong>create-comit-app</strong> to spin-up a<br class="hidden md:block"> 
+          development environment. The Javascript SDK<br class="hidden md:block">
+          allows simple usage of COMIT’s powerful API.
+        </p>
+        <a class="btn h-40 md:h-16 w-92 md:w-54 mt-17 md:mt-7 bg-klein-blue" href="https://comit.network/docs/getting-started/create-comit-app">
+          Get Started
+        </a>
+      </div> 
+    </div>
+    <div class="grid grid-cols-2 pt-66 md:pt-28">
+      <div class="text-right">
+        <h3>STANDARDIZED ATOMIC<br>SWAP PROTOCOLS</h3>
+        <p class="md:pt-4">
+          Use our <strong>well-defined cryptographic<br class="hidden md:block">
+          protocols</strong> - HTLCs and Scriptless<br class="hidden md:block">
+          Scripts - to build trustless solutions<br class="hidden md:block">
+          powered by COMIT.
+        </p>
+        <a class="btn h-40 md:h-16 w-184 md:w-84 mr-0 ml-auto mt-17 md:mt-7 bg-klein-blue" href="https://github.com/comit-network/rfcs">
+          Check Out The Full Specs
+        </a>
+      </div>
+      <div class="pl-40 md:pl-10 my-auto ">
+        <img class="float-left w-84 md:w-26 md:pt-20" src="img/note.svg" alt="STANDARDIZED ATOMIC SWAP PROTOCOLS">
+      </div> 
+    </div>
+  </div>
+  <!-- /.block-two -->
+  <!-- .block-three -->
+  <div class="px-24 w-full bg-three bg-white-lilac pt-92 md:pt-33">
+    <h2 class="md:pt-3 mb-3 text-center">PURE SWAPS FOR P2P SOLUTIONS</h2>
+  <div class="section m-auto grid grid-cols-10 gap-10 md:gap-5 lg:gap-10 leading-tight tracking-normal pt-20 md:pt-10 text-pm md:text-h5 text-klein-blue">
+    <div class="col-span-5 md:col-span-4 flex justify-end">
+      <div class="h-128 w-128 md:h-59 md:w-58 flex flex-col bg-white p-5 shadow-theme justify-between items-center">
+        <img class="w-58 md:w-26 lg:w-33 m-auto" src="img/code.svg" alt="Completely Open Source">
+        <div class="text-center mb-3 md:mb-0 mt-2">
+            Completely <br>
+            Open Source
+        </div>
+      </div>
+    </div>
+    <div class="col-span-5 md:col-span-2 flex justify-start md:justify-center">
+      <div class="h-128 w-128 md:h-59 md:w-58 flex flex-col bg-white p-5 shadow-theme justify-between items-center">
+        <img class="w-58 md:w-20 lg:w-28 m-auto" src="img/shield.svg" alt="Minimized Risk">
+        <div class="text-center mb-3 md:mb-0 mt-2">
+            Minimized Risk
+        </div>
+      </div>
+    </div>
+    <div class="col-span-5 md:col-span-4 flex justify-end md:justify-start">
+      <div class="h-128 w-128 md:h-59 md:w-58 flex flex-col bg-white p-5 shadow-theme justify-center items-center">
+        <img class="w-58 md:w-20 lg:w-28 m-auto" src="img/middle.svg" alt="No Middle-man">
+        <div class="text-center mb-3 md:mb-0 mt-2">
+            No Middle-man
+        </div>
+      </div>
+    </div>
+    <div class="col-span-5 md:col-span-4 flex justify-start md:justify-end">
+      <div class="h-128 w-128 md:h-59 md:w-58 flex flex-col bg-white p-5 shadow-theme justify-between items-center">
+        <img class="w-58 md:w-20 lg:w-24 m-auto" src="img/privacy.svg" alt="Preserves Privacy">
+        <div class="text-center mb-3 md:mb-0 mt-2 ">
+            Preserves <br>
+            Privacy
+        </div>
+      </div>
+    </div>
+    <div class="col-span-5 md:col-span-2 flex justify-end md:justify-center">
+      <div class="h-128 w-128 md:h-59 md:w-58 flex flex-col bg-white p-5 shadow-theme justify-between items-center">
+        <img class="w-58 md:w-26 lg:w-33 m-auto" src="img/verifiable.svg" alt="Verifiable">
+        <div class="text-center mb-3 md:mb-0 mt-2">
+            Verifiable
+        </div>
+      </div>
+    </div>
+    <div class="col-span-5 md:col-span-4 flex justify-start ">
+      <div class="h-128 w-128 md:h-59 md:w-58 flex flex-col bg-white p-5 shadow-theme justify-between items-center">
+        <img class="w-58 md:w-26 lg:w-33 mx-auto mb-0 mt-auto" src="img/fungibility.svg" alt="Enables Fungibility">
+        <div class="text-center mb-3 md:mb-0 mt-5">         
+            Enables<br> 
+            Fungibility
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="flex m-auto justify-center items-center md:pt-3">
+      <a class="btn h-40 md:h-16 px-12 md:px-8 mt-17 md:mt-7 bg-klein-blue" href="https://comit.network/docs/getting-started/create-comit-app">
+        Learn More
+      </a>
+    </div>
+  </div>
+  <!-- /.block-three -->
+  <!-- .block-four -->
+  <div class="bg-four bg-white">
+  <div class="section h-auto px-24 w-full  m-auto pt-92 md:pt-78 flex md:block">
+    <div class="flex flex-col mt-auto mb-92 md:m-auto justify-center md:justify-end items-center md:items-end md:pt-3">
+      <h2 class="md:pt-4 mb-4 text-center">MORE THAN JUST A DEX</h2>
+      <p class="text-center md:text-right px-5 md:px-0">
+        While creating a trustless decentralized exchange is definitely one of <br class="hidden md:block">
+        the main applications, COMIT is more than capable to help develop-<br class="hidden md:block">
+        ers build multi-currency wallets, multi-hop swaps and any other<br class="hidden md:block"> 
+        solution where anonymity and privacy matter.
+      </p>
+      <a class="btn h-40 md:h-16 px-12 md:px-8  mt-17 md:mt-7 bg-klein-blue" href="https://comit.network/docs/comit-protocol/comit-protocol-stack">
+      Discover For Yourself
+      </a>
+    </div>
+  </div>
+  </div>
+  <!-- /.block-four -->
+  <!-- .block-five -->
+  <div class="px-24 w-full bg-five pb-40 md:pb-0 pt-48 md:pt-32">
+    <h2 class="md:pt-4 mb-4 text-center">COMIT BUILDING BLOCKS</h2>
+    <div class="section m-auto grid grid-cols-11 gap-5 md:gap-3 lg:gap4 pt-20 md:pt-10">
+      <div class="col-span-11 md:col-span-4 flex justify-center md:justify-end">
+        <div class="h-188 w-224 md:h-94 md:w-74 flex flex-col bg-white shadow-theme justify-between items-center border-b-11 md:border-b-5 border-pacific-blue">
+          <img class="w-84 md:w-40 m-auto " src="img/native.svg" alt="Native Atomic Swaps">
+          <div class="text-center mb-4 md:mb-2">
+            <h5>Native Atomic<br>Swaps (Layer 1)</h5>
+            <p class="py-10 md:py-4">e.g. Bitcoin to Erc20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-11 md:col-span-3 flex justify-center">
+        <div class="h-188 w-224 md:h-94 md:w-74 flex flex-col bg-white shadow-theme justify-between items-center border-b-11 md:border-b-5 border-pacific-blue">
+          <img class="w-94 md:w-40 m-auto" src="img/instant.svg" alt="Instant Swaps">
+          <div class="text-center mb-4 md:mb-2">
+            <h5>Instant Atomic<br>Swaps (Layer 2)</h5>
+            <p class="py-10 md:py-4">e.g. Ether to Lightning</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-11 md:col-span-4 flex justify-center md:justify-start">
+        <div class="h-188 w-224 md:h-94 md:w-74 flex flex-col bg-white shadow-theme justify-between items-center border-b-11 md:border-b-5 border-pacific-blue">
+          <img class="w-94 md:w-40 m-auto" src="img/preserving.svg" alt="Privacy Preserving Swaps">
+          <div class="text-center mb-4 md:mb-2">
+            <h5>Privacy Preserving<br>Atomic Swaps</h5>
+            <p class="py-10 md:py-4">e.g. Bitcoin to Grin</p>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <!-- /.block-five -->
+  <!-- .block-six -->
+  <div class="px-24 pt-40 md:pt-18 w-full bg-six bg-white flex flex-col">
+    <div class="flex flex-col mx-auto justify-start items-center ">
+      <h2 class="mb-18 md:mb-5 text-center">MEET US HERE!</h2>
+      <p class="text-center px-5 md:mb-2 md:px-0">
+        We participate and hold various event throughout the year.<br class="hidden md:block">
+        Find the one that’s right for you:
+      </p>      
+    </div>
+    <div id="calendar">
+      <div class="loader">
+        <svg version="1.1" id="L3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+      <circle fill="none" stroke="#00388B" stroke-width="4" cx="50" cy="50" r="44"/>
+        <circle fill="#fff" stroke="#E99F5B" stroke-width="3" cx="8" cy="54" r="6" >
+          <animateTransform
+            attributeName="transform"
+            dur="2s"
+            type="rotate"
+            from="0 50 48"
+            to="360 50 52"
+            repeatCount="indefinite" />
+        </circle>
+      </svg>
+      </div>
+    </div>
+  </div>
+  <!-- /.block-six -->
+  <!-- .block-seven -->
+  <div class="px-24 pt-40 md:pt-18 w-full bg-seven flex">
+    <div class="flex flex-col mx-auto justify-start items-center ">     
+      <h2 class="mb-19 md:mb-7 text-center">CONTRIBUTORS OF THE <br class="block md:hidden">REFERENCE IMPLEMENTATION</h2>
+      <div class="flex">
+		<a class="github-button" href="https://github.com/comit-network/comit-rs" 
+		data-color-scheme="no-preference: light; light: light; dark: light;" 
+		data-size="large" 
+		data-show-count="true" 
+		aria-label="Star comit-network/comit-rs on GitHub">Star</a>
+      </div>
+      <div class="grid grid-cols-4 md:grid-cols-8 gap-9 md:mb-72  mt-72 md:mt-36 relative" id="contributors">
+
+<div class="loader">
+  <svg version="1.1" id="L3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+<circle fill="none" stroke="#00388B" stroke-width="4" cx="50" cy="50" r="44"/>
+  <circle fill="#fff" stroke="#E99F5B" stroke-width="3" cx="8" cy="54" r="6" >
+    <animateTransform
+      attributeName="transform"
+      dur="2s"
+      type="rotate"
+      from="0 50 48"
+      to="360 50 52"
+      repeatCount="indefinite" />
+  </circle>
+</svg>
+</div>
+      </div>    
+    </div>
+  </div>
+  <!-- /.block-seven -->
+  <!-- Footer -->
+  <footer class="bg-footer relative">
+    <div class="grid grid-cols-12 gap-2 border-b border-blue-light pb-9">
+      <div class="w-full col-span-12 md:col-span-4 flex justify-center md:justify-end items-center">
+        <form action="https://tech.us20.list-manage.com/subscribe/post?u=5c892b17a4484caaff2f5540b&amp;id=c20e04c6d1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="flex flex-col w-280 md:w-92 relative" onsubmit="return Subscribe()">
+          <p class="font-semibold text-center md:text-left text-white mt-20 md:mt-10">Don't miss any news</p>
+          <div class="font-semibold error-msg" id="ferror">All fields are required.</div>
+          <input class="mt-16 md:mt-6 pl-4 md:pl-0 pb-1 md:pb-2" type="text" value="" name="FNAME" id="mce-FNAME" placeholder="Your Name">
+          <input class="mt-16 md:mt-6 pl-4 md:pl-0 pb-1 md:pb-2" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email">
+          <input type="hidden" value="" name="LNAME" id="mce-LNAME">
+          <input type="hidden" value="" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month">
+          <input type="hidden" value="" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day">
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c892b17a4484caaff2f5540b_c20e04c6d1" tabindex="-1" value=""></div>
+          <label class="absolute bottom-0 w-16 md:w-7 mb-5 md:mb-2 right-0">
+            <input class="hidden" type="submit" value="">
+            <img src="img/submit.svg">
+          </label>
+        </form>
+      </div>
+      <div class="col-span-12 md:col-span-4 flex flex-col justify-center">
+        <p class="font-semibold text-center text-white mb-10 md:mb-0 mt-25">Keep in touch</p>
+        <div class="text-center mb-0 mt-auto">
+          <a class="inline-block w-22 md:w-9" href="https://join.slack.com/t/coblox-comit/shared_invite/zt-acgvzp3a-txp_Eo~IRV76CBD2u3TcYQ"><img src="img/slack-icon.svg" alt="Slack"></a>
+          <a class="inline-block w-22 md:w-9" href="https://github.com/comit-network"><img src="img/github-icon.svg" alt="GitHub"></a>
+          <a class="inline-block w-22 md:w-9" href="https://gitter.im/comit-network/community"><img src="img/gitter-icon.svg" alt="Gitter"></a>
+          <a class="inline-block w-22 md:w-9" href="https://twitter.com/comit_network"><img src="img/twitter-icon.svg" alt="Twitter"></a>
+          <a class="inline-block w-22 md:w-9" href="mailto:hello@coblox.tech"><img src="img/mailto-icon.svg" alt="MailTo"></a>
+        </div>
+      </div>
+      <div class="w-full col-span-12 md:col-span-4 flex flex-col justify-center md:justify-start ">
+        <div class="w-full md:w-106 text-center md:text-left mb-0 mt-auto relative">
+          <a class="inline-block absolute top-0 right-0 mr-8 -mt-26 hidden md:block" href="#head"><img class="top-button w-12" src="img/submit.svg"><p class="text-white mt-2 text-center">Top</p></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.grid -->
+    <div class="w-full md:w-106 text-center mx-auto pb-10 pt-9">
+      <a class="inline-block pr-7" href="https://comit.network/docs/getting-started/create-comit-app"><p class="text-white">Documentation</p></a>
+      <a class="inline-block pr-7" href="https://comit.network/blog/"><p class="text-white">Blog</p></a>
+      <a class="inline-block" href="https://github.com/comit-network"><p class="text-white">GitHub</p></a>
+    </div>
+  </footer>
+
+
+    
+  <script>
+    //Javascript to toggle the menu
+    document.getElementById('nav-toggle').onclick = function(){
+    document.getElementById("nav-content").classList.toggle("hidden");
+    document.getElementById("nav-toggle").classList.toggle("nav-active")
+    }
+
+    //Google calendar
+    var google_api="AIzaSyCE_J2j00vUi3UB52AaGDinu5HdvQDNit4";
+    var calendar_id="tenx.tech_m6ujv9t8pinj01bb65uthtfrs4@group.calendar.google.com";
+
+    function googleCalendar() {
+      var responseObj = JSON.parse(this.responseText);
+      document.getElementById('calendar').innerHTML="";
+      console.log(responseObj.items);
+      var n=0;
+      Object.keys(responseObj.items).forEach(function(key) {
+        if(new Date()<new Date(responseObj.items[key].end.dateTime) && n<3)
+          {
+          n=n+1;
+          var dateStart = new Intl.DateTimeFormat('ru').format(new Date(responseObj.items[key].start.dateTime));
+          var dateEnd = new Intl.DateTimeFormat('ru').format(new Date(responseObj.items[key].end.dateTime));
+
+          if (dateStart==dateEnd) {
+            var date='<p class="leading-none text-white">'+dateStart+'</p>';
+          }
+          else {
+            var date='<p class="leading-none text-white">'+dateStart+'</p><p class="leading-none text-white">-</p><p class="leading-none text-white">'+dateEnd+'</p>';
+          }
+
+          var location = (responseObj.items[key].location!=undefined?`<img class="mx-auto w-13 md:w-5 md:mt-1" src="img/map-point.svg" alt="`+responseObj.items[key].location+`"><p class="mt-1">`+responseObj.items[key].location+`</p>`:'');
+          var desc = (responseObj.items[key].description!=undefined?`<img class="mx-auto w-13 md:w-5 md:mt-1" src="img/map-info.svg" alt="map info"><p class="mt-1">`+responseObj.items[key].description.replace(/<[^>]+>/g, ' ').substr(0, 50)+(responseObj.items[key].description.length>50?'...':'')+`</p>`:'');
+          var video = (responseObj.items[key].hangoutLink!=undefined?`<img class="mx-auto w-13 md:w-5 md:mt-1" src="img/video-icon.svg" alt="video link"><p class="mt-1"><a href="`+responseObj.items[key].hangoutLink+`">`+responseObj.items[key].hangoutLink.substr(0, 50)+(responseObj.items[key].hangoutLink.length>50?'...':'')+`</a></p>`:'');
+
+          document.getElementById('calendar').innerHTML+=`
+            <div class="bg-white min-h-114 md:min-h-25 w-300 md:w-180 mt-12 md:mt-5 mx-auto shadow-six rounded-20 md:rounded-8 flex flex-col md:flex-row pb-3">
+              <div class="flex md:flex-col justify-center items-center bg-klein-blue rounded-10 md:rounded-6 mx-auto md:ml-12 md:mr-0 my-8 md:my-auto px-7 max-w-full md:w-33 h-26 md:h-18">`
+                +date+`
+              </div>
+              <div class="ml-0 md:ml-9 flex flex-col max-h-full w-full"><div class="grid grid-cols-1-26 md:grid-cols-1-10 mt-2">
+                <img class="m-auto w-13 md:w-5" src="img/peoples.svg" alt="`+responseObj.items[key].summary+`">
+                <p class="text-klein-blue">`
+                  +responseObj.items[key].summary+`
+                </p>
+              </div>
+              <div class="grid grid-cols-5">
+                <div class="col-span-5 grid grid-cols-1-26 md:grid-cols-1-10">
+                  <img class="mx-auto w-13 md:w-5 md:mt-1" src="img/human.svg" alt="`+responseObj.items[key].organizer.displayName+`">
+                  <p class="mt-1">`
+                    +responseObj.items[key].organizer.displayName+`
+                  </p>
+                  `+location+desc+video+`
+                  </div>
+              </div>
+            </div>`;
+        }
+      });
+      document.getElementById('calendar').innerHTML+=`<div class="flex m-auto justify-center items-center md:pt-3">
+        <a class="btn h-40 md:h-16 px-12 md:px-8 mt-17 md:mt-7 md:mb-17 bg-klein-blue" href="https://calendar.google.com/calendar/ical/tenx.tech_m6ujv9t8pinj01bb65uthtfrs4%40group.calendar.google.com/private-1aa31b84b8ec9c4b7b32bba08b9d00d5/basic.ics" target="_blank">
+          Subscribe To Calendar
+        </a>
+      </div>`;
+    }
+      var request = new XMLHttpRequest();
+      request.onload = googleCalendar;
+      
+      request.open('get', 'https://www.googleapis.com/calendar/v3/calendars/'+calendar_id+'/events?key='+google_api, true)
+      request.send();
+      
+    //Contrib section
+    function gitHub() {
+      if (request.status=='200') {
+
+      var responseObj = JSON.parse(this.responseText);
+      responseObj.reverse();
+      document.getElementById('contributors').innerHTML="";
+      console.log(responseObj);
+
+      Object.keys(responseObj).forEach(function(key) {
+        if (key<8) {
+          document.getElementById('contributors').innerHTML+=`
+          <div class="wraper-card md:relative">
+            <img class="img-card w-84 md:w-33 rounded-full" src="`+responseObj[key].author.avatar_url+`" alt="CONTRIBUTORS" onclick="showCard(this)">
+            <div class="triangle mt-7 md:mt-3 mx-auto"> </div>
+            <div class="hover-card absolute left-0 right-0 bottom-auto ">
+              <div class="shadow-seven bg-white flex flex-row m-auto w-full md:w-128 p-15 md:p-4">
+                <a href="`+responseObj[key].author.html_url+`">
+                  <img class="w-47 md:w-20" src="`+responseObj[key].author.avatar_url+`" alt="CONTRIBUTORS" />
+                </a>
+                <div class="pl-8 md:pl-4">
+                  <a href="`+responseObj[key].author.html_url+`">
+                    <h4 class="font-bold">`+responseObj[key].author.login+`</h4>
+                  </a>
+                  <h4 class="text-granite-gray">`+responseObj[key].total+` commits in this repository</h4>
+                </div>
+              </div>
+            </div>
+          </div>`;
+        }
+      });
+
+      }
+      else {
+        document.getElementById('contributors').innerHTML="Error, please refresh the page.";
+      }
+    }
+
+    var request = new XMLHttpRequest();
+    request.onload = gitHub;
+    request.open('get', 'https://api.github.com/repos/comit-network/comit-rs/stats/contributors', true);
+    request.send();
+
+function showCard(el) {
+    var el;
+	if (el.parentElement.classList.contains('active-card')===true) {
+      el.parentElement.classList.remove('active-card');
+    }
+    else {
+	  var prev = document.querySelector('#contributors .active-card');
+		if (prev!==null) {
+		  prev.classList.remove('active-card');
+		}
+      el.parentElement.className += ' active-card';
+    }
+  }
+
+function Subscribe() {
+  var name = document.forms["mc-embedded-subscribe-form"]["FNAME"].value;
+  var email = document.forms["mc-embedded-subscribe-form"]["EMAIL"].value;
+  if (name == "" || email == "") {
+    document.getElementById('ferror').style.display="block";
+    return false;
+  }
+}
+  </script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 </body>
 
 </html>
