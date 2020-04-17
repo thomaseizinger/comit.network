@@ -395,7 +395,6 @@
       var responseObj = JSON.parse(this.responseText);
       document.getElementById('calendar').innerHTML="";
       console.log(responseObj.items);
-      responseObj.items.reverse();
       var n=0;
       Object.keys(responseObj.items).forEach(function(key) {
         if(new Date()<new Date(responseObj.items[key].end.dateTime) && n<3)
