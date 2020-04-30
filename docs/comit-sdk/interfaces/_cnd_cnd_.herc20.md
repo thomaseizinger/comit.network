@@ -21,7 +21,7 @@ sidebar_label: "Herc20"
 
 • **absolute_expiry**: *number*
 
-*Defined in [src/cnd/cnd.ts:69](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L69)*
+*Defined in [src/cnd/cnd.ts:69](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L69)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **contract_address**: *string*
 
-*Defined in [src/cnd/cnd.ts:68](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L68)*
+*Defined in [src/cnd/cnd.ts:68](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L68)*

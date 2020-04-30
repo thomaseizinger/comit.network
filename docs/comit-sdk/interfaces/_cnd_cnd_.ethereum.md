@@ -20,4 +20,4 @@ sidebar_label: "Ethereum"
 
 • **chain_id**: *number*
 
-*Defined in [src/cnd/cnd.ts:81](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L81)*
+*Defined in [src/cnd/cnd.ts:81](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L81)*

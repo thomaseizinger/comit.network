@@ -21,7 +21,7 @@ sidebar_label: "Outpoint"
 
 • **txId**: *string*
 
-*Defined in [src/wallet/lightning.ts:177](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L177)*
+*Defined in [src/wallet/lightning.ts:177](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/lightning.ts#L177)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **vout**: *number*
 
-*Defined in [src/wallet/lightning.ts:178](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L178)*
+*Defined in [src/wallet/lightning.ts:178](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/lightning.ts#L178)*

@@ -38,7 +38,7 @@ This is not to be used for mainnet, instead, implement your own [BitcoinWallet](
 
 *Implementation of [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md)*
 
-*Defined in [src/wallet/bitcoin.ts:153](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L153)*
+*Defined in [src/wallet/bitcoin.ts:153](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L153)*
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **close**(): *Promise‹void›*
 
-*Defined in [src/wallet/bitcoin.ts:171](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L171)*
+*Defined in [src/wallet/bitcoin.ts:171](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L171)*
 
 **Returns:** *Promise‹void›*
 
@@ -67,7 +67,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md)*
 
-*Defined in [src/wallet/bitcoin.ts:127](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L127)*
+*Defined in [src/wallet/bitcoin.ts:127](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L127)*
 
 **Returns:** *Promise‹string›*
 
@@ -79,7 +79,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md)*
 
-*Defined in [src/wallet/bitcoin.ts:120](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L120)*
+*Defined in [src/wallet/bitcoin.ts:120](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L120)*
 
 **Returns:** *Promise‹number›*
 
@@ -91,7 +91,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md)*
 
-*Defined in [src/wallet/bitcoin.ts:166](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L166)*
+*Defined in [src/wallet/bitcoin.ts:166](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L166)*
 
 **Returns:** *string*
 
@@ -103,7 +103,7 @@ ___
 
 *Implementation of [BitcoinWallet](../interfaces/_wallet_bitcoin_.bitcoinwallet.md)*
 
-*Defined in [src/wallet/bitcoin.ts:132](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L132)*
+*Defined in [src/wallet/bitcoin.ts:132](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L132)*
 
 **Parameters:**
 
@@ -121,7 +121,7 @@ ___
 
 ▸ **newInstance**(`network`: string, `peerUri`: string, `hdKey`: string): *Promise‹[InMemoryBitcoinWallet](_wallet_bitcoin_.inmemorybitcoinwallet.md)›*
 
-*Defined in [src/wallet/bitcoin.ts:37](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/bitcoin.ts#L37)*
+*Defined in [src/wallet/bitcoin.ts:37](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/bitcoin.ts#L37)*
 
 **Parameters:**
 

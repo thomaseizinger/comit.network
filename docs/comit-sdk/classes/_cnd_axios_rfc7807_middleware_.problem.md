@@ -34,7 +34,7 @@ sidebar_label: "Problem"
 
 \+ **new Problem**(`__namedParameters`: object): *[Problem](_cnd_axios_rfc7807_middleware_.problem.md)*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:9](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L9)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:9](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L9)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 • **detail**? : *undefined | string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:8](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L8)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:8](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L8)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **instance**? : *undefined | string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:9](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L9)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:9](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L9)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 *Inherited from [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[message](_cnd_axios_rfc7807_middleware_.problem.md#message)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:974
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:974
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[name](_cnd_axios_rfc7807_middleware_.problem.md#name)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:973
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:973
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Overrides [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[stack](_cnd_axios_rfc7807_middleware_.problem.md#optional-stack)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:975
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:975
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 • **status**? : *undefined | number*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:7](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L7)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:7](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L7)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 • **title**: *string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:6](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L6)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:6](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L6)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 • **type**: *string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:5](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L5)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:5](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L5)*
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 ▪ **Error**: *ErrorConstructor*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:984
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:984

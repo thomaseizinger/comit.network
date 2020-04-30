@@ -18,7 +18,7 @@ sidebar_label: "NetworkType"
 
 • **AllMainnet**: = "main"
 
-*Defined in [src/negotiation/execution_params.ts:60](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/execution_params.ts#L60)*
+*Defined in [src/negotiation/execution_params.ts:60](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/execution_params.ts#L60)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **AllTest**: = "test"
 
-*Defined in [src/negotiation/execution_params.ts:61](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/execution_params.ts#L61)*
+*Defined in [src/negotiation/execution_params.ts:61](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/execution_params.ts#L61)*
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 • **Invalid**: = "invalid"
 
-*Defined in [src/negotiation/execution_params.ts:62](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/execution_params.ts#L62)*
+*Defined in [src/negotiation/execution_params.ts:62](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/execution_params.ts#L62)*

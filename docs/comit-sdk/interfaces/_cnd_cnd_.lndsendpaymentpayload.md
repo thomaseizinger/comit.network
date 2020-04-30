@@ -26,7 +26,7 @@ sidebar_label: "LndSendPaymentPayload"
 
 • **amount**: *string*
 
-*Defined in [src/cnd/cnd.ts:137](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L137)*
+*Defined in [src/cnd/cnd.ts:137](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L137)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **chain**: *string*
 
-*Defined in [src/cnd/cnd.ts:140](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L140)*
+*Defined in [src/cnd/cnd.ts:140](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L140)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **final_cltv_delta**: *number*
 
-*Defined in [src/cnd/cnd.ts:139](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L139)*
+*Defined in [src/cnd/cnd.ts:139](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L139)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **network**: *string*
 
-*Defined in [src/cnd/cnd.ts:141](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L141)*
+*Defined in [src/cnd/cnd.ts:141](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L141)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **secret_hash**: *string*
 
-*Defined in [src/cnd/cnd.ts:138](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L138)*
+*Defined in [src/cnd/cnd.ts:138](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L138)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **self_public_key**: *string*
 
-*Defined in [src/cnd/cnd.ts:135](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L135)*
+*Defined in [src/cnd/cnd.ts:135](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L135)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **to_public_key**: *string*
 
-*Defined in [src/cnd/cnd.ts:136](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L136)*
+*Defined in [src/cnd/cnd.ts:136](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L136)*

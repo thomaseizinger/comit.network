@@ -32,7 +32,7 @@ sidebar_label: "WalletError"
 
 \+ **new WalletError**(`attemptedAction`: string, `source`: [Error](_cnd_axios_rfc7807_middleware_.problem.md#static-error), `callParams`: any): *[WalletError](_swap_.walleterror.md)*
 
-*Defined in [src/swap.ts:10](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L10)*
+*Defined in [src/swap.ts:9](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/swap.ts#L9)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
 
 • **attemptedAction**: *string*
 
-*Defined in [src/swap.ts:12](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L12)*
+*Defined in [src/swap.ts:11](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/swap.ts#L11)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **callParams**: *any*
 
-*Defined in [src/swap.ts:14](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L14)*
+*Defined in [src/swap.ts:13](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/swap.ts#L13)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 *Inherited from [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[message](_cnd_axios_rfc7807_middleware_.problem.md#message)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:974
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:974
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 *Inherited from [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[name](_cnd_axios_rfc7807_middleware_.problem.md#name)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:973
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:973
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **source**: *[Error](_cnd_axios_rfc7807_middleware_.problem.md#static-error)*
 
-*Defined in [src/swap.ts:13](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/swap.ts#L13)*
+*Defined in [src/swap.ts:12](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/swap.ts#L12)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 *Overrides [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[stack](_cnd_axios_rfc7807_middleware_.problem.md#optional-stack)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:975
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:975
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 ▪ **Error**: *ErrorConstructor*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:984
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:984

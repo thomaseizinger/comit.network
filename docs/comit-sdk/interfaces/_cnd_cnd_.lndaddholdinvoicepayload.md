@@ -26,7 +26,7 @@ sidebar_label: "LndAddHoldInvoicePayload"
 
 • **amount**: *string*
 
-*Defined in [src/cnd/cnd.ts:146](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L146)*
+*Defined in [src/cnd/cnd.ts:146](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L146)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **chain**: *string*
 
-*Defined in [src/cnd/cnd.ts:150](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L150)*
+*Defined in [src/cnd/cnd.ts:150](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L150)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **cltv_expiry**: *number*
 
-*Defined in [src/cnd/cnd.ts:149](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L149)*
+*Defined in [src/cnd/cnd.ts:149](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L149)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **expiry**: *number*
 
-*Defined in [src/cnd/cnd.ts:148](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L148)*
+*Defined in [src/cnd/cnd.ts:148](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L148)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **network**: *string*
 
-*Defined in [src/cnd/cnd.ts:151](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L151)*
+*Defined in [src/cnd/cnd.ts:151](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L151)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **secret_hash**: *string*
 
-*Defined in [src/cnd/cnd.ts:147](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L147)*
+*Defined in [src/cnd/cnd.ts:147](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L147)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **self_public_key**: *string*
 
-*Defined in [src/cnd/cnd.ts:145](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L145)*
+*Defined in [src/cnd/cnd.ts:145](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L145)*

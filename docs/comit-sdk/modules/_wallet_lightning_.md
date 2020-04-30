@@ -24,7 +24,7 @@ sidebar_label: "wallet/lightning"
 
 ▸ **outpointFromChannelStatusUpdate**(`status`: OpenStatusUpdate): *[Outpoint](../interfaces/_wallet_lightning_.outpoint.md)*
 
-*Defined in [src/wallet/lightning.ts:181](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/wallet/lightning.ts#L181)*
+*Defined in [src/wallet/lightning.ts:181](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/wallet/lightning.ts#L181)*
 
 **Parameters:**
 

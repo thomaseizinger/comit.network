@@ -20,4 +20,4 @@ sidebar_label: "Halight"
 
 • **cltv_expiry**: *number*
 
-*Defined in [src/cnd/cnd.ts:73](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L73)*
+*Defined in [src/cnd/cnd.ts:73](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L73)*

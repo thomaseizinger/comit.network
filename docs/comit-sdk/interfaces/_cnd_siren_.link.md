@@ -32,7 +32,7 @@ Links represent navigational transitions.
 
 • **class**? : *string[]*
 
-*Defined in [src/cnd/siren.ts:250](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/siren.ts#L250)*
+*Defined in [src/cnd/siren.ts:250](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/siren.ts#L250)*
 
 Describes aspects of the link based on the current representation. Possible values are implementation-dependent and should be documented.
 
@@ -42,7 +42,7 @@ ___
 
 • **href**: *string*
 
-*Defined in [src/cnd/siren.ts:262](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/siren.ts#L262)*
+*Defined in [src/cnd/siren.ts:262](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/siren.ts#L262)*
 
 The URI of the linked resource.
 
@@ -52,7 +52,7 @@ ___
 
 • **rel**: *[RelValue](../modules/_cnd_siren_.md#relvalue)[]*
 
-*Defined in [src/cnd/siren.ts:258](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/siren.ts#L258)*
+*Defined in [src/cnd/siren.ts:258](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/siren.ts#L258)*
 
 Defines the relationship of the link to its entity, per Web Linking (RFC5988).
 
@@ -62,7 +62,7 @@ ___
 
 • **title**? : *undefined | string*
 
-*Defined in [src/cnd/siren.ts:254](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/siren.ts#L254)*
+*Defined in [src/cnd/siren.ts:254](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/siren.ts#L254)*
 
 Text describing the nature of a link.
 
@@ -72,4 +72,4 @@ ___
 
 • **type**? : *[MediaType](../modules/_cnd_siren_.md#mediatype)*
 
-*Defined in [src/cnd/siren.ts:263](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/siren.ts#L263)*
+*Defined in [src/cnd/siren.ts:263](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/siren.ts#L263)*
