@@ -21,7 +21,7 @@ sidebar_label: "RequestParams"
 
 • **amount**: *string*
 
-*Defined in [src/cnd/cnd.ts:59](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L59)*
+*Defined in [src/cnd/cnd.ts:59](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L59)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **identity**: *string*
 
-*Defined in [src/cnd/cnd.ts:60](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L60)*
+*Defined in [src/cnd/cnd.ts:60](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L60)*

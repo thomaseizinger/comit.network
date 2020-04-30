@@ -7,6 +7,44 @@
         {
           "type": "doc",
           "id": "version-0.15.2/getting-started/create-comit-app"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.15.2/getting-started/comit-infrastructure"
+        },
+        {
+          "type": "category",
+          "label": "Your first COMIT-app",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-setup"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-actor-initialisation"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-maker-order-create"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-maker-order-publish"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-maker-execution"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-taker-request-order"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/tutorials/write-your-first-comit-app/write-a-comit-app-taker-take-order"
+            }
+          ]
         }
       ]
     },
@@ -150,6 +188,72 @@
             {
               "type": "doc",
               "id": "version-0.15.2/comit-sdk/modules/_wallet_lightning_"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Classes",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_cnd_axios_rfc7807_middleware_.problem"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_cnd_cnd_.cnd"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_comit_client_.comitclient"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_lnd_.lnd"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_negotiation_maker_maker_negotiator_.httpservice"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_negotiation_maker_maker_negotiator_.makernegotiator"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_negotiation_taker_maker_client_.makerclient"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_negotiation_taker_order_.order"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_negotiation_taker_taker_negotiator_.takernegotiator"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_swap_.swap"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_swap_.walleterror"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_transaction_.transaction"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_wallet_bitcoin_.inmemorybitcoinwallet"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_wallet_ethereum_.ethereumwallet"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/comit-sdk/classes/_wallet_lightning_.lightningwallet"
             }
           ]
         },
@@ -316,72 +420,6 @@
             {
               "type": "doc",
               "id": "version-0.15.2/comit-sdk/interfaces/_wallet_lightning_.outpoint"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Classes",
-          "items": [
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_cnd_axios_rfc7807_middleware_.problem"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_cnd_cnd_.cnd"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_comit_client_.comitclient"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_lnd_.lnd"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_negotiation_maker_maker_negotiator_.httpservice"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_negotiation_maker_maker_negotiator_.makernegotiator"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_negotiation_taker_maker_client_.makerclient"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_negotiation_taker_order_.order"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_negotiation_taker_taker_negotiator_.takernegotiator"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_swap_.swap"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_swap_.walleterror"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_transaction_.transaction"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_wallet_bitcoin_.inmemorybitcoinwallet"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_wallet_ethereum_.ethereumwallet"
-            },
-            {
-              "type": "doc",
-              "id": "version-0.15.2/comit-sdk/classes/_wallet_lightning_.lightningwallet"
             }
           ]
         },

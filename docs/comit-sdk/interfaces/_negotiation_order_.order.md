@@ -25,7 +25,7 @@ The order of a trade as created by the maker through the [MakerNegotiator](../cl
 
 • **ask**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [src/negotiation/order.ts:11](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L11)*
+*Defined in [src/negotiation/order.ts:11](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/order.ts#L11)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **bid**: *[OrderAsset](_negotiation_order_.orderasset.md)*
 
-*Defined in [src/negotiation/order.ts:10](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L10)*
+*Defined in [src/negotiation/order.ts:10](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/order.ts#L10)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [src/negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L8)*
+*Defined in [src/negotiation/order.ts:8](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/order.ts#L8)*
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 • **validUntil**: *number*
 
-*Defined in [src/negotiation/order.ts:9](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/order.ts#L9)*
+*Defined in [src/negotiation/order.ts:9](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/order.ts#L9)*

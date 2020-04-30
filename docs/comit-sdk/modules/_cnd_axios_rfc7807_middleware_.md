@@ -24,7 +24,7 @@ sidebar_label: "cnd/axios_rfc7807_middleware"
 
 ▸ **problemResponseInterceptor**(`error`: AxiosError): *Promise‹AxiosError | [Problem](../classes/_cnd_axios_rfc7807_middleware_.problem.md)›*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:29](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L29)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:29](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L29)*
 
 **Parameters:**
 

@@ -20,7 +20,7 @@ sidebar_label: "Lnd"
 
 ▸ **init**(`config`: RpcClientConfig): *Promise‹[Lnd](_lnd_.lnd.md)›*
 
-*Defined in [src/lnd.ts:27](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/lnd.ts#L27)*
+*Defined in [src/lnd.ts:27](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/lnd.ts#L27)*
 
 Initialize gRPC clients for the main server and all sub-servers
 

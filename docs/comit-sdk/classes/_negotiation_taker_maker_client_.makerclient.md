@@ -29,7 +29,7 @@ This client is used by the taker to request and take orders from a maker.
 
 \+ **new MakerClient**(`makerUrl`: string): *[MakerClient](_negotiation_taker_maker_client_.makerclient.md)*
 
-*Defined in [src/negotiation/taker/maker_client.ts:9](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/maker_client.ts#L9)*
+*Defined in [src/negotiation/taker/maker_client.ts:9](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/maker_client.ts#L9)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ Name | Type | Description |
 
 ▸ **getExecutionParams**(`orderId`: string): *Promise‹[ExecutionParams](../interfaces/_negotiation_execution_params_.executionparams.md)›*
 
-*Defined in [src/negotiation/taker/maker_client.ts:28](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/maker_client.ts#L28)*
+*Defined in [src/negotiation/taker/maker_client.ts:28](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/maker_client.ts#L28)*
 
 Get the execution parameters of the maker for a certain [Order](../interfaces/_negotiation_order_.order.md).
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **getOrderByTradingPair**(`tradingPair`: string): *Promise‹[Order](../interfaces/_negotiation_order_.order.md)›*
 
-*Defined in [src/negotiation/taker/maker_client.ts:19](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/maker_client.ts#L19)*
+*Defined in [src/negotiation/taker/maker_client.ts:19](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/maker_client.ts#L19)*
 
 Get an [Order](../interfaces/_negotiation_order_.order.md) from the maker for a given trading pair (e.g. ethereum-ether-bitcoin-bitcoin).
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **takeOrder**(`orderId`: string, `swapId`: string): *Promise‹void›*
 
-*Defined in [src/negotiation/taker/maker_client.ts:44](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/maker_client.ts#L44)*
+*Defined in [src/negotiation/taker/maker_client.ts:44](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/maker_client.ts#L44)*
 
 Tells the maker that we are taking this order and what is the swap id of the swap request sent for
 this order from taker cnd to maker cnd.

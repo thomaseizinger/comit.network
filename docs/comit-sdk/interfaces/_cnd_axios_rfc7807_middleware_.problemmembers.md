@@ -24,7 +24,7 @@ sidebar_label: "ProblemMembers"
 
 • **detail**? : *undefined | string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:25](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L25)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:25](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L25)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **instance**? : *undefined | string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:26](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L26)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:26](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L26)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **status**? : *undefined | number*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:24](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L24)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:24](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L24)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **title**: *string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:22](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L22)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:22](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L22)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 • **type**? : *undefined | string*
 
-*Defined in [src/cnd/axios_rfc7807_middleware.ts:23](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/axios_rfc7807_middleware.ts#L23)*
+*Defined in [src/cnd/axios_rfc7807_middleware.ts:23](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/axios_rfc7807_middleware.ts#L23)*

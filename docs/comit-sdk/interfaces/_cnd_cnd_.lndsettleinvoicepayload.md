@@ -23,7 +23,7 @@ sidebar_label: "LndSettleInvoicePayload"
 
 • **chain**: *string*
 
-*Defined in [src/cnd/cnd.ts:157](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L157)*
+*Defined in [src/cnd/cnd.ts:157](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L157)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **network**: *string*
 
-*Defined in [src/cnd/cnd.ts:158](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L158)*
+*Defined in [src/cnd/cnd.ts:158](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L158)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **secret**: *string*
 
-*Defined in [src/cnd/cnd.ts:156](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L156)*
+*Defined in [src/cnd/cnd.ts:156](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L156)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **self_public_key**: *string*
 
-*Defined in [src/cnd/cnd.ts:155](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L155)*
+*Defined in [src/cnd/cnd.ts:155](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L155)*

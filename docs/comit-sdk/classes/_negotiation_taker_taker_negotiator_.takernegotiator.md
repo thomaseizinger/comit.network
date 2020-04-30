@@ -27,7 +27,7 @@ Bundles functionality to get orders from a maker, take them and initiate the swa
 
 \+ **new TakerNegotiator**(`comitClient`: [ComitClient](_comit_client_.comitclient.md), `makerUrl`: string): *[TakerNegotiator](_negotiation_taker_taker_negotiator_.takernegotiator.md)*
 
-*Defined in [src/negotiation/taker/taker_negotiator.ts:60](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/taker_negotiator.ts#L60)*
+*Defined in [src/negotiation/taker/taker_negotiator.ts:60](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/taker_negotiator.ts#L60)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ Name | Type | Description |
 
 ▸ **getOrder**(`criteria`: [MatchingCriteria](../interfaces/_negotiation_taker_order_.matchingcriteria.md)): *Promise‹[TakerOrder](../modules/_negotiation_taker_order_.md#takerorder)›*
 
-*Defined in [src/negotiation/taker/taker_negotiator.ts:78](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/taker_negotiator.ts#L78)*
+*Defined in [src/negotiation/taker/taker_negotiator.ts:78](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/taker_negotiator.ts#L78)*
 
 Get an order from the maker based on specified criteria. Whatever is returned from the maker is
 returned here, even if it does not match the criteria or is invalid. Not all criteria are passed to the maker.

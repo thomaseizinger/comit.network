@@ -22,7 +22,7 @@ sidebar_label: "MatchingCriteria"
 
 • **buy**: *[MatchingCriteriaAsset](_negotiation_taker_order_.matchingcriteriaasset.md)*
 
-*Defined in [src/negotiation/taker/order.ts:14](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L14)*
+*Defined in [src/negotiation/taker/order.ts:14](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/order.ts#L14)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **minRate**? : *undefined | number*
 
-*Defined in [src/negotiation/taker/order.ts:16](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L16)*
+*Defined in [src/negotiation/taker/order.ts:16](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/order.ts#L16)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **sell**: *[MatchingCriteriaAsset](_negotiation_taker_order_.matchingcriteriaasset.md)*
 
-*Defined in [src/negotiation/taker/order.ts:15](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/negotiation/taker/order.ts#L15)*
+*Defined in [src/negotiation/taker/order.ts:15](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/negotiation/taker/order.ts#L15)*

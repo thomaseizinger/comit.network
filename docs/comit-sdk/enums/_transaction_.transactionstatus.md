@@ -19,7 +19,7 @@ sidebar_label: "TransactionStatus"
 
 • **Confirmed**:
 
-*Defined in [src/transaction.ts:15](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L15)*
+*Defined in [src/transaction.ts:15](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/transaction.ts#L15)*
 
 The transaction was mined.
 
@@ -29,7 +29,7 @@ ___
 
 • **Failed**:
 
-*Defined in [src/transaction.ts:7](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L7)*
+*Defined in [src/transaction.ts:7](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/transaction.ts#L7)*
 
 The transaction was rejected by the blockchain node.
 
@@ -39,7 +39,7 @@ ___
 
 • **NotFound**:
 
-*Defined in [src/transaction.ts:19](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L19)*
+*Defined in [src/transaction.ts:19](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/transaction.ts#L19)*
 
 The transaction could not be retrieved.
 
@@ -49,6 +49,6 @@ ___
 
 • **Pending**:
 
-*Defined in [src/transaction.ts:11](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/transaction.ts#L11)*
+*Defined in [src/transaction.ts:11](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/transaction.ts#L11)*
 
 The transaction was not yet mined and its status is uncertain.

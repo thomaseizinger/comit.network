@@ -24,7 +24,7 @@ sidebar_label: "tokens/tokens"
 
 Ƭ **Type**: *"ERC20"*
 
-*Defined in [src/tokens/tokens.ts:3](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/tokens/tokens.ts#L3)*
+*Defined in [src/tokens/tokens.ts:3](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/tokens/tokens.ts#L3)*
 
 ## Functions
 
@@ -32,7 +32,7 @@ sidebar_label: "tokens/tokens"
 
 ▸ **getToken**(`symbol`: string): *[Token](../interfaces/_tokens_tokens_.token.md) | undefined*
 
-*Defined in [src/tokens/tokens.ts:17](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/tokens/tokens.ts#L17)*
+*Defined in [src/tokens/tokens.ts:17](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/tokens/tokens.ts#L17)*
 
 Returns information about an ERC20 token.
 

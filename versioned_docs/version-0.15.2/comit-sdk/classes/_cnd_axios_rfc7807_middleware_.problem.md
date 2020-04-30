@@ -74,7 +74,7 @@ ___
 
 *Inherited from [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[message](_cnd_axios_rfc7807_middleware_.problem.md#message)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:974
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:974
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[name](_cnd_axios_rfc7807_middleware_.problem.md#name)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:973
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:973
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Overrides [Problem](_cnd_axios_rfc7807_middleware_.problem.md).[stack](_cnd_axios_rfc7807_middleware_.problem.md#optional-stack)*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:975
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:975
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 ▪ **Error**: *ErrorConstructor*
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:984
+Defined in node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:984

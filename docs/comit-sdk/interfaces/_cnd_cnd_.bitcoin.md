@@ -20,4 +20,4 @@ sidebar_label: "Bitcoin"
 
 • **network**: *string*
 
-*Defined in [src/cnd/cnd.ts:77](https://github.com/comit-network/comit-js-sdk/blob/cef77e4/src/cnd/cnd.ts#L77)*
+*Defined in [src/cnd/cnd.ts:77](https://github.com/comit-network/comit-js-sdk/blob/ee6360f/src/cnd/cnd.ts#L77)*
