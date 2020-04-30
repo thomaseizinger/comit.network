@@ -50,7 +50,7 @@
     },
     {
       "type": "category",
-      "label": "COMIT Javascript SDK",
+      "label": "COMIT JavaScript SDK",
       "items": [
         {
           "type": "doc",

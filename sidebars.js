@@ -21,7 +21,7 @@ module.exports = {
         ]
       }
     ],
-    'COMIT Javascript SDK': sdkSidebar,
+    'COMIT JavaScript SDK': sdkSidebar,
     'COMIT Protocol': ['comit-protocol/comit-protocol-stack', 'comit-protocol/comit-projects',
       {
         "type": "category",
