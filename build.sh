@@ -32,11 +32,11 @@ function generate_docs() {
 
 function generate_sidebar() { 
   echo "☺ Generating updated sidebar."
-  cp $SDK_DIR/website/sidebars.js $PWD/sidebars.latest.js
+  cp $SDK_DIR/website/sidebars.js $PWD/sidebars.temp.js
   
   node ./generateSidebar.js
 
-  rm $PWD/sidebars.latest.js
+  rm $PWD/sidebars.temp.js
 }
 
 import_docs() {
