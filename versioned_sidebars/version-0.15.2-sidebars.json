@@ -50,48 +50,7 @@
     },
     {
       "type": "category",
-      "label": "COMIT Protocol",
-      "items": [
-        {
-          "type": "doc",
-          "id": "version-0.15.2/comit-protocol/comit-protocol-stack"
-        },
-        {
-          "type": "doc",
-          "id": "version-0.15.2/comit-protocol/comit-projects"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Core Concepts",
-      "items": [
-        {
-          "type": "doc",
-          "id": "version-0.15.2/core-concepts/atomic-swap-htlc"
-        },
-        {
-          "type": "doc",
-          "id": "version-0.15.2/core-concepts/instant-swap"
-        },
-        {
-          "type": "doc",
-          "id": "version-0.15.2/core-concepts/privacy-preserving-swap"
-        },
-        {
-          "type": "doc",
-          "id": "version-0.15.2/core-concepts/negotiation"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Tutorials",
-      "items": []
-    },
-    {
-      "type": "category",
-      "label": "COMIT Javascript SDK",
+      "label": "COMIT JavaScript SDK",
       "items": [
         {
           "type": "doc",
@@ -434,6 +393,42 @@
             {
               "type": "doc",
               "id": "version-0.15.2/comit-sdk/enums/_transaction_.transactionstatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "COMIT Protocol",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-0.15.2/comit-protocol/comit-protocol-stack"
+        },
+        {
+          "type": "doc",
+          "id": "version-0.15.2/comit-protocol/comit-projects"
+        },
+        {
+          "type": "category",
+          "label": "Core Concepts",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-0.15.2/core-concepts/atomic-swap-htlc"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/core-concepts/instant-swap"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/core-concepts/privacy-preserving-swap"
+            },
+            {
+              "type": "doc",
+              "id": "version-0.15.2/core-concepts/negotiation"
             }
           ]
         }
