@@ -63,13 +63,13 @@ Once the taker takes the order he will trigger a swap request in his cnd that wi
 
 ```typescript
 // Wait for a taker to accept the order and send a swap request through the comit network daemon (cnd).
-let swapHandle;
+let swap;
 // This loop runs until a swap request was sent from the taker to the maker
 // and a swap is waiting to be processed on the maker's side.
-while (!swapHandle) {
+while (!swap) {
     await new Promise(r => setTimeout(r, 1000));
     // Check for incoming swaps in the comit node daemon (cnd) of the maker.
-    swapHandle = await maker.comitClient.getOngoingSwaps().then(swaps => {
+    swap = await maker.comitClient.getOngoingSwaps().then(swaps => {
         if (swaps) {
             return swaps[0];
         } else {
@@ -174,13 +174,13 @@ import moment = require("moment");
     console.log(`Waiting for someone to take my order at: ${link}`);
 
     // Wait for a taker to accept the order and send a swap request through the comit network daemon (cnd).
-    let swapHandle;
+    let swap;
     // This loop runs until a swap request was sent from the taker to the maker
     // and a swap is waiting to be processed on the maker's side.
-    while (!swapHandle) {
+    while (!swap) {
         await new Promise(r => setTimeout(r, 1000));
         // Check for incoming swaps in the comit node daemon (cnd) of the maker.
-        swapHandle = await maker.comitClient.getOngoingSwaps().then(swaps => {
+        swap = await maker.comitClient.getOngoingSwaps().then(swaps => {
             if (swaps) {
                 return swaps[0];
             } else {
