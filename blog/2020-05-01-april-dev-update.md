@@ -42,7 +42,7 @@ Let's end this excursion with a second quote I really like:
 Back to the tech - let's have a look on what happened in COMIT last month!
 With the beginning of the new quarter we started tackling new challenges while still finishing some issues from the previous quarter.
 
-In the first week of April the Lightning squad - Thomas, Franck and Tobin - [successfully integrated Lightning-ERC20 swaps](https://github.com/comit-network/comit-rs/pull/2426) into cnd.
+In the first week of April the Lightning squad - Thomas, Franck and Tobin - [successfully integrated Ether-Lighting swaps](https://github.com/comit-network/comit-rs/pull/2426) into cnd.
 With this milestone reached, Lightning is basically integrated into COMIT, leaving some improvements to be worked on.
 Together with the [step](https://github.com/comit-network/comit-rs/pull/2283)-by-[step](https://github.com/comit-network/comit-rs/pull/2383/files) integration of the [new communication protocols](https://github.com/comit-network/spikes/blob/master/0023-communication-protocol.adoc) we steadily improve the Lightning integration in the core.
 Another interesting piece of code to mention is Rishab's implementation of the [libp2p integration tests](https://github.com/comit-network/comit-rs/pull/2479), that allows us to integration-test the newly added [`NetworkBehaviour`s](https://docs.rs/libp2p/0.12.0/libp2p/swarm/trait.NetworkBehaviour.html) independent of our end-to-end tests.
