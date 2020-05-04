@@ -7,8 +7,16 @@ sidebar_label: Run a frist demo
 import CreateComitApp from './shared/create-comit-app.md'
 import ComitScripts from './shared/comit-scripts.md'
 
-[`create-comit-app`](https://github.com/comit-network/create-comit-app/) is a project to help COMIT App developers setup an environment.
-In this documentation we'll run you through:
+:::note This documentation is designed for COMIT-app developers
+Since this documentation is designed for developers building applications on top of COMIT we focus on getting you started for developing on top of COMIT.
+If you are not a developer or want to learn more about COMIT protocol theory please have a look at the [COMIT Protocol](../comit-protocol/comit-protocol-stack.md) section. 
+If you are interested in concepts like e.g. atomic-swaps please have a look at the [Core Concepts](../core-concepts/atomic-swap-htlc.md).
+:::
+
+This page of the documentation uses [create-comit-app](https://github.com/comit-network/create-comit-app/) for running a demo that performs an atomic swap locally on your machine.
+The [create-comit-app](https://github.com/comit-network/create-comit-app/) project is the recommended way to get starting with building applications on top of the COMIT protocol.
+
+On this page we'll run you through:
 - How to use `create-comit-app`,
 - What does `create-comit-app` do and how can it be useful to you, a COMIT App dev,
 - How to run one the provided example, i.e., run an atomic swap with local blockchain nodes.
