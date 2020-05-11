@@ -33,6 +33,9 @@ Let's jump right into the setup.
 
 ## Set up the project with create-comit-app
 
+This setup was tested with [`yarn`](https://yarnpkg.com/) version `1.22.0` and above and [`Node.js`](https://nodejs.org/en/) version `10` and above.
+If you encounter problems with the commands below, please make sure `yarn` and `Node.js` are up to date.
+
 In the [previous section about comit-scripts](../../getting-started/comit-infrastructure.md#comit-scripts) we took a look at how to use comit-scripts to setup your development environment.
 The same setup is used for this tutorial.
 
