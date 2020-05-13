@@ -10,7 +10,7 @@ import TutorialDescription from './shared/tutorial_description.md'
 <TutorialDescription />
 <MakerDisclaimer />
 
-In this section we use the comit-js-sdk negotiation classes to create an simple HTTP order service where the maker can publish orders. 
+In this section we use the comit-js-sdk negotiation classes to create a simple HTTP order service where the maker can publish orders. 
 This tutorial does not tackle the problem of "finding a trading partner".
 
 
