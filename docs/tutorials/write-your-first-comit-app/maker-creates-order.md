@@ -25,7 +25,7 @@ After the negotiation the `MakerNegotiator` will trigger the execution of the sw
 1. The [`ComitClient`](../../comit-sdk/classes/_comit_client_.comitclient.md) used by the maker to communicate with his cnd node for executing the swap.
 2. The execution parameters of the maker provided for the taker (so they can reach an agreement on how to execute the swap):
     1. Connection information to the maker's cnd (`peerId` and `addressHint`).
-    2. The `expiry` for the alpha (Ethereum) and `beta` (Bitcoin) ledger.
+    2. The `expiry` for the `alpha` (Ethereum) and `beta` (Bitcoin) ledger.
     3. The configuration for the repective ledger (the taker should know on e.g. which network the maker wants to execute the swap).
 
 The `ComitClient` was already initialised through the actor initialisation in the previous section. 
