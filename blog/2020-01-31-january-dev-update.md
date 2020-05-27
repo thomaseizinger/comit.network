@@ -32,7 +32,7 @@ To achieve our objective of better understanding COMIT App developers, we are pu
   - [Bitcoin Sydney Meetup](https://meetup.com/Bitcoin_Sydney/events/268163844), 26Feb 
 
 Our next COMIT community coffee is being planned, stay tune for date and time.
-If you wish to meet the CoBloX team at any of these events, do not hesitate to [reach](https://twitter.com/comit_network) [out](mailto:hello@coblox.tech).
+If you wish to meet the CoBloX team at any of these events, do not hesitate to [reach](https://twitter.com/comit_network) [out](mailto:hello@comit.network).
 
 ---
 

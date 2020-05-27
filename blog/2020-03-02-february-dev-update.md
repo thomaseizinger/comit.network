@@ -25,7 +25,7 @@ Lucas is currently optimising the POC for bi-directional swaps. Stay tuned for t
 
 As third big thing of February is the COMIT documentation. We kicked off the documentation on the homepage and invested quite some time of February in adding the [Getting Started](https://comit.network/docs/getting-started/create-comit-app), [Core Concepts](https://comit.network/docs/core-concepts/atomic-swap-htlc), [COMIT Protocol](https://comit.network/docs/comit-protocol/comit-protocol-stack) and [Javascript SDK](https://comit.network/docs/comit-sdk/index) docs on the COMIT homepage.
 Additionally we integrated the blog into the homepage.
-We are happy to receive feedback, and help out if there are additional question - just [reach](https://twitter.com/comit_network) [out](mailto:hello@coblox.tech).
+We are happy to receive feedback, and help out if there are additional question - just [reach](https://twitter.com/comit_network) [out](mailto:hello@comit.network).
 
 When it comes to events, Thomas and Philipp enjoyed their time at the [Advancing Bitcoin](https://advancingbitcoin.com) and [Financial Crypto conference](https://fc20.ifca.ai/).
 The conferences were a great opportunity to strengthen old and start new knowledge exchanges.
