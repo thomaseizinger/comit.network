@@ -78,8 +78,8 @@ module.exports = {
           title: 'Community',
           "items": [
             {
-              "label": "Gitter",
-              "href": "https://gitter.im/comit-network/community"
+              "label": "Matrix",
+              "href": "https://app.element.io/#/room/#comit:matrix.org"
             },
           ],
         },
