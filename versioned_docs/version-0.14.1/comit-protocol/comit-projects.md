@@ -29,5 +29,3 @@ The technical specification of the protocol is relevant if:
 * You want to understand specific security aspects of a specific protocol.
 * You want to look under the hood of the reference implementation of the protocol.
 * You want to implement your own COMIT node alternative.
-
-For further details please contact the COMIT team through [Gitter](https://gitter.im/comit-network/community) or [Github](https://github.com/comit-network).
