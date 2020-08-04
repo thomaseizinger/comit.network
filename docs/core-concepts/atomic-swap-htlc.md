@@ -4,20 +4,15 @@ title: Atomic Swaps using HTLCs
 sidebar_label: Atomic Swaps using HTLCs
 ---
 
+import AtomicSwapsPresentation from '../embedded-presentations/atomic-swaps.md'
+import AtomicSwapsComitPresentation from '../embedded-presentations/atomic-swaps-comit.md'
+import HtlcsPresentation from '../embedded-presentations/htlcs.md'
+import HtlcExpiriesPresentation from '../embedded-presentations/htlc-expiries.md'
+
 This documentation section provides an introduction to atomic swaps, hash time locked contracts (HTLCs) and how these concepts are used in COMIT.
 Atomic Swaps and HTLCs are core concepts of the COMIT protocol.
 
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vRjJeto_eQaZ8k5Ct00UzceHaSs-uIuvPmTFV6jP9SP6N-EKmct8H4cfN3xa2h-RFs8Gm4Gia41Je7m/embed?start=true&loop=false&delayms=1000" 
-    frameborder="0" 
-    width="801" 
-    height="480" 
-    allowfullscreen="true"
-    mozallowfullscreen="true" 
-    webkitallowfullscreen="true">
-</iframe>
-
-This slide shows an overview of how atomics swaps using HTLCs work in COMIT, more details can be found in the sections below.
+<AtomicSwapsPresentation />
 
 ## Atomic swap
 
@@ -79,15 +74,7 @@ The [COMIT network daemon (cnd)](../comit-protocol/comit-protocol-stack.md#comit
 1. Define the transaction details required for a swap and hand them over to an application built on top of COMIT.
 The application is responsible for sending the actual signed transactions into the respective blockchain network.
 
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vTSToxZxKhOjfUWHVL5sjjjyGTdEXubjM3TpOpK-qR5Cjs7b6Tda9ZoX6n_NdM9iqgXBGOtPcPnjHAA/embed?start=false&loop=false&delayms=1000"
-    frameborder="0"
-    width="801"
-    height="480"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+<AtomicSwapsComitPresentation />
 
 ### HTLCs in COMIT
 
@@ -99,15 +86,7 @@ In order to create HTLCs for the execution of an atomic swap, the two parties ha
 1. Hash of the secret.
 This hash is sent from the party in the cryptographic role of Alice to the party in the cryptographic role of Bob.
 
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vRYb97VhvfyMa3oFC8CiVagBrNmOioSJpasERtSCi6RMwf0MwxCb1yTJBUm8_ZT9OOw6r-_fBsV23GX/embed?start=false&loop=false&delayms=3000"
-    frameborder="0"
-    width="801"
-    height="480"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+<HtlcsPresentation />
 
 ### HTLCs on different Ledgers
 
@@ -141,12 +120,4 @@ This is because Alice is protected by the secret, and if she chooses not to reve
 Choosing the right initial expiries, and defining if it is still *safe* for a party to move forward during swap execution is not trivial.
 The presentation slides below show some scenarios to demonstrate the motivation of both parties to act according to the protocol during swap execution.
 
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vT8l2FkYrcq_KKSDDTgsj6a4JeKBng0ESFU3xOuiYJH_V6x1_Cm_bf6d2-e01gY_IGWbbq1o_j3zwwi/embed?start=false&loop=false&delayms=5000"
-    frameborder="0"
-    width="801"
-    height="480"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+<HtlcExpiriesPresentation />
