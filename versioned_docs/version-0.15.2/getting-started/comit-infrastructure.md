@@ -7,6 +7,9 @@ sidebar_label: Development Setup
 import ComitScripts from './shared/comit-scripts.md'
 import CreateComitApp from './shared/create-comit-app.md'
 import UnderConstruction from '../shared/under-construction.md'
+import ComitInfrastructurePresentation from '../embedded-presentations/comit-infrastructure.md'
+import ComitScriptsPresentation from '../embedded-presentations/comit-scripts.md'
+import ComitSdkPresentation from '../embedded-presentations/comit-sdk.md'
 
 This documentation section shows an overview of how to setup a COMIT-app for development.
 The tools around the COMIT protocol are listed and the interaction between them is shown.
@@ -36,18 +39,7 @@ You can use [comit-scripts](#comit-scripts) to start up a development environmen
 The COMIT-app holds all the components together and offers an interface for swap negotiation and execution to the user.
 A COMIT-app typically includes some mechanism to find trading partners and manage orders because cnd does not support [negotiation protocols](../comit-protocol/comit-protocol-stack.md#comit-negotiation-protocols) yet.
 
-
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vSnucTvT_KdrvxWnMf2WCbEegUsr6p9U0K9tT9i-zG-5Zu2JWKNcTymqW_lDFCTvgqLD_WncUMgY0zd/embed?start=false&loop=false&delayms=3000"
-    frameborder="0"
-    width="100%"
-    height="480"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
-
-This slide shows an overview of the components and their interaction.
+<ComitInfrastructurePresentation />
 
 ## Javascript Developers
 
@@ -62,15 +54,7 @@ Create-comit-app includes the [comit-scripts](#comit-scripts) module which inclu
 
 ### comit-scripts
 
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vTTbg6dw_XezRW8t2h3Vlv53q3tMFqU8iCmDX3AaeJ9LUe4LZ29KZwdWZHrBmjBaGrRctrn2vScwdSU/embed?start=false&loop=false&delayms=3000"
-    frameborder="0"
-    width="100%"
-    height="480"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+<ComitScriptsPresentation />
 
 <ComitScripts />
 
@@ -82,15 +66,7 @@ The comit  JavaScript software development kit  (comit-sdk) helps integrating sw
 It wraps the communication with cnd to simplify creating and executing swaps.
 It includes a simple negotiation module that can be used to create and take orders.
 
-<iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vSWqUv6LotbEvOKk9hQpHGNt0Z_s7rutx2IJcv-urW52UY_R3ER4Mrhx2qmlCQ1zRyzO__zwRcAyrg6/embed?start=false&loop=false&delayms=3000"
-    frameborder="0"
-    width="100%"
-    height="480"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-</iframe>
+<ComitSdkPresentation />
 
 
 
