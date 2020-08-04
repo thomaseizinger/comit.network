@@ -1,7 +1,7 @@
 <iframe 
-    src="https://docs.google.com/presentation/d/e/2PACX-1vTT1qo6e8itnm76HFFCiM0zs2jBBgQ7hvwSqM91FgCePh9TyoO6gGkRhWgZXxBRIQDcjMZ2B7NZifr8/embed?start=false&loop=false&delayms=3000"
+    src="https://docs.google.com/presentation/d/e/2PACX-1vQfirUHumpsxYuHAbkSHUqB07CYVGQYg3ig5vptFtCXvLWBp94nf-kZ_J-lIBsMFtXCPNEGqyKtyR9i/embed?start=false&loop=false&delayms=3000"
     frameborder="0"
-    width="801"
+    width="100%"
     height="480"
     allowfullscreen="true"
     mozallowfullscreen="true"
