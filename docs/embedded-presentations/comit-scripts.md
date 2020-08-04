@@ -1,0 +1,9 @@
+<iframe 
+    src="https://docs.google.com/presentation/d/e/2PACX-1vTTbg6dw_XezRW8t2h3Vlv53q3tMFqU8iCmDX3AaeJ9LUe4LZ29KZwdWZHrBmjBaGrRctrn2vScwdSU/embed?start=false&loop=false&delayms=3000"
+    frameborder="0"
+    width="100%"
+    height="480"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true">
+</iframe>
