@@ -25,11 +25,11 @@ module.exports = {
         href: 'https://comit.network'
       },
       links: [
-        {
-          to: 'docs/getting-started/create-comit-app',
-          label: 'Docs',
-          position: 'left',
-        },
+        // {
+        //   to: 'docs/getting-started/create-comit-app',
+        //   label: 'Docs',
+        //   position: 'left',
+        // },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           to: 'versions',
@@ -57,23 +57,23 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: 'docs/getting-started',
-            },
-            {
-              label: 'COMIT Protocol',
-              to: 'docs/comit-protocol',
-            },
-            {
-              label: 'Core Concepts',
-              to: 'docs/core-concepts',
-            },
-          ],
-        },
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Getting Started',
+      //         to: 'docs/getting-started',
+      //       },
+      //       {
+      //         label: 'COMIT Protocol',
+      //         to: 'docs/comit-protocol',
+      //       },
+      //       {
+      //         label: 'Core Concepts',
+      //         to: 'docs/core-concepts',
+      //       },
+      //     ],
+      //   },
         {
           title: 'Community',
           "items": [
